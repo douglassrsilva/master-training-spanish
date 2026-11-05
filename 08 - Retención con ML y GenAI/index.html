@@ -1,0 +1,1174 @@
+
+<!doctype html>
+<html lang="es" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Ruta práctica de Análisis de Clientes y Churn en la plataforma Databricks">
+      
+      
+      
+        <link rel="canonical" href="https://douglassrsilva.github.io/master-training-spanish/08%20-%20Retenci%C3%B3n%20con%20ML%20y%20GenAI/">
+      
+      
+        <link rel="prev" href="../07%20-%20An%C3%A1lisis%20de%20Datos%20Multi-Agent/">
+      
+      
+        <link rel="next" href="../09%20-%20Creaci%C3%B3n%20de%20Apps/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../assets/databricks-symbol.svg">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.8.0">
+    
+    
+      
+        <title>08 - Retención con ML y GenAI - Databricks Master Training — Español</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.57a0d79d.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.fb2fffe2.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/extra.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#08-retencion-con-ml-y-genai" class="md-skip">
+          Saltar a contenido
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabecera">
+    <a href=".." title="Databricks Master Training — Español" class="md-header__button md-logo" aria-label="Databricks Master Training — Español" data-md-component="logo">
+      
+  <img src="../assets/databricks-lockup-white.svg" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Databricks Master Training — Español
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              08 - Retención con ML y GenAI
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Modo oscuro"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Modo oscuro" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3zm3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95zm-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Modo claro"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Modo claro" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5s-1.65.15-2.39.42zM3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29zm.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14zM20.65 7l-1.77 3.79a7.02 7.02 0 0 0-2.38-4.15zm-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29zM12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Búsqueda" placeholder="Búsqueda" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Buscar">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Limpiar" aria-label="Limpiar" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando búsqueda
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/douglassrsilva/master-training-spanish" title="Ir al repositorio" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    douglassrsilva/master-training-spanish
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navegación" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Databricks Master Training — Español" class="md-nav__button md-logo" aria-label="Databricks Master Training — Español" data-md-component="logo">
+      
+  <img src="../assets/databricks-lockup-white.svg" alt="logo">
+
+    </a>
+    Databricks Master Training — Español
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/douglassrsilva/master-training-spanish" title="Ir al repositorio" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    douglassrsilva/master-training-spanish
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Inicio
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../01%20-%20SQL%20con%20IA/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    01 - SQL con IA
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../02%20-%20Generaci%C3%B3n%20de%20Alertas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    02 - Generación de Alertas
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../03%20-%20M%C3%A9tricas%20de%20Negocio/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    03 - Métricas de Negocio
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../04%20-%20IA%20Generativa%20en%20SQL/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    04 - IA Generativa en SQL
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../05%20-%20Dashboards%20con%20IA/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    05 - Dashboards con IA
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../06%20-%20Predicci%C3%B3n%20de%20Churn%20%28ML%29/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    06 - Predicción de Churn (ML)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../07%20-%20An%C3%A1lisis%20de%20Datos%20Multi-Agent/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    07 - Análisis de Datos Multi-Agent
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    08 - Retención con ML y GenAI
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    08 - Retención con ML y GenAI
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Tabla de contenidos">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Tabla de contenidos
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#objetivo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Objetivo
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#paso-1-las-reglas-de-retencion" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Paso 1: Las reglas de retención
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#paso-2-crear-la-get_cliente_360-del-id-al-perfil-ofertas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Paso 2: Crear la get_cliente_360 (del id al perfil + ofertas)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Paso 2: Crear la get_cliente_360 (del id al perfil + ofertas)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#por-que-funciones-y-no-sql-suelto-en-la-app" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ¿Por qué funciones y no SQL suelto en la app?
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#paso-3-crear-la-generar_email_retencion-del-perfil-al-e-mail" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Paso 3: Crear la generar_email_retencion (del perfil al e-mail)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#paso-4-revisar-las-reglas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Paso 4: Revisar las reglas
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#explore" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Explore
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../09%20-%20Creaci%C3%B3n%20de%20Apps/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    09 - Creación de Apps
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../10%20-%20Cierre%20%28Pr%C3%B3ximos%20Pasos%29/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    10 - Cierre (Próximos Pasos)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Tabla de contenidos">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Tabla de contenidos
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#objetivo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Objetivo
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#paso-1-las-reglas-de-retencion" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Paso 1: Las reglas de retención
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#paso-2-crear-la-get_cliente_360-del-id-al-perfil-ofertas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Paso 2: Crear la get_cliente_360 (del id al perfil + ofertas)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Paso 2: Crear la get_cliente_360 (del id al perfil + ofertas)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#por-que-funciones-y-no-sql-suelto-en-la-app" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ¿Por qué funciones y no SQL suelto en la app?
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#paso-3-crear-la-generar_email_retencion-del-perfil-al-e-mail" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Paso 3: Crear la generar_email_retencion (del perfil al e-mail)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#paso-4-revisar-las-reglas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Paso 4: Revisar las reglas
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#explore" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Explore
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="08-retencion-con-ml-y-genai">08 - Retención con ML y GenAI</h1>
+<p><img alt="Ruta del Master Training con énfasis en lo construido hasta el Ejercicio 08" src="../assets/08%20-%20arquitetura.gif?v=20260928" /></p>
+<blockquote>
+<p><em>Resaltado, lo que ya construiste en la ruta hasta este punto; en gris, lo que todavía viene.</em></p>
+</blockquote>
+<p>Hasta aquí <strong>detectaste</strong> quién está en riesgo (dashboards + modelo del Ej. 6) y <strong>diagnosticaste</strong> el porqué (IA + agentes). Ahora vamos a <strong>actuar</strong>: vamos a crear las funciones que, a partir de un <code>id_cliente</code>, arman la oferta de retención adecuada y generan un e-mail de marketing personalizado. Y vamos a crearlas conversando con el <strong>Genie Code</strong>, sin escribir SQL a mano.</p>
+<p>El gran truco de este módulo: las reglas de negocio quedan <strong>gobernadas en Unity Catalog</strong> (reutilizables por la app del Ej. 9, por el Genie y por cualquier agente) y la <strong>IA solo escribe el texto</strong>, sin decidir la oferta.</p>
+<p><strong>Requisitos previos:</strong>
+- <a href="../01%20-%20SQL%20con%20IA/">Ej. 1 - SQL con IA</a>
+- <a href="../06%20-%20Predicci%C3%B3n%20de%20Churn%20%28ML%29/">Ej. 6 - Predicción de Churn (ML)</a></p>
+<h2 id="objetivo">Objetivo</h2>
+<p>Crear dos UC Functions en tu schema <code>dbacademy.&lt;tu_schema&gt;</code>, una a la vez, usando el <strong>Genie Code</strong>:
+- <strong><code>get_cliente_360(id)</code></strong>: pasas el id del cliente, recibes su perfil (registro + riesgo) <strong>y las ofertas de retención ya calculadas por las reglas de negocio</strong>
+- <strong><code>generar_email_retencion(id)</code></strong>: pasas el id, recibes el e-mail de retención listo, con la oferta correcta aplicada</p>
+<hr />
+<h2 id="paso-1-las-reglas-de-retencion">Paso 1: Las reglas de retención</h2>
+<p>Las ofertas salen de tres reglas de negocio. Usan solo datos que ya tenemos, incluido el <code>factor_principal</code> que calculó el modelo del Ej. 6:</p>
+<table>
+<thead>
+<tr>
+<th>Regla</th>
+<th>Condición</th>
+<th>Oferta</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Antigüedad como cliente</strong></td>
+<td>5 años o más</td>
+<td>descuento de <strong>15%</strong> en la factura</td>
+</tr>
+<tr>
+<td></td>
+<td>menos de 5 años</td>
+<td>descuento de <strong>10%</strong></td>
+</tr>
+<tr>
+<td><strong>Plan</strong></td>
+<td>Básico</td>
+<td><strong>10 GB</strong> de internet gratis</td>
+</tr>
+<tr>
+<td></td>
+<td>por encima del Básico</td>
+<td><strong>el doble</strong> de internet + WhatsApp ilimitado</td>
+</tr>
+<tr>
+<td><strong>Motivo del riesgo</strong></td>
+<td>Insatisfacción (CSAT)</td>
+<td>gerente de cuenta dedicado</td>
+</tr>
+<tr>
+<td></td>
+<td>Morosidad</td>
+<td>renegociación de la factura sin intereses</td>
+</tr>
+<tr>
+<td></td>
+<td>Bajo uso</td>
+<td>sesión gratuita de capacitación</td>
+</tr>
+<tr>
+<td></td>
+<td>Detractor (NPS)</td>
+<td>llamada con un especialista</td>
+</tr>
+</tbody>
+</table>
+<p>La antigüedad como cliente se mide contra la <strong>fecha de referencia de la base</strong>, <code>DATE '2026-09-23'</code> (y no contra la fecha de hoy), para que el resultado sea el mismo para todo el grupo en cualquier día.</p>
+<h2 id="paso-2-crear-la-get_cliente_360-del-id-al-perfil-ofertas">Paso 2: Crear la <code>get_cliente_360</code> (del id al perfil + ofertas)</h2>
+<ol>
+<li>En el menú lateral izquierdo, selecciona <strong>SQL Editor</strong></li>
+<li>Deberías llegar al editor con una query; si no, crea una con <strong>SQL Query</strong> debajo de <strong>Create new</strong></li>
+<li>Abre el Genie Code haciendo clic en el ícono de bombilla en la esquina superior derecha</li>
+<li>Pega el prompt de abajo, reemplazando <code>&lt;tu_schema&gt;</code> por el nombre de tu schema:
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>Crea una UC Function (función SQL de tabla) llamada get_cliente_360(p_id STRING) en el schema dbacademy.&lt;tu_schema&gt;. Une las tablas dbacademy.churn.dim_cliente y dbacademy.&lt;tu_schema&gt;.churn_scores por id_cliente y devuelve, para el cliente cuyo id_cliente = p_id: nombre_cliente, ciudad, pais, segmento, canal_adquisicion, fecha_registro (de dim_cliente) y nombre_plan, precio_mensual, prob_churn, nivel_riesgo, factor_principal (de churn_scores). Agrega cuatro columnas calculadas en SQL, midiendo la antigüedad como cliente con datediff entre la fecha de referencia DATE '2026-09-23' y fecha_registro: anios_como_cliente (entero); descuento = '15%' si tiene 5 años o más como cliente, si no '10%'; oferta_internet = '10 GB de internet gratis' si nombre_plan = 'Básico', si no 'el doble de tu internet actual + WhatsApp ilimitado'; oferta_factor según factor_principal: 'Insatisfacción (CSAT)' -&gt; 'un gerente de cuenta dedicado', 'Morosidad' -&gt; 'renegociación de tu factura sin intereses', 'Bajo uso' -&gt; 'una sesión gratuita de capacitación', en otro caso -&gt; 'una llamada con un especialista'.
+</code></pre></div></li>
+<li>Revisa el <code>CREATE FUNCTION</code> generado y haz clic en <strong>Run</strong></li>
+</ol>
+<details>
+<summary>👉 Resultado esperado:</summary>
+
+> Reemplaza `<tu_schema>` por el nombre de tu schema antes de ejecutar
+
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="k">CREATE</span><span class="w"> </span><span class="k">OR</span><span class="w"> </span><span class="k">REPLACE</span><span class="w"> </span><span class="k">FUNCTION</span><span class="w"> </span><span class="n">dbacademy</span><span class="p">.</span><span class="o">&lt;</span><span class="n">tu_schema</span><span class="o">&gt;</span><span class="p">.</span><span class="n">get_cliente_360</span><span class="p">(</span><span class="n">p_id</span><span class="w"> </span><span class="n">STRING</span><span class="p">)</span>
+<a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="k">RETURNS</span><span class="w"> </span><span class="k">TABLE</span><span class="w"> </span><span class="p">(</span><span class="n">nombre_cliente</span><span class="w"> </span><span class="n">STRING</span><span class="p">,</span><span class="w"> </span><span class="n">ciudad</span><span class="w"> </span><span class="n">STRING</span><span class="p">,</span><span class="w"> </span><span class="n">pais</span><span class="w"> </span><span class="n">STRING</span><span class="p">,</span><span class="w"> </span><span class="n">segmento</span><span class="w"> </span><span class="n">STRING</span><span class="p">,</span>
+<a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a><span class="w">  </span><span class="n">canal_adquisicion</span><span class="w"> </span><span class="n">STRING</span><span class="p">,</span><span class="w"> </span><span class="n">fecha_registro</span><span class="w"> </span><span class="nb">DATE</span><span class="p">,</span><span class="w"> </span><span class="n">nombre_plan</span><span class="w"> </span><span class="n">STRING</span><span class="p">,</span><span class="w"> </span><span class="n">precio_mensual</span><span class="w"> </span><span class="n">DOUBLE</span><span class="p">,</span>
+<a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a><span class="w">  </span><span class="n">prob_churn</span><span class="w"> </span><span class="n">DOUBLE</span><span class="p">,</span><span class="w"> </span><span class="n">nivel_riesgo</span><span class="w"> </span><span class="n">STRING</span><span class="p">,</span><span class="w"> </span><span class="n">factor_principal</span><span class="w"> </span><span class="n">STRING</span><span class="p">,</span>
+<a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a><span class="w">  </span><span class="n">anios_como_cliente</span><span class="w"> </span><span class="nb">INT</span><span class="p">,</span><span class="w"> </span><span class="n">descuento</span><span class="w"> </span><span class="n">STRING</span><span class="p">,</span><span class="w"> </span><span class="n">oferta_internet</span><span class="w"> </span><span class="n">STRING</span><span class="p">,</span><span class="w"> </span><span class="n">oferta_factor</span><span class="w"> </span><span class="n">STRING</span><span class="p">)</span>
+<a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a><span class="k">RETURN</span>
+<a id="__codelineno-1-7" name="__codelineno-1-7" href="#__codelineno-1-7"></a><span class="w">  </span><span class="k">SELECT</span><span class="w"> </span><span class="k">c</span><span class="p">.</span><span class="n">nombre_cliente</span><span class="p">,</span><span class="w"> </span><span class="k">c</span><span class="p">.</span><span class="n">ciudad</span><span class="p">,</span><span class="w"> </span><span class="k">c</span><span class="p">.</span><span class="n">pais</span><span class="p">,</span><span class="w"> </span><span class="k">c</span><span class="p">.</span><span class="n">segmento</span><span class="p">,</span><span class="w"> </span><span class="k">c</span><span class="p">.</span><span class="n">canal_adquisicion</span><span class="p">,</span><span class="w"> </span><span class="k">c</span><span class="p">.</span><span class="n">fecha_registro</span><span class="p">,</span>
+<a id="__codelineno-1-8" name="__codelineno-1-8" href="#__codelineno-1-8"></a><span class="w">         </span><span class="n">s</span><span class="p">.</span><span class="n">nombre_plan</span><span class="p">,</span><span class="w"> </span><span class="n">s</span><span class="p">.</span><span class="n">precio_mensual</span><span class="p">,</span><span class="w"> </span><span class="n">s</span><span class="p">.</span><span class="n">prob_churn</span><span class="p">,</span><span class="w"> </span><span class="n">s</span><span class="p">.</span><span class="n">nivel_riesgo</span><span class="p">,</span><span class="w"> </span><span class="n">s</span><span class="p">.</span><span class="n">factor_principal</span><span class="p">,</span>
+<a id="__codelineno-1-9" name="__codelineno-1-9" href="#__codelineno-1-9"></a><span class="w">         </span><span class="k">CAST</span><span class="p">(</span><span class="n">FLOOR</span><span class="p">(</span><span class="n">DATEDIFF</span><span class="p">(</span><span class="nb">DATE</span><span class="w"> </span><span class="s1">'2026-09-23'</span><span class="p">,</span><span class="w"> </span><span class="k">c</span><span class="p">.</span><span class="n">fecha_registro</span><span class="p">)</span><span class="w"> </span><span class="o">/</span><span class="w"> </span><span class="mi">365</span><span class="p">)</span><span class="w"> </span><span class="k">AS</span><span class="w"> </span><span class="nb">INT</span><span class="p">)</span><span class="w"> </span><span class="k">AS</span><span class="w"> </span><span class="n">anios_como_cliente</span><span class="p">,</span>
+<a id="__codelineno-1-10" name="__codelineno-1-10" href="#__codelineno-1-10"></a><span class="w">         </span><span class="k">CASE</span><span class="w"> </span><span class="k">WHEN</span><span class="w"> </span><span class="n">DATEDIFF</span><span class="p">(</span><span class="nb">DATE</span><span class="w"> </span><span class="s1">'2026-09-23'</span><span class="p">,</span><span class="w"> </span><span class="k">c</span><span class="p">.</span><span class="n">fecha_registro</span><span class="p">)</span><span class="w"> </span><span class="o">&gt;=</span><span class="w"> </span><span class="mi">5</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="mi">365</span><span class="w"> </span><span class="k">THEN</span><span class="w"> </span><span class="s1">'15%'</span><span class="w"> </span><span class="k">ELSE</span><span class="w"> </span><span class="s1">'10%'</span><span class="w"> </span><span class="k">END</span><span class="w"> </span><span class="k">AS</span><span class="w"> </span><span class="n">descuento</span><span class="p">,</span>
+<a id="__codelineno-1-11" name="__codelineno-1-11" href="#__codelineno-1-11"></a><span class="w">         </span><span class="k">CASE</span><span class="w"> </span><span class="k">WHEN</span><span class="w"> </span><span class="n">s</span><span class="p">.</span><span class="n">nombre_plan</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s1">'Básico'</span><span class="w"> </span><span class="k">THEN</span><span class="w"> </span><span class="s1">'10 GB de internet gratis'</span>
+<a id="__codelineno-1-12" name="__codelineno-1-12" href="#__codelineno-1-12"></a><span class="w">              </span><span class="k">ELSE</span><span class="w"> </span><span class="s1">'el doble de tu internet actual + WhatsApp ilimitado'</span><span class="w"> </span><span class="k">END</span><span class="w"> </span><span class="k">AS</span><span class="w"> </span><span class="n">oferta_internet</span><span class="p">,</span>
+<a id="__codelineno-1-13" name="__codelineno-1-13" href="#__codelineno-1-13"></a><span class="w">         </span><span class="k">CASE</span><span class="w"> </span><span class="k">WHEN</span><span class="w"> </span><span class="n">s</span><span class="p">.</span><span class="n">factor_principal</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s1">'Insatisfacción (CSAT)'</span><span class="w"> </span><span class="k">THEN</span><span class="w"> </span><span class="s1">'un gerente de cuenta dedicado'</span>
+<a id="__codelineno-1-14" name="__codelineno-1-14" href="#__codelineno-1-14"></a><span class="w">              </span><span class="k">WHEN</span><span class="w"> </span><span class="n">s</span><span class="p">.</span><span class="n">factor_principal</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s1">'Morosidad'</span><span class="w"> </span><span class="k">THEN</span><span class="w"> </span><span class="s1">'renegociación de tu factura sin intereses'</span>
+<a id="__codelineno-1-15" name="__codelineno-1-15" href="#__codelineno-1-15"></a><span class="w">              </span><span class="k">WHEN</span><span class="w"> </span><span class="n">s</span><span class="p">.</span><span class="n">factor_principal</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s1">'Bajo uso'</span><span class="w"> </span><span class="k">THEN</span><span class="w"> </span><span class="s1">'una sesión gratuita de capacitación'</span>
+<a id="__codelineno-1-16" name="__codelineno-1-16" href="#__codelineno-1-16"></a><span class="w">              </span><span class="k">ELSE</span><span class="w"> </span><span class="s1">'una llamada con un especialista'</span><span class="w"> </span><span class="k">END</span><span class="w"> </span><span class="k">AS</span><span class="w"> </span><span class="n">oferta_factor</span>
+<a id="__codelineno-1-17" name="__codelineno-1-17" href="#__codelineno-1-17"></a><span class="w">  </span><span class="k">FROM</span><span class="w"> </span><span class="n">dbacademy</span><span class="p">.</span><span class="n">churn</span><span class="p">.</span><span class="n">dim_cliente</span><span class="w"> </span><span class="k">c</span>
+<a id="__codelineno-1-18" name="__codelineno-1-18" href="#__codelineno-1-18"></a><span class="w">  </span><span class="k">JOIN</span><span class="w"> </span><span class="n">dbacademy</span><span class="p">.</span><span class="o">&lt;</span><span class="n">tu_schema</span><span class="o">&gt;</span><span class="p">.</span><span class="n">churn_scores</span><span class="w"> </span><span class="n">s</span><span class="w"> </span><span class="k">ON</span><span class="w"> </span><span class="k">c</span><span class="p">.</span><span class="n">id_cliente</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">s</span><span class="p">.</span><span class="n">id_cliente</span>
+<a id="__codelineno-1-19" name="__codelineno-1-19" href="#__codelineno-1-19"></a><span class="w">  </span><span class="k">WHERE</span><span class="w"> </span><span class="k">c</span><span class="p">.</span><span class="n">id_cliente</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">p_id</span><span class="p">;</span>
+</code></pre></div>
+
+</details>
+
+<p>Prueba la función con dos clientes, uno a cada lado de las reglas:
+<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="k">SELECT</span><span class="w"> </span><span class="n">nombre_cliente</span><span class="p">,</span><span class="w"> </span><span class="n">nombre_plan</span><span class="p">,</span><span class="w"> </span><span class="n">anios_como_cliente</span><span class="p">,</span><span class="w"> </span><span class="n">descuento</span><span class="p">,</span><span class="w"> </span><span class="n">oferta_internet</span><span class="p">,</span><span class="w"> </span><span class="n">oferta_factor</span>
+<a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a><span class="k">FROM</span><span class="w"> </span><span class="n">dbacademy</span><span class="p">.</span><span class="o">&lt;</span><span class="n">tu_schema</span><span class="o">&gt;</span><span class="p">.</span><span class="n">get_cliente_360</span><span class="p">(</span><span class="s1">'C01575'</span><span class="p">)</span>
+<a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a><span class="k">UNION</span><span class="w"> </span><span class="k">ALL</span>
+<a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a><span class="k">SELECT</span><span class="w"> </span><span class="n">nombre_cliente</span><span class="p">,</span><span class="w"> </span><span class="n">nombre_plan</span><span class="p">,</span><span class="w"> </span><span class="n">anios_como_cliente</span><span class="p">,</span><span class="w"> </span><span class="n">descuento</span><span class="p">,</span><span class="w"> </span><span class="n">oferta_internet</span><span class="p">,</span><span class="w"> </span><span class="n">oferta_factor</span>
+<a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a><span class="k">FROM</span><span class="w"> </span><span class="n">dbacademy</span><span class="p">.</span><span class="o">&lt;</span><span class="n">tu_schema</span><span class="o">&gt;</span><span class="p">.</span><span class="n">get_cliente_360</span><span class="p">(</span><span class="s1">'C00018'</span><span class="p">);</span>
+</code></pre></div>
+Resultado esperado:</p>
+<table>
+<thead>
+<tr>
+<th>nombre</th>
+<th>plan</th>
+<th style="text-align: center;">años como cliente</th>
+<th style="text-align: center;">descuento</th>
+<th>internet</th>
+<th>acción</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Mariana López</td>
+<td>Básico</td>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;"><strong>15%</strong></td>
+<td>10 GB de internet gratis</td>
+<td>un gerente de cuenta dedicado</td>
+</tr>
+<tr>
+<td>Gabriela Rodríguez</td>
+<td>Empresarial</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;"><strong>10%</strong></td>
+<td>el doble de tu internet actual + WhatsApp ilimitado</td>
+<td>renegociación de tu factura sin intereses</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>Un único punto de entrada para "todo sobre el cliente": junta el registro (<code>dim_cliente</code>) con su score del Ej. 6 (<code>churn_scores</code>) y ya trae la oferta decidida por la regla. Es exactamente esta función la que va a llamar la app del Ej. 9.</p>
+</blockquote>
+<h3 id="por-que-funciones-y-no-sql-suelto-en-la-app">¿Por qué funciones y no SQL suelto en la app?</h3>
+<p>Una función se convierte en un activo gobernado de Unity Catalog: la app queda liviana (solo llama a la función), el acceso está controlado (EXECUTE) y la misma lógica se reutiliza en otras herramientas. Es la diferencia entre "cada uno lo hace a su manera" y "una regla única, gobernada".</p>
+<h2 id="paso-3-crear-la-generar_email_retencion-del-perfil-al-e-mail">Paso 3: Crear la <code>generar_email_retencion</code> (del perfil al e-mail)</h2>
+<ol>
+<li>De vuelta en el Genie Code, pega el prompt de abajo, reemplazando <code>&lt;tu_schema&gt;</code> por el nombre de tu schema:
+<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>Crea una UC Function (función SQL de tabla) llamada generar_email_retencion(p_id STRING) en el schema dbacademy.&lt;tu_schema&gt;, usando las tablas dbacademy.churn.dim_cliente y dbacademy.&lt;tu_schema&gt;.churn_scores unidas por id_cliente. Devuelve una columna email con un e-mail de retención personalizado en español para el cliente cuyo id_cliente = p_id. Mide la antigüedad como cliente con datediff entre la fecha de referencia de la base DATE '2026-09-23' y fecha_registro (usa esa fecha fija, no la fecha actual, para que el resultado sea estable). Calcula en SQL con CASE tres ofertas y luego usa ai_query('databricks-meta-llama-3-3-70b-instruct', ...) para redactar el e-mail citando nombre, ciudad y años como cliente, ofreciendo exactamente: (a) descuento de 15% si el cliente tiene 5 años o más como cliente, si no 10%; (b) si nombre_plan = 'Básico' entonces 10 GB de internet gratis, si no el doble de internet + WhatsApp ilimitado; (c) según factor_principal: 'Insatisfacción (CSAT)' -&gt; gerente de cuenta dedicado, 'Morosidad' -&gt; renegociación de la factura sin intereses, 'Bajo uso' -&gt; sesión gratuita de capacitación, en otro caso -&gt; llamada con un especialista.
+</code></pre></div></li>
+<li>Revisa el <code>CREATE FUNCTION</code> generado y haz clic en <strong>Run</strong></li>
+</ol>
+<details>
+<summary>👉 Resultado esperado:</summary>
+
+> Reemplaza `<tu_schema>` por el nombre de tu schema antes de ejecutar
+
+<div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="k">CREATE</span><span class="w"> </span><span class="k">OR</span><span class="w"> </span><span class="k">REPLACE</span><span class="w"> </span><span class="k">FUNCTION</span><span class="w"> </span><span class="n">dbacademy</span><span class="p">.</span><span class="o">&lt;</span><span class="n">tu_schema</span><span class="o">&gt;</span><span class="p">.</span><span class="n">generar_email_retencion</span><span class="p">(</span><span class="n">p_id</span><span class="w"> </span><span class="n">STRING</span><span class="p">)</span>
+<a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a><span class="k">RETURNS</span><span class="w"> </span><span class="k">TABLE</span><span class="w"> </span><span class="p">(</span><span class="n">email</span><span class="w"> </span><span class="n">STRING</span><span class="p">)</span>
+<a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a><span class="k">RETURN</span>
+<a id="__codelineno-4-4" name="__codelineno-4-4" href="#__codelineno-4-4"></a><span class="w">    </span><span class="k">WITH</span><span class="w"> </span><span class="n">datos</span><span class="w"> </span><span class="k">AS</span><span class="w"> </span><span class="p">(</span>
+<a id="__codelineno-4-5" name="__codelineno-4-5" href="#__codelineno-4-5"></a><span class="w">        </span><span class="k">SELECT</span>
+<a id="__codelineno-4-6" name="__codelineno-4-6" href="#__codelineno-4-6"></a><span class="w">            </span><span class="n">dc</span><span class="p">.</span><span class="n">nombre_cliente</span><span class="p">,</span>
+<a id="__codelineno-4-7" name="__codelineno-4-7" href="#__codelineno-4-7"></a><span class="w">            </span><span class="n">dc</span><span class="p">.</span><span class="n">ciudad</span><span class="p">,</span>
+<a id="__codelineno-4-8" name="__codelineno-4-8" href="#__codelineno-4-8"></a><span class="w">            </span><span class="c1">-- fecha de referencia de la base (la base es una fotografía al 23/09/2026); medir la antigüedad</span>
+<a id="__codelineno-4-9" name="__codelineno-4-9" href="#__codelineno-4-9"></a><span class="w">            </span><span class="c1">-- contra ella, y no contra la fecha actual, mantiene el resultado estable en el tiempo.</span>
+<a id="__codelineno-4-10" name="__codelineno-4-10" href="#__codelineno-4-10"></a><span class="w">            </span><span class="n">FLOOR</span><span class="p">(</span><span class="n">DATEDIFF</span><span class="p">(</span><span class="nb">DATE</span><span class="w"> </span><span class="s1">'2026-09-23'</span><span class="p">,</span><span class="w"> </span><span class="n">dc</span><span class="p">.</span><span class="n">fecha_registro</span><span class="p">)</span><span class="w"> </span><span class="o">/</span><span class="w"> </span><span class="mi">365</span><span class="p">)</span><span class="w"> </span><span class="k">AS</span><span class="w"> </span><span class="n">anios_como_cliente</span><span class="p">,</span>
+<a id="__codelineno-4-11" name="__codelineno-4-11" href="#__codelineno-4-11"></a><span class="w">            </span><span class="n">cs</span><span class="p">.</span><span class="n">nombre_plan</span><span class="p">,</span>
+<a id="__codelineno-4-12" name="__codelineno-4-12" href="#__codelineno-4-12"></a><span class="w">            </span><span class="n">cs</span><span class="p">.</span><span class="n">factor_principal</span><span class="p">,</span>
+<a id="__codelineno-4-13" name="__codelineno-4-13" href="#__codelineno-4-13"></a><span class="w">            </span><span class="k">CASE</span><span class="w"> </span><span class="k">WHEN</span><span class="w"> </span><span class="n">DATEDIFF</span><span class="p">(</span><span class="nb">DATE</span><span class="w"> </span><span class="s1">'2026-09-23'</span><span class="p">,</span><span class="w"> </span><span class="n">dc</span><span class="p">.</span><span class="n">fecha_registro</span><span class="p">)</span><span class="w"> </span><span class="o">&gt;=</span><span class="w"> </span><span class="mi">5</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="mi">365</span><span class="w"> </span><span class="k">THEN</span><span class="w"> </span><span class="s1">'15%'</span><span class="w"> </span><span class="k">ELSE</span><span class="w"> </span><span class="s1">'10%'</span><span class="w"> </span><span class="k">END</span><span class="w"> </span><span class="k">AS</span><span class="w"> </span><span class="n">descuento</span><span class="p">,</span>
+<a id="__codelineno-4-14" name="__codelineno-4-14" href="#__codelineno-4-14"></a><span class="w">            </span><span class="k">CASE</span><span class="w"> </span><span class="k">WHEN</span><span class="w"> </span><span class="n">cs</span><span class="p">.</span><span class="n">nombre_plan</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s1">'Básico'</span><span class="w"> </span><span class="k">THEN</span><span class="w"> </span><span class="s1">'10 GB de internet gratis'</span>
+<a id="__codelineno-4-15" name="__codelineno-4-15" href="#__codelineno-4-15"></a><span class="w">                 </span><span class="k">ELSE</span><span class="w"> </span><span class="s1">'el doble de tu internet actual + WhatsApp ilimitado'</span><span class="w"> </span><span class="k">END</span><span class="w"> </span><span class="k">AS</span><span class="w"> </span><span class="n">oferta_internet</span><span class="p">,</span>
+<a id="__codelineno-4-16" name="__codelineno-4-16" href="#__codelineno-4-16"></a><span class="w">            </span><span class="k">CASE</span><span class="w"> </span><span class="k">WHEN</span><span class="w"> </span><span class="n">cs</span><span class="p">.</span><span class="n">factor_principal</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s1">'Insatisfacción (CSAT)'</span><span class="w"> </span><span class="k">THEN</span><span class="w"> </span><span class="s1">'un gerente de cuenta dedicado'</span>
+<a id="__codelineno-4-17" name="__codelineno-4-17" href="#__codelineno-4-17"></a><span class="w">                 </span><span class="k">WHEN</span><span class="w"> </span><span class="n">cs</span><span class="p">.</span><span class="n">factor_principal</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s1">'Morosidad'</span><span class="w"> </span><span class="k">THEN</span><span class="w"> </span><span class="s1">'renegociación de tu factura sin intereses'</span>
+<a id="__codelineno-4-18" name="__codelineno-4-18" href="#__codelineno-4-18"></a><span class="w">                 </span><span class="k">WHEN</span><span class="w"> </span><span class="n">cs</span><span class="p">.</span><span class="n">factor_principal</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s1">'Bajo uso'</span><span class="w"> </span><span class="k">THEN</span><span class="w"> </span><span class="s1">'una sesión gratuita de capacitación'</span>
+<a id="__codelineno-4-19" name="__codelineno-4-19" href="#__codelineno-4-19"></a><span class="w">                 </span><span class="k">ELSE</span><span class="w"> </span><span class="s1">'una llamada con un especialista'</span><span class="w"> </span><span class="k">END</span><span class="w"> </span><span class="k">AS</span><span class="w"> </span><span class="n">oferta_factor</span>
+<a id="__codelineno-4-20" name="__codelineno-4-20" href="#__codelineno-4-20"></a><span class="w">        </span><span class="k">FROM</span><span class="w"> </span><span class="n">dbacademy</span><span class="p">.</span><span class="n">churn</span><span class="p">.</span><span class="n">dim_cliente</span><span class="w"> </span><span class="n">dc</span>
+<a id="__codelineno-4-21" name="__codelineno-4-21" href="#__codelineno-4-21"></a><span class="w">        </span><span class="k">JOIN</span><span class="w"> </span><span class="n">dbacademy</span><span class="p">.</span><span class="o">&lt;</span><span class="n">tu_schema</span><span class="o">&gt;</span><span class="p">.</span><span class="n">churn_scores</span><span class="w"> </span><span class="n">cs</span><span class="w"> </span><span class="k">ON</span><span class="w"> </span><span class="n">dc</span><span class="p">.</span><span class="n">id_cliente</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">cs</span><span class="p">.</span><span class="n">id_cliente</span>
+<a id="__codelineno-4-22" name="__codelineno-4-22" href="#__codelineno-4-22"></a><span class="w">        </span><span class="k">WHERE</span><span class="w"> </span><span class="n">dc</span><span class="p">.</span><span class="n">id_cliente</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">p_id</span>
+<a id="__codelineno-4-23" name="__codelineno-4-23" href="#__codelineno-4-23"></a><span class="w">    </span><span class="p">)</span>
+<a id="__codelineno-4-24" name="__codelineno-4-24" href="#__codelineno-4-24"></a><span class="w">    </span><span class="k">SELECT</span>
+<a id="__codelineno-4-25" name="__codelineno-4-25" href="#__codelineno-4-25"></a><span class="w">        </span><span class="n">ai_query</span><span class="p">(</span>
+<a id="__codelineno-4-26" name="__codelineno-4-26" href="#__codelineno-4-26"></a><span class="w">            </span><span class="s1">'databricks-meta-llama-3-3-70b-instruct'</span><span class="p">,</span>
+<a id="__codelineno-4-27" name="__codelineno-4-27" href="#__codelineno-4-27"></a><span class="w">            </span><span class="s1">'Eres un especialista en retención de clientes. Redacta un e-mail profesional y empático en español neutro latinoamericano (usa "tú") para convencer al cliente de seguir con Conecta+. '</span><span class="w"> </span><span class="o">||</span>
+<a id="__codelineno-4-28" name="__codelineno-4-28" href="#__codelineno-4-28"></a><span class="w">            </span><span class="s1">'Datos: Nombre: '</span><span class="w"> </span><span class="o">||</span><span class="w"> </span><span class="n">nombre_cliente</span><span class="w"> </span><span class="o">||</span><span class="w"> </span><span class="s1">', Ciudad: '</span><span class="w"> </span><span class="o">||</span><span class="w"> </span><span class="n">ciudad</span><span class="w"> </span><span class="o">||</span><span class="w"> </span><span class="s1">', Años como cliente: '</span><span class="w"> </span><span class="o">||</span><span class="w"> </span><span class="k">CAST</span><span class="p">(</span><span class="n">anios_como_cliente</span><span class="w"> </span><span class="k">AS</span><span class="w"> </span><span class="n">STRING</span><span class="p">)</span><span class="w"> </span><span class="o">||</span>
+<a id="__codelineno-4-29" name="__codelineno-4-29" href="#__codelineno-4-29"></a><span class="w">            </span><span class="s1">'. Ofertas: (a) descuento de '</span><span class="w"> </span><span class="o">||</span><span class="w"> </span><span class="n">descuento</span><span class="w"> </span><span class="o">||</span><span class="w"> </span><span class="s1">' en la mensualidad; (b) '</span><span class="w"> </span><span class="o">||</span><span class="w"> </span><span class="n">oferta_internet</span><span class="w"> </span><span class="o">||</span><span class="w"> </span><span class="s1">'; (c) '</span><span class="w"> </span><span class="o">||</span><span class="w"> </span><span class="n">oferta_factor</span><span class="w"> </span><span class="o">||</span>
+<a id="__codelineno-4-30" name="__codelineno-4-30" href="#__codelineno-4-30"></a><span class="w">            </span><span class="s1">'. Menciona el nombre, la ciudad y los años como cliente, incluye las tres ofertas de forma natural y firma como "Equipo de Conecta+".'</span>
+<a id="__codelineno-4-31" name="__codelineno-4-31" href="#__codelineno-4-31"></a><span class="w">        </span><span class="p">)</span><span class="w"> </span><span class="k">AS</span><span class="w"> </span><span class="n">email</span>
+<a id="__codelineno-4-32" name="__codelineno-4-32" href="#__codelineno-4-32"></a><span class="w">    </span><span class="k">FROM</span><span class="w"> </span><span class="n">datos</span><span class="p">;</span>
+</code></pre></div>
+
+</details>
+
+<p>El Genie Code calcula las reglas del Paso 2 en SQL (<code>CASE</code>) y usa <code>ai_query</code> para redactar el e-mail.</p>
+<blockquote>
+<p><strong>Fíjate en lo que hace el Genie solo:</strong> consulta las tablas, descubre los valores de <code>factor_principal</code> y <code>nombre_plan</code>, arma los <code>CASE</code> correctos y el <code>ai_query</code>. Tú solo describiste las reglas. Si asume un sector específico (ej.: "telecom"), agrega al prompt <em>"empresa de suscripción genérica, no menciones el sector"</em>.</p>
+<p><strong>¿Por qué una fecha fija (<code>DATE '2026-09-23'</code>) y no <code>CURRENT_DATE()</code>?</strong> La base que estamos usando es una fotografía (datos estáticos). Medir la antigüedad contra la fecha de hoy haría que el resultado cambie solo a medida que pasan los días (un cliente en la víspera de sus 5 años pasaría a 15% al día siguiente). Usando la fecha de referencia de la base, el resultado es el mismo para todo el grupo, en cualquier día.</p>
+</blockquote>
+<p>Prueba con Mariana (5 años · Básico · Insatisfacción):
+<div class="highlight"><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a><span class="k">SELECT</span>
+<a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a><span class="w">    </span><span class="n">email</span>
+<a id="__codelineno-5-3" name="__codelineno-5-3" href="#__codelineno-5-3"></a><span class="k">FROM</span><span class="w"> </span><span class="n">dbacademy</span><span class="p">.</span><span class="o">&lt;</span><span class="n">tu_schema</span><span class="o">&gt;</span><span class="p">.</span><span class="n">generar_email_retencion</span><span class="p">(</span><span class="s1">'C01575'</span><span class="p">);</span>
+</code></pre></div>
+Resultado esperado:</p>
+<blockquote>
+<p><em>"Hola Mariana López… es un gusto tenerte con nosotros desde hace <strong>5 años</strong>… en <strong>Lima</strong>… un <strong>descuento de 15%</strong> en tu factura… <strong>10 GB de internet gratis</strong>… un <strong>gerente de cuenta dedicado</strong>…"</em></p>
+</blockquote>
+<h2 id="paso-4-revisar-las-reglas">Paso 4: Revisar las reglas</h2>
+<p>Prueba un cliente del otro lado de las reglas:
+<div class="highlight"><pre><span></span><code><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a><span class="k">SELECT</span>
+<a id="__codelineno-6-2" name="__codelineno-6-2" href="#__codelineno-6-2"></a><span class="w">    </span><span class="n">email</span>
+<a id="__codelineno-6-3" name="__codelineno-6-3" href="#__codelineno-6-3"></a><span class="k">FROM</span><span class="w"> </span><span class="n">dbacademy</span><span class="p">.</span><span class="o">&lt;</span><span class="n">tu_schema</span><span class="o">&gt;</span><span class="p">.</span><span class="n">generar_email_retencion</span><span class="p">(</span><span class="s1">'C00018'</span><span class="p">);</span>
+</code></pre></div>
+Es Gabriela Rodríguez (4 años · Empresarial · Morosidad), y el e-mail cambia solo:</p>
+<table>
+<thead>
+<tr>
+<th>Cliente</th>
+<th>Antigüedad</th>
+<th>Plan</th>
+<th>Motivo</th>
+<th>El e-mail ofrece</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Mariana (C01575)</td>
+<td>5 años</td>
+<td>Básico</td>
+<td>Insatisfacción</td>
+<td>15% · 10 GB gratis · gerente dedicado</td>
+</tr>
+<tr>
+<td>Gabriela (C00018)</td>
+<td>4 años</td>
+<td>Empresarial</td>
+<td>Morosidad</td>
+<td><strong>10%</strong> · <strong>el doble + WhatsApp</strong> · <strong>renegociación sin intereses</strong></td>
+</tr>
+</tbody>
+</table>
+<p>Lee los dos e-mails lado a lado: la misma función, ofertas distintas, cada una correcta para el cliente.</p>
+<blockquote>
+<p><strong>La lección:</strong> la regla de negocio está <strong>gobernada</strong> (SQL, verificable, igual para todos) y la <strong>IA se encarga solo del lenguaje</strong>. Nunca quedas a merced de que la IA "invente" un descuento, y creaste todo esto solo describiendo lo que querías al Genie Code.</p>
+</blockquote>
+<h2 id="explore">Explore</h2>
+<p>Acabas de construir el motor de acción de la retención: dado un cliente en riesgo, salen la oferta correcta y el e-mail listo, con la regla de negocio gobernada y la IA solo en la redacción. En el próximo módulo (Ej. 9 - Creación de Apps), la app <strong>Central de Retención</strong> va a llamar a la <code>get_cliente_360</code>: el agente de atención escribe el id, ve el perfil y el riesgo, y hace clic para generar el e-mail. Ahí, quien redacta el texto es un modelo gobernado por Unity Gateway, que vas a crear en tu schema, a partir de las mismas ofertas calculadas aquí.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Volver al principio
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Pie" >
+        
+          
+          <a href="../07%20-%20An%C3%A1lisis%20de%20Datos%20Multi-Agent/" class="md-footer__link md-footer__link--prev" aria-label="Anterior: 07 - Análisis de Datos Multi-Agent">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Anterior
+              </span>
+              <div class="md-ellipsis">
+                07 - Análisis de Datos Multi-Agent
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../09%20-%20Creaci%C3%B3n%20de%20Apps/" class="md-footer__link md-footer__link--next" aria-label="Siguiente: 09 - Creación de Apps">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Siguiente
+              </span>
+              <div class="md-ellipsis">
+                09 - Creación de Apps
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      <a href="/master-training-spanish/00%20-%20Setup%20y%20teardown/">00 - Setup y teardown</a>
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+      <div class="md-progress" data-md-component="progress" role="progressbar"></div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.instant", "navigation.instant.progress", "navigation.top", "navigation.footer", "search.suggest", "content.code.copy"], "search": "../assets/javascripts/workers/search.a7633da7.min.js", "tags": null, "translations": {"clipboard.copied": "Copiado al portapapeles", "clipboard.copy": "Copiar al portapapeles", "search.result.more.one": "1 m\u00e1s en esta p\u00e1gina", "search.result.more.other": "# m\u00e1s en esta p\u00e1gina", "search.result.none": "No se encontraron documentos", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Teclee para comenzar b\u00fasqueda", "search.result.term.missing": "Falta", "select.version": "Seleccionar versi\u00f3n"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.c21346df.min.js"></script>
+      
+    
+  </body>
+</html>

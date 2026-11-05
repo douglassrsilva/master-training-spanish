@@ -1,0 +1,855 @@
+
+<!doctype html>
+<html lang="es" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Ruta práctica de Análisis de Clientes y Churn en la plataforma Databricks">
+      
+      
+      
+        <link rel="canonical" href="https://douglassrsilva.github.io/master-training-spanish/07%20-%20An%C3%A1lisis%20de%20Datos%20Multi-Agent/">
+      
+      
+        <link rel="prev" href="../06%20-%20Predicci%C3%B3n%20de%20Churn%20%28ML%29/">
+      
+      
+        <link rel="next" href="../08%20-%20Retenci%C3%B3n%20con%20ML%20y%20GenAI/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../assets/databricks-symbol.svg">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.8.0">
+    
+    
+      
+        <title>07 - Análisis de Datos Multi-Agent - Databricks Master Training — Español</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.57a0d79d.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.fb2fffe2.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/extra.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#07-analisis-de-datos-con-solucion-multi-agent" class="md-skip">
+          Saltar a contenido
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabecera">
+    <a href=".." title="Databricks Master Training — Español" class="md-header__button md-logo" aria-label="Databricks Master Training — Español" data-md-component="logo">
+      
+  <img src="../assets/databricks-lockup-white.svg" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Databricks Master Training — Español
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              07 - Análisis de Datos Multi-Agent
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Modo oscuro"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Modo oscuro" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3zm3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95zm-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Modo claro"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Modo claro" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5s-1.65.15-2.39.42zM3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29zm.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14zM20.65 7l-1.77 3.79a7.02 7.02 0 0 0-2.38-4.15zm-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29zM12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Búsqueda" placeholder="Búsqueda" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Buscar">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Limpiar" aria-label="Limpiar" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando búsqueda
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/douglassrsilva/master-training-spanish" title="Ir al repositorio" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    douglassrsilva/master-training-spanish
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navegación" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Databricks Master Training — Español" class="md-nav__button md-logo" aria-label="Databricks Master Training — Español" data-md-component="logo">
+      
+  <img src="../assets/databricks-lockup-white.svg" alt="logo">
+
+    </a>
+    Databricks Master Training — Español
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/douglassrsilva/master-training-spanish" title="Ir al repositorio" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    douglassrsilva/master-training-spanish
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Inicio
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../01%20-%20SQL%20con%20IA/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    01 - SQL con IA
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../02%20-%20Generaci%C3%B3n%20de%20Alertas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    02 - Generación de Alertas
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../03%20-%20M%C3%A9tricas%20de%20Negocio/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    03 - Métricas de Negocio
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../04%20-%20IA%20Generativa%20en%20SQL/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    04 - IA Generativa en SQL
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../05%20-%20Dashboards%20con%20IA/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    05 - Dashboards con IA
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../06%20-%20Predicci%C3%B3n%20de%20Churn%20%28ML%29/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    06 - Predicción de Churn (ML)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    07 - Análisis de Datos Multi-Agent
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../08%20-%20Retenci%C3%B3n%20con%20ML%20y%20GenAI/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    08 - Retención con ML y GenAI
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../09%20-%20Creaci%C3%B3n%20de%20Apps/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    09 - Creación de Apps
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../10%20-%20Cierre%20%28Pr%C3%B3ximos%20Pasos%29/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    10 - Cierre (Próximos Pasos)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Tabla de contenidos">
+  
+  
+  
+    
+  
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="07-analisis-de-datos-con-solucion-multi-agent">07 - Análisis de Datos con Solución Multi-Agent</h1>
+<p><img alt="Ruta del Master Training con énfasis en lo construido hasta el Ejercicio 07" src="../assets/07%20-%20arquitetura.gif?v=20260928" /></p>
+<blockquote>
+<p><em>Resaltado, lo que ya construiste en la ruta hasta este punto; en gris, lo que todavía viene.</em></p>
+</blockquote>
+<p>Hasta aquí construiste los análisis. Ahora vamos a abrirlos al equipo de negocio con los <strong>Genie Agents</strong>: cualquier persona hace su pregunta en español (<em>"¿cuál es el ingreso por segmento?"</em>) y el Genie escribe el SQL, lo ejecuta y responde, sin escribir una sola línea de código.</p>
+<p>Y vamos un paso más allá. Vas a crear dos Genies especializados, uno de <strong>Facturación</strong> y uno de <strong>Soporte</strong>, y al final un <strong>Supervisor</strong> que orquesta a los dos. El usuario hace una sola pregunta, y el Supervisor descubre por sí mismo qué especialista debe responder. Eso es lo que llamamos una solución <em>multi-agent</em>.</p>
+<hr />
+<h1 id="parte-1-genie-de-facturacion">Parte 1: Genie de Facturación</h1>
+<h2 id="paso-1-crear-el-genie-agent">Paso 1: Crear el Genie Agent</h2>
+<ol>
+<li>En el menú lateral izquierdo, haz clic en <strong>Genie Agents</strong></li>
+<li>Haz clic en <strong>New</strong></li>
+<li>En <strong>Connect your data</strong>, agrega:<ul>
+<li><code>dbacademy.churn.dim_cliente</code></li>
+<li><code>dbacademy.churn.dim_plan</code></li>
+<li><code>dbacademy.churn.hecho_suscripcion</code></li>
+<li><code>dbacademy.churn.hecho_facturacion</code></li>
+</ul>
+</li>
+<li>Asigna el nombre <code>Facturación - &lt;tu_schema&gt;</code>, reemplazando <code>&lt;tu_schema&gt;</code> por el nombre de tu schema</li>
+</ol>
+<blockquote>
+<p>El Genie infiere las relaciones entre las tablas; no necesitas configurar los joins a mano. Vamos a reutilizar este Genie Agent en la Parte 3, en el Supervisor</p>
+</blockquote>
+<h2 id="paso-2-preguntar">Paso 2: Preguntar</h2>
+<p>Haz las preguntas de abajo, una por una:</p>
+<p><div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>¿Cuáles son los ingresos totales por segmento?
+</code></pre></div>
+Resultado esperado:
+- Consumidor <strong>US$ 3,62 millones</strong>
+- PyME <strong>US$ 1,80 millones</strong>
+- Corporativo <strong>US$ 680 mil</strong></p>
+<p><div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>¿Cuál es el porcentaje de facturas no pagadas por plan?
+</code></pre></div>
+Resultado esperado:
+- Básico <strong>7,90%</strong>
+- Estándar <strong>6,49%</strong>
+- Premium <strong>5,90%</strong>
+- Empresarial <strong>5,45%</strong></p>
+<p>La morosidad acompaña al churn: es peor en el plan Básico.</p>
+<p>Fíjate que no dijiste de qué tabla sale el dato: el Genie lo descubre solo, muestra el SQL que escribió y todavía dibuja un gráfico.</p>
+<hr />
+<h1 id="parte-2-genie-de-soporte">Parte 2: Genie de Soporte</h1>
+<h2 id="paso-3-crear-el-genie-agent">Paso 3: Crear el Genie Agent</h2>
+<ol>
+<li>Crea un nuevo Genie Agent como en el Paso 1 (<strong>Genie Agents → New</strong>)</li>
+<li>En <strong>Connect your data</strong>, agrega:<ul>
+<li><code>dbacademy.churn.dim_cliente</code></li>
+<li><code>dbacademy.churn.hecho_ticket_soporte</code></li>
+</ul>
+</li>
+<li>Asigna el nombre <code>Soporte - &lt;tu_schema&gt;</code>, reemplazando <code>&lt;tu_schema&gt;</code> por el nombre de tu schema</li>
+</ol>
+<h2 id="paso-4-preguntar">Paso 4: Preguntar</h2>
+<p>Haz las preguntas de abajo, una por una:</p>
+<p><div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>¿Cuál es el CSAT promedio por categoría de ticket?
+</code></pre></div>
+Resultado esperado:
+- Consulta <strong>4,08</strong>
+- Cobranza <strong>2,99</strong>
+- Técnico <strong>2,28</strong>
+- Cancelación <strong>2,27</strong></p>
+<p><div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>¿Cuántos tickets de soporte tenemos por canal?
+</code></pre></div>
+Resultado esperado:
+- Chat <strong>447</strong>
+- Email <strong>407</strong>
+- Teléfono <strong>399</strong></p>
+<h2 id="paso-5-pregunta-por-el-ano-fiscal">Paso 5: Pregunta por el año fiscal</h2>
+<p><div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>¿Cuál es el NPS promedio del año fiscal 2024 en Costa Rica (CR)?
+</code></pre></div>
+El Genie responde <strong>≈ 7,3</strong>, pero vale la pena leer su explicación: <em>"no hay una definición de año fiscal, así que lo interpreté como año calendario (ene–dic de 2024)"</em>. Es decir, asumió que año fiscal equivale a año calendario, porque nadie le dijo cuándo empieza el año fiscal de tu empresa.</p>
+<h2 id="paso-6-ensena-la-regla-y-pregunta-de-nuevo">Paso 6: Enseña la regla y pregunta de nuevo</h2>
+<ol>
+<li>Abre el menú de configuración del agente en <strong>Configure</strong>, en la esquina superior derecha</li>
+<li>En la pestaña <strong>Instructions</strong>, pega la regla de tu año fiscal:
+<div class="highlight"><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>El año fiscal (AF) de la empresa va del 1 de octubre al 30 de septiembre del año siguiente, y se identifica por el año en que comienza. Ejemplo: el AF2024 va del 01/10/2024 al 30/09/2025. Siempre que la pregunta mencione "año fiscal", usa ese período (con base en fecha_apertura), nunca el año calendario.
+</code></pre></div></li>
+<li>Haz exactamente la misma pregunta:
+<div class="highlight"><pre><span></span><code><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a>¿Cuál es el NPS promedio del año fiscal 2024 en Costa Rica (CR)?
+</code></pre></div></li>
+</ol>
+<p>Esta vez el Genie filtra del 01/10/2024 al 30/09/2025 y responde <strong>≈ 6,5</strong>. Es un número distinto porque cambió el período: la misma pregunta dio dos respuestas, y la diferencia fue la regla que le diste.</p>
+<blockquote>
+<p>Es la misma idea de la métrica gobernada del Ej. 3: sin la regla explícita, la IA adivina. Las <em>Instructions</em> son el lugar donde conviertes el conocimiento del negocio en respuestas confiables, y aplican para todos los que usan el Genie Agent.</p>
+</blockquote>
+<hr />
+<h1 id="parte-3-supervisor-multi-agent">Parte 3: Supervisor (multi-agent)</h1>
+<p>Ya tienes dos especialistas. Ahora vamos a crear el <strong>Supervisor</strong>: recibe la pregunta del usuario y la deriva al Genie correcto, sin que el usuario tenga que saber cuál es cuál.</p>
+<h2 id="paso-7-crear-el-supervisor-y-adjuntar-los-agentes">Paso 7: Crear el Supervisor y adjuntar los agentes</h2>
+<ol>
+<li>En el menú lateral izquierdo, abre <strong>Agents</strong></li>
+<li>Haz clic en <strong>Create agent</strong> y selecciona <strong>Supervisor Agent</strong></li>
+<li>Ve a <strong>Tools and sub-agents</strong> y selecciona la opción <strong>Genie Agents</strong></li>
+<li>En el campo de búsqueda, escribe el nombre de tu agente de facturación (<code>Facturación - &lt;tu_schema&gt;</code>) y selecciónalo</li>
+<li>En la descripción de la herramienta, pega:
+<div class="highlight"><pre><span></span><code><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a>Especialista en facturación y cobranza. Responde sobre ingresos, morosidad, facturas pagadas y no pagadas, y montos por plan y por segmento.
+</code></pre></div></li>
+<li>Repite los pasos 3 a 5 para el agente de soporte (<code>Soporte - &lt;tu_schema&gt;</code>), con la descripción:
+<div class="highlight"><pre><span></span><code><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a>Especialista en atención y satisfacción del cliente. Responde sobre tickets de soporte, CSAT, NPS, canales y categorías, incluso por año fiscal.
+</code></pre></div></li>
+<li>Elimina la herramienta que viene por defecto, llamada <code>python_exec</code>: pasa el cursor sobre ella, haz clic en el ícono de papelera y confirma la eliminación</li>
+</ol>
+<blockquote>
+<p>En este ejercicio el Supervisor solo coordina los dos Genies, por eso eliminamos <code>python_exec</code></p>
+</blockquote>
+<h2 id="paso-8-nombrar-instruir-y-describir">Paso 8: Nombrar, instruir y describir</h2>
+<blockquote>
+<p>El campo <strong>nombre</strong> solo se puede editar después de adjuntar al menos un agente (Paso 7); por eso dejamos este paso para ahora.</p>
+</blockquote>
+<ol>
+<li>Asigna un nombre al Supervisor, por ejemplo <code>Analisis-Clientes-&lt;tu_schema&gt;</code></li>
+<li>En <strong>Instructions</strong>, pega las reglas de coordinación:
+<div class="highlight"><pre><span></span><code><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a>Coordinas a dos especialistas: uno de Facturación (ingresos, morosidad, facturas, planes) y uno de Soporte (tickets, CSAT, NPS, canales). Dirige cada pregunta al especialista adecuado, combina las respuestas cuando la pregunta involucre los dos temas y responde siempre en español.
+</code></pre></div></li>
+<li>Más abajo, en <strong>Description</strong>, pega:
+<div class="highlight"><pre><span></span><code><a id="__codelineno-10-1" name="__codelineno-10-1" href="#__codelineno-10-1"></a>Asistente de análisis de clientes: responde preguntas de negocio sobre facturación y sobre atención/soporte, derivando cada pregunta al especialista correcto.
+</code></pre></div></li>
+</ol>
+<h2 id="paso-9-probar-el-enrutamiento">Paso 9: Probar el enrutamiento</h2>
+<p>Haz estas dos preguntas nuevas, una de cada dominio, y observa cómo el Supervisor elige al especialista correcto antes de responder:</p>
+<p><div class="highlight"><pre><span></span><code><a id="__codelineno-11-1" name="__codelineno-11-1" href="#__codelineno-11-1"></a>¿Cuál es el monto total en facturas no pagadas?
+</code></pre></div>
+Resultado esperado: el Supervisor activa el agente de <strong>Facturación</strong> → <strong>≈ US$ 383.335</strong> (3.846 facturas abiertas)</p>
+<p><div class="highlight"><pre><span></span><code><a id="__codelineno-12-1" name="__codelineno-12-1" href="#__codelineno-12-1"></a>¿Cuál es la calificación promedio de NPS por canal de atención?
+</code></pre></div>
+Resultado esperado: el Supervisor activa el agente de <strong>Soporte</strong> →
+- Chat <strong>6,57</strong>
+- Email <strong>6,54</strong>
+- Teléfono <strong>6,47</strong></p>
+<blockquote>
+<p>Fíjate en que no dijiste a qué Genie preguntar: el Supervisor leyó la pregunta, eligió al especialista y sintetizó la respuesta. Así una solución <em>multi-agent</em> simplifica la vida del usuario de negocio: una sola puerta de entrada, varios especialistas detrás.</p>
+</blockquote>
+<h2 id="paso-10-renombrar-el-supervisor-y-copiar-el-endpoint">Paso 10: Renombrar el Supervisor y copiar el endpoint</h2>
+<ol>
+<li>Haz clic en el ícono de lápiz junto al nombre del supervisor y renómbralo como <code>supervisor-&lt;tu_schema&gt;</code></li>
+<li>Haz clic en el botón <strong>Endpoint</strong> arriba</li>
+<li>Copia y guarda el nombre del endpoint que empieza con <code>mas-</code> (algo como <code>mas-3d713414-endpoint</code>)</li>
+</ol>
+<p>Al crear el Supervisor, Databricks ya lo publica como un <strong>endpoint de serving</strong>. Es por ese endpoint que la app del Ej. 9 va a llamar al Supervisor.</p>
+<blockquote>
+<p>Vas a pegar el nombre del endpoint en el campo <code>supervisor_endpoint</code> del Ej. 9</p>
+</blockquote>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Volver al principio
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Pie" >
+        
+          
+          <a href="../06%20-%20Predicci%C3%B3n%20de%20Churn%20%28ML%29/" class="md-footer__link md-footer__link--prev" aria-label="Anterior: 06 - Predicción de Churn (ML)">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Anterior
+              </span>
+              <div class="md-ellipsis">
+                06 - Predicción de Churn (ML)
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../08%20-%20Retenci%C3%B3n%20con%20ML%20y%20GenAI/" class="md-footer__link md-footer__link--next" aria-label="Siguiente: 08 - Retención con ML y GenAI">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Siguiente
+              </span>
+              <div class="md-ellipsis">
+                08 - Retención con ML y GenAI
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      <a href="/master-training-spanish/00%20-%20Setup%20y%20teardown/">00 - Setup y teardown</a>
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+      <div class="md-progress" data-md-component="progress" role="progressbar"></div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.instant", "navigation.instant.progress", "navigation.top", "navigation.footer", "search.suggest", "content.code.copy"], "search": "../assets/javascripts/workers/search.a7633da7.min.js", "tags": null, "translations": {"clipboard.copied": "Copiado al portapapeles", "clipboard.copy": "Copiar al portapapeles", "search.result.more.one": "1 m\u00e1s en esta p\u00e1gina", "search.result.more.other": "# m\u00e1s en esta p\u00e1gina", "search.result.none": "No se encontraron documentos", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Teclee para comenzar b\u00fasqueda", "search.result.term.missing": "Falta", "select.version": "Seleccionar versi\u00f3n"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.c21346df.min.js"></script>
+      
+    
+  </body>
+</html>
