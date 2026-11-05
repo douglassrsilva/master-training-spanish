@@ -21,6 +21,7 @@ exclude_docs: |
   requirements-docs.txt
   mkdocs.yml
   GLOSARIO_PT_ES.md
+  Databricks-Master-Training-ES.zip
 
 theme:
   name: material
