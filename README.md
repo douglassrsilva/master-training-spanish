@@ -1,11 +1,9 @@
 # Databricks Master Training: Análisis de Clientes y Churn
 
-[![Documentación](https://img.shields.io/badge/documentación-GitHub%20Pages-FF3621?logo=materialformkdocs&logoColor=white)](https://douglassrsilva.github.io/master-training-spanish/)
+[![Ruta práctica](https://img.shields.io/badge/ruta-práctica-FF3621)](#ruta-de-aprendizaje)
 [![Idioma](https://img.shields.io/badge/idioma-español-243746)](#ruta-de-aprendizaje)
 
 > Una ruta práctica, de punta a punta, para convertir datos de clientes en acciones de retención con Databricks.
-
-**[Abrir la documentación del entrenamiento →](https://douglassrsilva.github.io/master-training-spanish/)**
 
 ![Arquitectura del Master Training en la plataforma Databricks](assets/arquitetura.gif?v=20260928)
 
