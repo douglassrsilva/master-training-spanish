@@ -1,0 +1,87 @@
+site_name: Databricks Master Training — Español
+site_description: Ruta práctica de Análisis de Clientes y Churn en la plataforma Databricks
+site_url: https://douglassrsilva.github.io/master-training-spanish/
+repo_url: https://github.com/douglassrsilva/master-training-spanish
+repo_name: douglassrsilva/master-training-spanish
+edit_uri: edit/main/
+
+# Enlace en el pie para la preparación de la clase. Ruta absoluta desde la raíz
+# del sitio (mismo nombre de repositorio que en el sitio publicado).
+copyright: '<a href="/master-training-spanish/00%20-%20Setup%20y%20teardown/">00 - Setup y teardown</a>'
+
+# El repositorio completo es la fuente de la documentación (los READMEs quedan intactos).
+# Por eso el sitio debe construirse FUERA del árbol del repo (MkDocs rechaza un site_dir
+# dentro del docs_dir). `mkdocs serve` ignora esto y usa un directorio temporal;
+# `mkdocs build`/`gh-deploy` escriben en ../site.
+docs_dir: .
+site_dir: ../site
+
+# Mantiene .sql/.py en el sitio: los READMEs enlazan a esos archivos complementarios.
+exclude_docs: |
+  requirements-docs.txt
+  mkdocs.yml
+  GLOSARIO_PT_ES.md
+
+theme:
+  name: material
+  language: es
+  logo: assets/databricks-lockup-white.svg
+  favicon: assets/databricks-symbol.svg
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Modo oscuro
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Modo claro
+  features:
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.top
+    - navigation.footer
+    - search.suggest
+    - content.code.copy
+
+# Paleta de colores Databricks (lava red) aplicada vía CSS.
+extra_css:
+  - assets/extra.css
+
+# same-dir permite mkdocs.yml en la raíz junto a los READMEs (MkDocs rechaza docs_dir: .
+# sin esto). `search` debe listarse al definir plugins.
+plugins:
+  - search:
+      lang: es
+  - same-dir
+
+markdown_extensions:
+  - tables
+  - attr_list
+  - md_in_html
+  - admonition
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+
+# Páginas fuera del menú lateral. "00 - Setup y teardown" es accesible desde el pie y desde
+# la portada; "Setup guiado" queda dentro de "00 - Setup y teardown" y fuera de la búsqueda
+# (front matter search: exclude en la propia página).
+not_in_nav: |
+  00 - Setup y teardown/README.md
+  00 - Setup y teardown/Setup guiado/README.md
+
+nav:
+  - Inicio: README.md
+  - 01 - SQL con IA: "01 - SQL con IA/README.md"
+  - 02 - Generación de Alertas: "02 - Generación de Alertas/README.md"
+  - 03 - Métricas de Negocio: "03 - Métricas de Negocio/README.md"
+  - 04 - IA Generativa en SQL: "04 - IA Generativa en SQL/README.md"
+  - 05 - Dashboards con IA: "05 - Dashboards con IA/README.md"
+  - 06 - Predicción de Churn (ML): "06 - Predicción de Churn (ML)/README.md"
+  - 07 - Análisis de Datos Multi-Agent: "07 - Análisis de Datos Multi-Agent/README.md"
+  - 08 - Retención con ML y GenAI: "08 - Retención con ML y GenAI/README.md"
+  - 09 - Creación de Apps: "09 - Creación de Apps/README.md"
+  - 10 - Cierre (Próximos Pasos): "10 - Cierre (Próximos Pasos)/README.md"

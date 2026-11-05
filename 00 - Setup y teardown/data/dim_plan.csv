@@ -1,0 +1,5 @@
+id_plan,nombre_plan,periodicidad,precio_mensual
+P1,Básico,Mensual,49.9
+P2,Estándar,Mensual,89.9
+P3,Premium,Mensual,149.9
+P4,Empresarial,Anual,299.9

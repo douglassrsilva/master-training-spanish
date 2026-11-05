@@ -1,0 +1,2001 @@
+id_cliente,nombre_cliente,segmento,ciudad,pais,fecha_registro,canal_adquisicion,rango_edad
+C00000,Alejandro García,PyME,Guadalajara,MX,2021-01-09,Referido,18-25
+C00001,Ana Rodríguez,Consumidor,Santo Domingo,DO,2021-03-26,Orgánico,60+
+C00002,Andrés Martínez,Consumidor,Monterrey,MX,2020-12-18,Orgánico,26-35
+C00003,Diego Gómez,Corporativo,Guadalajara,MX,2021-11-08,Medios Pagos,60+
+C00004,Alejandro López,Consumidor,Quito,EC,2022-09-13,Medios Pagos,60+
+C00005,Carla Hernández,PyME,Santiago,CL,2020-12-11,Medios Pagos,36-45
+C00006,Mateo Pérez,Corporativo,Lima,PE,2021-02-20,Referido,26-35
+C00007,Felipe Rodríguez,PyME,Guadalajara,MX,2021-03-19,Medios Pagos,26-35
+C00008,Valentina Hernández,Consumidor,Santiago,CL,2020-12-31,Orgánico,18-25
+C00009,Sofía Martínez,PyME,Guadalajara,MX,2022-04-30,Orgánico,46-60
+C00010,Alejandro Rodríguez,Consumidor,Santiago,CL,2020-10-31,Orgánico,60+
+C00011,Camila Sánchez,Consumidor,Bogotá,CO,2022-04-22,Referido,18-25
+C00012,Mariana Ramírez,PyME,San José,CR,2022-09-28,Referido,46-60
+C00013,Diego Rodríguez,Consumidor,Ciudad de México,MX,2021-01-05,Medios Pagos,36-45
+C00014,Felipe Sánchez,Consumidor,Buenos Aires,AR,2021-07-08,Socio,36-45
+C00015,Mateo Pérez,PyME,Santiago,CL,2022-06-29,Referido,60+
+C00016,Juan Torres,Corporativo,Bogotá,CO,2020-08-03,Orgánico,60+
+C00017,Carla Rodríguez,Corporativo,Lima,PE,2020-08-19,Medios Pagos,26-35
+C00018,Gabriela Rodríguez,PyME,San José,CR,2021-09-25,Medios Pagos,26-35
+C00019,Ximena Flores,PyME,Bogotá,CO,2021-09-10,Orgánico,26-35
+C00020,Santiago Torres,Consumidor,Ciudad de México,MX,2022-09-21,Orgánico,18-25
+C00021,Pablo Rivera,PyME,Santiago,CL,2022-02-20,Referido,60+
+C00022,Andrés Gómez,Consumidor,Guadalajara,MX,2022-08-25,Referido,46-60
+C00023,Mariana Martínez,PyME,Guadalajara,MX,2022-10-01,Medios Pagos,18-25
+C00024,Javier García,Consumidor,Buenos Aires,AR,2021-08-16,Referido,60+
+C00025,Ana García,Consumidor,Santo Domingo,DO,2020-07-29,Socio,26-35
+C00026,Mariana Díaz,Consumidor,Ciudad de México,MX,2022-06-17,Socio,36-45
+C00027,Alejandro Morales,Corporativo,Buenos Aires,AR,2021-09-25,Orgánico,36-45
+C00028,Santiago Castro,Consumidor,Bogotá,CO,2022-10-05,Referido,60+
+C00029,Carla Ortiz,Consumidor,Guadalajara,MX,2022-05-26,Orgánico,26-35
+C00030,Carla Vargas,Consumidor,Ciudad de México,MX,2021-03-08,Medios Pagos,60+
+C00031,Valentina Torres,Consumidor,Santiago,CL,2021-01-16,Orgánico,26-35
+C00032,Lucía Ortiz,PyME,Guadalajara,MX,2022-11-23,Socio,18-25
+C00033,Mateo García,Consumidor,Buenos Aires,AR,2022-07-20,Medios Pagos,36-45
+C00034,Alejandro López,Consumidor,Santo Domingo,DO,2022-11-24,Socio,18-25
+C00035,Alejandro Romero,Corporativo,Guadalajara,MX,2022-08-15,Orgánico,60+
+C00036,Isabella Hernández,Consumidor,Santo Domingo,DO,2021-07-20,Orgánico,46-60
+C00037,Camila Herrera,PyME,Bogotá,CO,2020-10-04,Orgánico,46-60
+C00038,Santiago Gómez,Consumidor,Monterrey,MX,2021-05-23,Referido,26-35
+C00039,Santiago Gómez,Consumidor,Bogotá,CO,2020-09-08,Orgánico,26-35
+C00040,Camila Torres,PyME,San José,CR,2020-10-26,Medios Pagos,26-35
+C00041,Andrés Torres,PyME,Bogotá,CO,2020-09-22,Orgánico,18-25
+C00042,Juan Torres,Consumidor,Lima,PE,2021-12-09,Orgánico,26-35
+C00043,Isabella Gómez,Consumidor,Guadalajara,MX,2020-10-02,Referido,46-60
+C00044,Sofía Herrera,PyME,Buenos Aires,AR,2022-06-03,Orgánico,60+
+C00045,Sebastián Sánchez,Consumidor,Bogotá,CO,2021-09-12,Orgánico,60+
+C00046,Gabriela Gómez,Consumidor,Santo Domingo,DO,2020-12-29,Referido,36-45
+C00047,Juan Sánchez,PyME,Guadalajara,MX,2020-11-25,Orgánico,46-60
+C00048,Felipe Ortiz,Consumidor,Quito,EC,2021-01-08,Referido,46-60
+C00049,Andrés Castro,Consumidor,Buenos Aires,AR,2022-05-01,Referido,36-45
+C00050,Carla López,Consumidor,Monterrey,MX,2021-01-27,Referido,60+
+C00051,Juan Torres,Consumidor,Santiago,CL,2021-01-13,Medios Pagos,26-35
+C00052,Andrés Castro,Consumidor,Guadalajara,MX,2021-08-23,Orgánico,46-60
+C00053,Diego Vargas,Consumidor,Ciudad de México,MX,2020-10-25,Orgánico,60+
+C00054,Lucía Sánchez,Consumidor,Monterrey,MX,2020-09-03,Socio,60+
+C00055,Ximena Vargas,Consumidor,Lima,PE,2021-03-15,Medios Pagos,60+
+C00056,Isabella Sánchez,Consumidor,Santiago,CL,2020-07-25,Referido,26-35
+C00057,Isabella Martínez,Consumidor,Buenos Aires,AR,2022-04-06,Orgánico,60+
+C00058,Andrés Vargas,Consumidor,Santiago,CL,2022-09-28,Orgánico,46-60
+C00059,Sofía Díaz,Consumidor,Quito,EC,2021-10-30,Medios Pagos,60+
+C00060,Alejandro Ortiz,Consumidor,Quito,EC,2021-05-30,Medios Pagos,46-60
+C00061,Valentina Ramírez,Consumidor,Ciudad de México,MX,2021-10-30,Medios Pagos,46-60
+C00062,Ana García,Corporativo,San José,CR,2021-05-04,Referido,26-35
+C00063,Valentina Rivera,PyME,Buenos Aires,AR,2021-11-09,Referido,36-45
+C00064,Carla Morales,PyME,Buenos Aires,AR,2020-07-31,Orgánico,60+
+C00065,Carla Hernández,Consumidor,Santiago,CL,2021-02-05,Medios Pagos,26-35
+C00066,Gabriela Flores,Consumidor,Guadalajara,MX,2021-05-04,Medios Pagos,36-45
+C00067,Felipe López,Consumidor,Guadalajara,MX,2020-09-27,Orgánico,18-25
+C00068,Sofía Torres,Corporativo,Santiago,CL,2022-09-16,Orgánico,36-45
+C00069,Sofía Hernández,PyME,Guadalajara,MX,2020-09-08,Orgánico,46-60
+C00070,Pablo Jiménez,PyME,Quito,EC,2020-08-12,Referido,36-45
+C00071,Felipe Sánchez,PyME,Monterrey,MX,2021-09-13,Socio,36-45
+C00072,Valentina Torres,PyME,San José,CR,2022-03-03,Medios Pagos,18-25
+C00073,Sebastián Ramírez,Consumidor,Lima,PE,2021-04-28,Orgánico,46-60
+C00074,Sebastián Herrera,PyME,Bogotá,CO,2022-02-19,Referido,60+
+C00075,Alejandro Torres,Corporativo,Quito,EC,2021-07-20,Medios Pagos,46-60
+C00076,Sofía Gómez,Consumidor,Santiago,CL,2022-01-23,Referido,60+
+C00077,Mateo Flores,Consumidor,Santo Domingo,DO,2021-12-29,Orgánico,36-45
+C00078,Gabriela Morales,Consumidor,Monterrey,MX,2022-05-20,Orgánico,60+
+C00079,Gabriela López,Corporativo,Buenos Aires,AR,2022-08-22,Orgánico,26-35
+C00080,Juan Romero,Consumidor,Ciudad de México,MX,2021-05-15,Referido,46-60
+C00081,Pablo Flores,Consumidor,Buenos Aires,AR,2021-08-09,Orgánico,18-25
+C00082,Sofía Hernández,Consumidor,Lima,PE,2022-09-18,Orgánico,60+
+C00083,Alejandro Vargas,Corporativo,Santiago,CL,2022-08-03,Referido,60+
+C00084,Juan Castro,Consumidor,San José,CR,2021-09-19,Referido,60+
+C00085,Gabriela Herrera,Corporativo,Santiago,CL,2021-03-02,Medios Pagos,26-35
+C00086,Juan Hernández,Consumidor,San José,CR,2021-08-08,Orgánico,36-45
+C00087,Sofía Rivera,PyME,Santiago,CL,2022-03-07,Referido,60+
+C00088,Juan Ortiz,Consumidor,Ciudad de México,MX,2022-06-16,Medios Pagos,60+
+C00089,Juan Ramírez,Corporativo,Lima,PE,2020-12-27,Socio,60+
+C00090,Isabella Díaz,Consumidor,Bogotá,CO,2021-03-24,Orgánico,60+
+C00091,Santiago Pérez,Consumidor,Buenos Aires,AR,2021-04-21,Referido,46-60
+C00092,Pablo Gómez,Corporativo,Lima,PE,2022-08-31,Referido,36-45
+C00093,Pablo López,PyME,Bogotá,CO,2021-10-07,Medios Pagos,46-60
+C00094,Mariana Sánchez,PyME,Bogotá,CO,2022-08-06,Medios Pagos,18-25
+C00095,Gabriela Sánchez,PyME,Quito,EC,2022-10-08,Referido,46-60
+C00096,Pablo Jiménez,PyME,Buenos Aires,AR,2021-09-10,Orgánico,60+
+C00097,Ana Rodríguez,PyME,Buenos Aires,AR,2021-05-17,Referido,26-35
+C00098,Juan Sánchez,Corporativo,Monterrey,MX,2021-07-10,Medios Pagos,46-60
+C00099,Alejandro Romero,PyME,Santiago,CL,2021-08-22,Referido,60+
+C00100,Ximena Herrera,Consumidor,Quito,EC,2021-12-19,Medios Pagos,36-45
+C00101,Pablo Romero,PyME,San José,CR,2021-01-26,Referido,46-60
+C00102,Javier Castro,Consumidor,Bogotá,CO,2022-05-23,Referido,46-60
+C00103,Camila Morales,Consumidor,Quito,EC,2021-11-02,Socio,26-35
+C00104,Ximena Flores,Consumidor,Lima,PE,2022-08-22,Orgánico,26-35
+C00105,Pablo Herrera,Consumidor,Monterrey,MX,2022-09-17,Orgánico,46-60
+C00106,Pablo Rodríguez,PyME,Quito,EC,2022-01-12,Orgánico,18-25
+C00107,Carla Vargas,Consumidor,Buenos Aires,AR,2022-04-14,Socio,18-25
+C00108,Mateo Gómez,Consumidor,Ciudad de México,MX,2022-02-05,Referido,26-35
+C00109,Felipe García,Consumidor,Monterrey,MX,2022-06-11,Referido,46-60
+C00110,Isabella Flores,PyME,Lima,PE,2021-02-17,Orgánico,18-25
+C00111,Alejandro Pérez,PyME,Buenos Aires,AR,2021-01-08,Orgánico,36-45
+C00112,Juan Rivera,Corporativo,Lima,PE,2020-07-20,Socio,46-60
+C00113,Juan López,Consumidor,Bogotá,CO,2021-04-23,Orgánico,46-60
+C00114,Pablo López,Consumidor,Ciudad de México,MX,2021-03-22,Medios Pagos,26-35
+C00115,Isabella Romero,PyME,Santiago,CL,2021-03-07,Referido,18-25
+C00116,Valentina Vargas,Consumidor,Guadalajara,MX,2022-02-03,Orgánico,26-35
+C00117,Ximena Herrera,PyME,Bogotá,CO,2021-06-07,Medios Pagos,36-45
+C00118,Diego Flores,Corporativo,Bogotá,CO,2020-08-31,Socio,26-35
+C00119,Alejandro Gómez,PyME,Quito,EC,2020-07-19,Orgánico,46-60
+C00120,Mariana Gómez,Consumidor,Buenos Aires,AR,2021-04-13,Orgánico,26-35
+C00121,Sebastián Torres,Consumidor,Santo Domingo,DO,2022-01-01,Referido,46-60
+C00122,Pablo Jiménez,Corporativo,Ciudad de México,MX,2022-01-25,Orgánico,60+
+C00123,Sofía Romero,Consumidor,Santo Domingo,DO,2021-09-29,Medios Pagos,18-25
+C00124,Lucía Flores,PyME,Bogotá,CO,2022-04-24,Socio,36-45
+C00125,Mateo Hernández,Consumidor,Santo Domingo,DO,2021-02-10,Referido,26-35
+C00126,Sebastián Díaz,Corporativo,Santiago,CL,2021-02-13,Orgánico,36-45
+C00127,Carla Rodríguez,Consumidor,San José,CR,2022-05-06,Orgánico,26-35
+C00128,Isabella Romero,PyME,San José,CR,2022-11-30,Socio,60+
+C00129,Ana Gómez,Consumidor,Ciudad de México,MX,2022-07-21,Medios Pagos,26-35
+C00130,Diego García,Consumidor,Quito,EC,2021-06-12,Referido,36-45
+C00131,Sebastián Hernández,Consumidor,Santo Domingo,DO,2022-04-20,Medios Pagos,60+
+C00132,Diego Morales,Consumidor,Quito,EC,2021-09-22,Medios Pagos,46-60
+C00133,Carla Romero,Consumidor,San José,CR,2022-07-04,Orgánico,60+
+C00134,Sebastián Vargas,Consumidor,Lima,PE,2021-07-03,Orgánico,18-25
+C00135,Gabriela Vargas,PyME,Santo Domingo,DO,2020-11-24,Referido,26-35
+C00136,Valentina Herrera,Consumidor,Bogotá,CO,2021-09-21,Referido,26-35
+C00137,Carla García,PyME,Guadalajara,MX,2020-08-03,Referido,36-45
+C00138,Diego Vargas,PyME,Bogotá,CO,2021-01-15,Referido,46-60
+C00139,Juan Gómez,PyME,Buenos Aires,AR,2021-03-28,Orgánico,60+
+C00140,Diego Herrera,Consumidor,Santo Domingo,DO,2021-11-21,Referido,46-60
+C00141,Alejandro Díaz,PyME,San José,CR,2021-03-14,Referido,36-45
+C00142,Felipe Romero,Consumidor,Bogotá,CO,2022-11-26,Referido,46-60
+C00143,Ximena Rivera,Consumidor,Ciudad de México,MX,2022-08-31,Referido,46-60
+C00144,Carla Hernández,Consumidor,San José,CR,2021-04-01,Orgánico,60+
+C00145,Andrés Morales,Consumidor,Lima,PE,2021-01-24,Referido,46-60
+C00146,Sofía Morales,Consumidor,Buenos Aires,AR,2021-01-07,Referido,36-45
+C00147,Ana Rivera,Consumidor,San José,CR,2022-10-07,Orgánico,26-35
+C00148,Andrés Pérez,PyME,Lima,PE,2020-10-29,Orgánico,60+
+C00149,Mariana Hernández,PyME,Bogotá,CO,2022-09-20,Referido,46-60
+C00150,Diego Ramírez,Corporativo,Quito,EC,2022-02-09,Orgánico,36-45
+C00151,Mateo García,Consumidor,Lima,PE,2020-08-03,Referido,18-25
+C00152,Valentina Torres,Consumidor,Buenos Aires,AR,2020-10-30,Orgánico,26-35
+C00153,Gabriela Gómez,Consumidor,Santo Domingo,DO,2021-06-28,Referido,26-35
+C00154,Pablo Flores,Consumidor,Guadalajara,MX,2022-06-04,Medios Pagos,60+
+C00155,Sebastián Martínez,Consumidor,San José,CR,2021-02-12,Medios Pagos,36-45
+C00156,Santiago Gómez,Consumidor,Buenos Aires,AR,2021-04-06,Referido,36-45
+C00157,Juan García,Consumidor,Bogotá,CO,2020-08-03,Referido,18-25
+C00158,Sofía Rivera,PyME,Ciudad de México,MX,2021-08-29,Orgánico,46-60
+C00159,Valentina García,Consumidor,Lima,PE,2022-08-19,Referido,26-35
+C00160,Mateo Gómez,Consumidor,San José,CR,2022-06-23,Socio,46-60
+C00161,Valentina García,Consumidor,San José,CR,2022-10-10,Orgánico,60+
+C00162,Valentina García,PyME,San José,CR,2022-07-02,Referido,26-35
+C00163,Sebastián García,Corporativo,Quito,EC,2022-07-23,Orgánico,46-60
+C00164,Andrés Sánchez,PyME,Santo Domingo,DO,2022-08-29,Referido,36-45
+C00165,Pablo Rivera,Consumidor,Bogotá,CO,2020-10-09,Orgánico,26-35
+C00166,Ximena Hernández,Consumidor,Santo Domingo,DO,2020-07-30,Medios Pagos,60+
+C00167,Sebastián Pérez,Consumidor,Monterrey,MX,2022-05-31,Medios Pagos,18-25
+C00168,Lucía Torres,Consumidor,Buenos Aires,AR,2020-10-23,Referido,36-45
+C00169,Sofía Flores,Corporativo,Santiago,CL,2021-11-21,Referido,36-45
+C00170,Sebastián Romero,PyME,Santiago,CL,2020-09-03,Medios Pagos,18-25
+C00171,Ximena Jiménez,PyME,Santo Domingo,DO,2022-08-19,Orgánico,26-35
+C00172,Lucía Gómez,Consumidor,Santiago,CL,2020-08-18,Socio,46-60
+C00173,Carla Gómez,Consumidor,Santiago,CL,2021-11-02,Orgánico,36-45
+C00174,Juan Morales,Corporativo,Monterrey,MX,2022-10-24,Medios Pagos,26-35
+C00175,Carla Díaz,PyME,San José,CR,2022-11-27,Orgánico,26-35
+C00176,Juan Jiménez,Consumidor,Buenos Aires,AR,2022-04-03,Orgánico,46-60
+C00177,Pablo Ortiz,PyME,Guadalajara,MX,2022-08-11,Referido,60+
+C00178,Sofía Vargas,Consumidor,Bogotá,CO,2022-03-31,Orgánico,18-25
+C00179,Ximena Sánchez,Consumidor,Santo Domingo,DO,2021-05-24,Referido,46-60
+C00180,Carla Gómez,PyME,Ciudad de México,MX,2021-12-02,Orgánico,18-25
+C00181,Santiago Gómez,PyME,Bogotá,CO,2022-07-19,Referido,26-35
+C00182,Camila García,PyME,Monterrey,MX,2020-08-24,Medios Pagos,46-60
+C00183,Valentina López,Consumidor,Santiago,CL,2022-10-21,Referido,60+
+C00184,Valentina Herrera,Consumidor,Ciudad de México,MX,2021-01-30,Orgánico,36-45
+C00185,Valentina Pérez,Consumidor,Lima,PE,2021-11-02,Referido,46-60
+C00186,Andrés Ortiz,Consumidor,Quito,EC,2022-09-13,Socio,26-35
+C00187,Juan López,Consumidor,Guadalajara,MX,2022-01-01,Referido,46-60
+C00188,Andrés Herrera,Consumidor,Bogotá,CO,2021-03-13,Referido,18-25
+C00189,Felipe Díaz,Consumidor,Bogotá,CO,2021-06-25,Orgánico,60+
+C00190,Mariana Castro,PyME,Bogotá,CO,2021-11-27,Orgánico,26-35
+C00191,Carla Castro,PyME,Bogotá,CO,2021-09-04,Orgánico,36-45
+C00192,Ximena Ramírez,Consumidor,Monterrey,MX,2021-07-09,Socio,18-25
+C00193,Sebastián López,Consumidor,Lima,PE,2022-04-27,Medios Pagos,46-60
+C00194,Valentina Gómez,Consumidor,Lima,PE,2022-09-04,Medios Pagos,60+
+C00195,Felipe Gómez,Consumidor,Monterrey,MX,2020-12-04,Referido,18-25
+C00196,Sofía Gómez,Corporativo,Bogotá,CO,2021-05-14,Referido,60+
+C00197,Mariana Morales,Consumidor,Guadalajara,MX,2022-01-20,Referido,46-60
+C00198,Ximena Gómez,PyME,Lima,PE,2021-08-12,Orgánico,60+
+C00199,Ximena Hernández,PyME,Monterrey,MX,2021-09-15,Medios Pagos,60+
+C00200,Juan García,Consumidor,Bogotá,CO,2021-06-19,Orgánico,60+
+C00201,Carla Sánchez,Consumidor,San José,CR,2021-06-04,Referido,60+
+C00202,Sofía Hernández,Corporativo,San José,CR,2021-12-22,Medios Pagos,18-25
+C00203,Gabriela Castro,Consumidor,San José,CR,2022-03-06,Referido,18-25
+C00204,Mariana López,Consumidor,Lima,PE,2022-03-27,Referido,18-25
+C00205,Valentina Ortiz,Consumidor,Lima,PE,2022-05-08,Orgánico,36-45
+C00206,Alejandro Jiménez,PyME,Bogotá,CO,2021-06-23,Orgánico,46-60
+C00207,Santiago López,Consumidor,Monterrey,MX,2022-08-25,Socio,60+
+C00208,Valentina Rivera,Consumidor,San José,CR,2020-11-24,Medios Pagos,46-60
+C00209,Ana García,Corporativo,Buenos Aires,AR,2021-07-11,Socio,60+
+C00210,Sebastián Morales,Consumidor,Buenos Aires,AR,2021-07-14,Orgánico,18-25
+C00211,Mateo Ramírez,PyME,Buenos Aires,AR,2020-11-18,Referido,46-60
+C00212,Lucía Rodríguez,Consumidor,Quito,EC,2021-07-04,Orgánico,60+
+C00213,Mateo Martínez,PyME,Guadalajara,MX,2021-10-25,Referido,36-45
+C00214,Camila Martínez,PyME,Ciudad de México,MX,2022-10-24,Medios Pagos,60+
+C00215,Valentina Ortiz,Consumidor,Santo Domingo,DO,2022-07-12,Orgánico,46-60
+C00216,Pablo Castro,Corporativo,Santo Domingo,DO,2021-06-05,Orgánico,18-25
+C00217,Juan Díaz,Consumidor,Quito,EC,2021-04-14,Referido,36-45
+C00218,Pablo Pérez,Corporativo,Ciudad de México,MX,2021-04-14,Referido,60+
+C00219,Sofía Jiménez,PyME,Santiago,CL,2022-10-31,Orgánico,46-60
+C00220,Santiago Romero,Consumidor,San José,CR,2021-08-07,Referido,60+
+C00221,Valentina Pérez,Consumidor,Santo Domingo,DO,2021-11-12,Referido,60+
+C00222,Pablo Rivera,Consumidor,Buenos Aires,AR,2021-03-18,Socio,36-45
+C00223,Juan Rivera,Consumidor,Buenos Aires,AR,2020-10-04,Medios Pagos,46-60
+C00224,Diego Castro,Consumidor,Buenos Aires,AR,2022-02-11,Medios Pagos,46-60
+C00225,Camila López,PyME,Bogotá,CO,2020-10-02,Orgánico,18-25
+C00226,Alejandro Herrera,Consumidor,Santiago,CL,2020-08-07,Socio,36-45
+C00227,Javier Hernández,Consumidor,San José,CR,2022-04-01,Medios Pagos,60+
+C00228,Camila Díaz,Consumidor,Lima,PE,2022-08-22,Socio,26-35
+C00229,Gabriela López,Consumidor,Lima,PE,2021-08-01,Orgánico,18-25
+C00230,Andrés Pérez,Corporativo,Ciudad de México,MX,2022-06-06,Socio,18-25
+C00231,Juan Hernández,Corporativo,Lima,PE,2022-05-26,Orgánico,60+
+C00232,Pablo Romero,PyME,Santo Domingo,DO,2021-06-14,Medios Pagos,46-60
+C00233,Lucía Herrera,Consumidor,Bogotá,CO,2022-06-19,Medios Pagos,18-25
+C00234,Mariana Vargas,PyME,Monterrey,MX,2021-03-17,Referido,18-25
+C00235,Valentina Torres,Consumidor,Monterrey,MX,2021-08-01,Orgánico,46-60
+C00236,Isabella Gómez,Consumidor,San José,CR,2022-11-21,Medios Pagos,18-25
+C00237,Ximena López,PyME,Monterrey,MX,2021-10-13,Medios Pagos,36-45
+C00238,Sebastián Gómez,Consumidor,Lima,PE,2020-10-28,Referido,60+
+C00239,Javier Ortiz,Corporativo,Santiago,CL,2020-10-13,Medios Pagos,18-25
+C00240,Alejandro Sánchez,Consumidor,Guadalajara,MX,2022-09-30,Orgánico,60+
+C00241,Diego Rivera,Consumidor,Santo Domingo,DO,2021-09-06,Medios Pagos,46-60
+C00242,Lucía Castro,Consumidor,Santo Domingo,DO,2021-10-03,Orgánico,46-60
+C00243,Isabella Díaz,PyME,Ciudad de México,MX,2021-10-23,Medios Pagos,60+
+C00244,Pablo Hernández,Consumidor,Ciudad de México,MX,2022-09-23,Orgánico,26-35
+C00245,Mariana Flores,PyME,Quito,EC,2021-11-14,Medios Pagos,46-60
+C00246,Felipe Rodríguez,Consumidor,Bogotá,CO,2022-08-03,Referido,26-35
+C00247,Ana López,PyME,Ciudad de México,MX,2020-10-19,Referido,60+
+C00248,Gabriela Jiménez,Consumidor,Monterrey,MX,2022-02-23,Orgánico,46-60
+C00249,Gabriela García,PyME,Ciudad de México,MX,2022-03-31,Orgánico,18-25
+C00250,Lucía Torres,Consumidor,Ciudad de México,MX,2021-10-17,Referido,18-25
+C00251,Sofía Martínez,Consumidor,Santiago,CL,2020-08-19,Referido,36-45
+C00252,Isabella Hernández,Consumidor,Quito,EC,2022-01-29,Referido,60+
+C00253,Pablo Hernández,PyME,Quito,EC,2021-05-12,Socio,46-60
+C00254,Alejandro Morales,PyME,Quito,EC,2022-05-28,Orgánico,26-35
+C00255,Alejandro Vargas,Consumidor,Lima,PE,2022-10-04,Socio,60+
+C00256,Mateo García,Consumidor,Guadalajara,MX,2021-08-29,Referido,26-35
+C00257,Santiago García,Consumidor,San José,CR,2021-03-25,Orgánico,60+
+C00258,Ana Rivera,PyME,Bogotá,CO,2022-01-26,Socio,18-25
+C00259,Sebastián Rivera,PyME,Santiago,CL,2020-12-20,Referido,26-35
+C00260,Isabella Gómez,Consumidor,Bogotá,CO,2022-01-21,Referido,46-60
+C00261,Valentina Rivera,Consumidor,Lima,PE,2020-10-14,Referido,46-60
+C00262,Sofía Vargas,Consumidor,Santo Domingo,DO,2021-04-13,Orgánico,26-35
+C00263,Alejandro Martínez,Consumidor,Santiago,CL,2021-07-09,Orgánico,46-60
+C00264,Camila Rodríguez,Corporativo,Bogotá,CO,2022-06-12,Referido,60+
+C00265,Carla Hernández,Corporativo,Santo Domingo,DO,2022-10-29,Medios Pagos,46-60
+C00266,Lucía Gómez,Consumidor,Santiago,CL,2021-07-03,Orgánico,60+
+C00267,Alejandro Rodríguez,Corporativo,Ciudad de México,MX,2022-11-26,Referido,18-25
+C00268,Felipe Jiménez,Consumidor,Quito,EC,2020-08-29,Socio,60+
+C00269,Mateo Herrera,Consumidor,Santo Domingo,DO,2022-03-19,Medios Pagos,18-25
+C00270,Carla Hernández,Consumidor,Santiago,CL,2022-01-29,Orgánico,46-60
+C00271,Felipe García,Consumidor,Ciudad de México,MX,2020-12-13,Referido,46-60
+C00272,Javier Rivera,PyME,Santo Domingo,DO,2022-10-20,Socio,60+
+C00273,Isabella Rodríguez,Consumidor,Guadalajara,MX,2021-01-01,Referido,18-25
+C00274,Mariana García,Consumidor,Monterrey,MX,2020-10-23,Orgánico,60+
+C00275,Alejandro Martínez,Consumidor,Quito,EC,2021-01-08,Referido,26-35
+C00276,Diego Vargas,PyME,Bogotá,CO,2022-10-09,Orgánico,18-25
+C00277,Valentina Díaz,Consumidor,San José,CR,2021-10-22,Referido,46-60
+C00278,Mariana García,Consumidor,San José,CR,2021-01-25,Medios Pagos,36-45
+C00279,Camila Ramírez,PyME,Guadalajara,MX,2022-03-03,Medios Pagos,26-35
+C00280,Mateo Herrera,PyME,Buenos Aires,AR,2021-09-03,Orgánico,18-25
+C00281,Andrés Jiménez,Consumidor,Santo Domingo,DO,2021-06-26,Orgánico,36-45
+C00282,Andrés Ramírez,Consumidor,Ciudad de México,MX,2022-02-07,Medios Pagos,60+
+C00283,Felipe Ramírez,Corporativo,San José,CR,2021-06-17,Orgánico,36-45
+C00284,Pablo García,Consumidor,Quito,EC,2022-01-30,Referido,26-35
+C00285,Lucía Jiménez,PyME,San José,CR,2022-05-16,Orgánico,18-25
+C00286,Valentina Vargas,Corporativo,Bogotá,CO,2021-09-08,Medios Pagos,60+
+C00287,Valentina Pérez,Consumidor,Santiago,CL,2021-07-30,Socio,36-45
+C00288,Mariana Herrera,Consumidor,Santiago,CL,2022-01-03,Medios Pagos,46-60
+C00289,Alejandro Pérez,Consumidor,Santiago,CL,2021-04-05,Medios Pagos,60+
+C00290,Carla Vargas,Consumidor,Buenos Aires,AR,2020-08-03,Medios Pagos,26-35
+C00291,Andrés Ramírez,PyME,Monterrey,MX,2020-11-30,Orgánico,60+
+C00292,Santiago Gómez,Consumidor,Quito,EC,2021-05-25,Medios Pagos,60+
+C00293,Javier Gómez,Consumidor,Guadalajara,MX,2020-10-06,Orgánico,60+
+C00294,Andrés Jiménez,Consumidor,Bogotá,CO,2020-09-08,Orgánico,36-45
+C00295,Sofía Torres,Consumidor,Santo Domingo,DO,2021-04-17,Referido,46-60
+C00296,Diego López,Consumidor,Ciudad de México,MX,2021-07-26,Referido,18-25
+C00297,Juan Martínez,Consumidor,Monterrey,MX,2021-12-11,Referido,26-35
+C00298,Carla López,Consumidor,Lima,PE,2022-01-10,Orgánico,18-25
+C00299,Felipe Torres,Consumidor,Guadalajara,MX,2021-01-08,Referido,60+
+C00300,Felipe Pérez,Consumidor,Quito,EC,2021-02-26,Referido,46-60
+C00301,Sofía Vargas,Consumidor,Santiago,CL,2021-08-29,Referido,26-35
+C00302,Alejandro Pérez,Consumidor,Guadalajara,MX,2020-09-05,Referido,26-35
+C00303,Valentina Ortiz,Consumidor,Lima,PE,2021-06-10,Referido,46-60
+C00304,Sofía García,Consumidor,Buenos Aires,AR,2021-03-13,Medios Pagos,36-45
+C00305,Camila Sánchez,Consumidor,Monterrey,MX,2021-11-15,Referido,60+
+C00306,Felipe Morales,Consumidor,Monterrey,MX,2021-05-13,Orgánico,26-35
+C00307,Ana Morales,Consumidor,Ciudad de México,MX,2021-11-30,Orgánico,46-60
+C00308,Lucía Morales,Corporativo,Quito,EC,2020-12-05,Orgánico,60+
+C00309,Isabella Torres,Consumidor,Buenos Aires,AR,2022-10-30,Referido,26-35
+C00310,Sofía Jiménez,PyME,Santo Domingo,DO,2022-08-09,Orgánico,60+
+C00311,Lucía Rodríguez,PyME,Ciudad de México,MX,2020-10-15,Orgánico,46-60
+C00312,Isabella Gómez,Consumidor,Ciudad de México,MX,2021-08-29,Medios Pagos,18-25
+C00313,Sofía Gómez,Consumidor,Santiago,CL,2022-05-02,Medios Pagos,60+
+C00314,Santiago Castro,PyME,Santiago,CL,2020-08-30,Referido,36-45
+C00315,Sofía Herrera,Consumidor,Buenos Aires,AR,2022-02-09,Socio,60+
+C00316,Isabella Romero,Corporativo,Quito,EC,2022-10-03,Medios Pagos,26-35
+C00317,Mariana Morales,Consumidor,Santiago,CL,2020-10-14,Orgánico,36-45
+C00318,Ximena Herrera,PyME,Guadalajara,MX,2021-10-16,Medios Pagos,36-45
+C00319,Carla Flores,Consumidor,San José,CR,2022-11-30,Referido,36-45
+C00320,Isabella Martínez,PyME,Santiago,CL,2021-07-14,Medios Pagos,36-45
+C00321,Valentina Hernández,Consumidor,Lima,PE,2020-09-16,Orgánico,46-60
+C00322,Camila López,Consumidor,Quito,EC,2022-05-09,Orgánico,36-45
+C00323,Felipe Hernández,Consumidor,Guadalajara,MX,2021-11-17,Referido,36-45
+C00324,Gabriela Morales,PyME,Guadalajara,MX,2022-12-01,Orgánico,60+
+C00325,Valentina Jiménez,Consumidor,Ciudad de México,MX,2022-11-24,Socio,46-60
+C00326,Valentina Gómez,PyME,Guadalajara,MX,2022-08-19,Medios Pagos,26-35
+C00327,Camila García,Consumidor,Monterrey,MX,2021-02-14,Referido,18-25
+C00328,Sebastián Flores,PyME,Monterrey,MX,2021-10-07,Medios Pagos,18-25
+C00329,Mariana Gómez,PyME,Guadalajara,MX,2021-04-08,Socio,36-45
+C00330,Sebastián López,PyME,San José,CR,2021-03-28,Medios Pagos,18-25
+C00331,Ximena Ortiz,PyME,Buenos Aires,AR,2022-05-06,Referido,46-60
+C00332,Diego Torres,Consumidor,Lima,PE,2021-11-02,Referido,60+
+C00333,Valentina Romero,Consumidor,Ciudad de México,MX,2021-11-28,Referido,60+
+C00334,Sofía García,Consumidor,Guadalajara,MX,2022-11-15,Orgánico,26-35
+C00335,Juan Sánchez,Consumidor,Quito,EC,2021-07-02,Medios Pagos,46-60
+C00336,Juan García,PyME,Buenos Aires,AR,2022-09-08,Referido,26-35
+C00337,Sofía García,Corporativo,Bogotá,CO,2021-10-28,Orgánico,46-60
+C00338,Lucía Ortiz,PyME,Quito,EC,2022-08-06,Referido,36-45
+C00339,Ana Romero,PyME,Monterrey,MX,2022-08-02,Medios Pagos,26-35
+C00340,Mateo Romero,Consumidor,Buenos Aires,AR,2022-06-15,Medios Pagos,36-45
+C00341,Andrés Herrera,PyME,Ciudad de México,MX,2021-12-24,Referido,36-45
+C00342,Pablo Castro,PyME,Bogotá,CO,2022-10-07,Orgánico,26-35
+C00343,Diego Torres,Consumidor,San José,CR,2021-01-11,Medios Pagos,18-25
+C00344,Felipe Hernández,Consumidor,Quito,EC,2022-07-02,Referido,46-60
+C00345,Carla Castro,Consumidor,Bogotá,CO,2022-02-28,Referido,60+
+C00346,Carla Flores,PyME,Ciudad de México,MX,2021-10-18,Medios Pagos,36-45
+C00347,Gabriela López,Consumidor,Ciudad de México,MX,2021-11-20,Referido,36-45
+C00348,Alejandro Torres,PyME,Santiago,CL,2020-11-12,Orgánico,46-60
+C00349,Ana Ramírez,Consumidor,Ciudad de México,MX,2021-12-24,Medios Pagos,36-45
+C00350,Isabella García,Consumidor,Ciudad de México,MX,2022-07-10,Orgánico,26-35
+C00351,Carla Castro,PyME,Bogotá,CO,2021-08-20,Orgánico,26-35
+C00352,Juan Herrera,PyME,Monterrey,MX,2022-04-04,Medios Pagos,46-60
+C00353,Isabella Torres,PyME,Bogotá,CO,2021-08-26,Orgánico,26-35
+C00354,Valentina Vargas,Consumidor,Lima,PE,2021-08-12,Orgánico,36-45
+C00355,Isabella Jiménez,Corporativo,Buenos Aires,AR,2021-08-15,Orgánico,36-45
+C00356,Carla Torres,PyME,Bogotá,CO,2022-07-04,Socio,46-60
+C00357,Felipe Díaz,Consumidor,Buenos Aires,AR,2020-08-15,Socio,46-60
+C00358,Ana Hernández,Consumidor,Monterrey,MX,2022-07-31,Medios Pagos,26-35
+C00359,Carla Castro,Consumidor,Bogotá,CO,2020-12-30,Referido,18-25
+C00360,Valentina Jiménez,Consumidor,Monterrey,MX,2022-08-30,Orgánico,46-60
+C00361,Mariana Morales,Consumidor,Quito,EC,2020-08-13,Orgánico,46-60
+C00362,Sebastián Ortiz,Consumidor,Monterrey,MX,2022-10-28,Referido,36-45
+C00363,Carla Herrera,Consumidor,Lima,PE,2022-10-01,Referido,46-60
+C00364,Ana Ramírez,Consumidor,Santo Domingo,DO,2020-09-10,Medios Pagos,36-45
+C00365,Ximena Martínez,Consumidor,Bogotá,CO,2021-05-02,Referido,26-35
+C00366,Pablo Sánchez,Consumidor,Buenos Aires,AR,2022-10-04,Referido,60+
+C00367,Javier Herrera,Corporativo,Guadalajara,MX,2022-03-24,Referido,18-25
+C00368,Felipe Pérez,PyME,Quito,EC,2021-12-04,Orgánico,36-45
+C00369,Mateo Castro,PyME,San José,CR,2022-11-04,Referido,60+
+C00370,Felipe Morales,Corporativo,Santo Domingo,DO,2022-01-20,Orgánico,18-25
+C00371,Ana Martínez,Consumidor,Santo Domingo,DO,2021-07-31,Socio,26-35
+C00372,Ana Romero,PyME,Bogotá,CO,2022-10-03,Referido,26-35
+C00373,Mateo Ramírez,PyME,Bogotá,CO,2022-09-19,Referido,36-45
+C00374,Valentina Pérez,Consumidor,Lima,PE,2021-02-06,Medios Pagos,60+
+C00375,Sofía Pérez,PyME,Bogotá,CO,2022-04-18,Referido,36-45
+C00376,Sofía Hernández,Consumidor,Quito,EC,2020-10-04,Orgánico,36-45
+C00377,Sofía Jiménez,Corporativo,Santiago,CL,2021-02-16,Socio,26-35
+C00378,Valentina Flores,Consumidor,Guadalajara,MX,2020-08-13,Orgánico,26-35
+C00379,Diego Díaz,Consumidor,Buenos Aires,AR,2020-09-18,Orgánico,46-60
+C00380,Alejandro Ramírez,PyME,Quito,EC,2021-12-08,Orgánico,46-60
+C00381,Lucía García,PyME,Santiago,CL,2022-06-19,Medios Pagos,18-25
+C00382,Felipe García,Consumidor,Monterrey,MX,2021-11-13,Referido,18-25
+C00383,Ana Vargas,Consumidor,Lima,PE,2020-12-11,Socio,26-35
+C00384,Alejandro Rodríguez,PyME,Santiago,CL,2021-10-09,Orgánico,36-45
+C00385,Alejandro Morales,Consumidor,Quito,EC,2021-04-26,Orgánico,36-45
+C00386,Diego Díaz,Consumidor,Lima,PE,2022-05-12,Orgánico,36-45
+C00387,Mariana Morales,Corporativo,Guadalajara,MX,2022-01-21,Referido,36-45
+C00388,Lucía Hernández,Consumidor,Bogotá,CO,2022-05-25,Orgánico,46-60
+C00389,Camila Jiménez,Consumidor,San José,CR,2022-09-30,Orgánico,36-45
+C00390,Mariana Sánchez,PyME,Ciudad de México,MX,2020-07-25,Referido,60+
+C00391,Pablo López,PyME,San José,CR,2022-04-05,Orgánico,18-25
+C00392,Diego Flores,Consumidor,San José,CR,2022-07-05,Orgánico,26-35
+C00393,Andrés García,Corporativo,Monterrey,MX,2022-10-20,Socio,46-60
+C00394,Carla García,Consumidor,Bogotá,CO,2020-11-18,Referido,46-60
+C00395,Ana Ortiz,Consumidor,Santo Domingo,DO,2021-08-20,Referido,46-60
+C00396,Sofía Jiménez,Consumidor,Guadalajara,MX,2022-08-16,Medios Pagos,60+
+C00397,Pablo Castro,PyME,Buenos Aires,AR,2021-11-05,Referido,18-25
+C00398,Mariana Martínez,Consumidor,Quito,EC,2022-10-24,Medios Pagos,18-25
+C00399,Valentina López,PyME,Bogotá,CO,2022-11-12,Orgánico,46-60
+C00400,Lucía Martínez,PyME,Buenos Aires,AR,2020-11-01,Orgánico,46-60
+C00401,Andrés Morales,PyME,Lima,PE,2022-04-30,Medios Pagos,36-45
+C00402,Camila Sánchez,PyME,Santo Domingo,DO,2021-10-15,Medios Pagos,18-25
+C00403,Santiago Torres,Consumidor,Santiago,CL,2020-07-28,Orgánico,18-25
+C00404,Diego Díaz,Corporativo,Santo Domingo,DO,2021-10-22,Orgánico,46-60
+C00405,Alejandro Gómez,Consumidor,Lima,PE,2021-04-11,Orgánico,36-45
+C00406,Gabriela Torres,PyME,Monterrey,MX,2021-04-26,Referido,26-35
+C00407,Ana Morales,Consumidor,Ciudad de México,MX,2020-09-24,Socio,26-35
+C00408,Isabella Vargas,PyME,Buenos Aires,AR,2020-12-03,Medios Pagos,36-45
+C00409,Ximena Ortiz,Consumidor,Buenos Aires,AR,2021-01-08,Referido,18-25
+C00410,Sebastián Ortiz,Consumidor,Santo Domingo,DO,2021-02-08,Orgánico,18-25
+C00411,Valentina Herrera,Consumidor,Buenos Aires,AR,2021-02-15,Orgánico,36-45
+C00412,Valentina Romero,Consumidor,San José,CR,2021-10-15,Medios Pagos,46-60
+C00413,Mariana Hernández,Corporativo,Quito,EC,2021-10-14,Referido,60+
+C00414,Mateo Sánchez,PyME,Lima,PE,2021-01-14,Orgánico,26-35
+C00415,Diego Morales,PyME,Monterrey,MX,2022-02-05,Orgánico,36-45
+C00416,Carla Torres,PyME,Bogotá,CO,2021-01-31,Referido,36-45
+C00417,Sofía López,Consumidor,Bogotá,CO,2022-03-11,Referido,18-25
+C00418,Gabriela Sánchez,Consumidor,Guadalajara,MX,2021-08-06,Orgánico,46-60
+C00419,Gabriela Martínez,Consumidor,Monterrey,MX,2022-07-15,Referido,60+
+C00420,Carla Morales,PyME,Monterrey,MX,2020-09-26,Orgánico,26-35
+C00421,Gabriela Pérez,Consumidor,Lima,PE,2022-02-25,Referido,26-35
+C00422,Andrés Morales,Consumidor,Quito,EC,2021-10-15,Referido,18-25
+C00423,Ximena Rivera,Consumidor,Ciudad de México,MX,2022-01-07,Orgánico,18-25
+C00424,Mariana Sánchez,PyME,Monterrey,MX,2022-08-19,Referido,26-35
+C00425,Ximena Ortiz,Consumidor,Buenos Aires,AR,2021-08-23,Referido,46-60
+C00426,Gabriela Pérez,PyME,Bogotá,CO,2020-10-25,Socio,46-60
+C00427,Ana Castro,Consumidor,Monterrey,MX,2022-04-30,Referido,18-25
+C00428,Alejandro Ortiz,Consumidor,Buenos Aires,AR,2020-10-04,Orgánico,18-25
+C00429,Diego Vargas,PyME,Ciudad de México,MX,2022-10-14,Referido,18-25
+C00430,Andrés Jiménez,Consumidor,Ciudad de México,MX,2022-01-28,Medios Pagos,36-45
+C00431,Diego Sánchez,PyME,Quito,EC,2020-08-04,Medios Pagos,18-25
+C00432,Ximena Rivera,Consumidor,Buenos Aires,AR,2020-08-03,Referido,46-60
+C00433,Pablo Martínez,Consumidor,Lima,PE,2022-05-04,Orgánico,18-25
+C00434,Ximena García,PyME,Monterrey,MX,2022-09-01,Medios Pagos,18-25
+C00435,Isabella Flores,Corporativo,Lima,PE,2022-02-02,Orgánico,26-35
+C00436,Diego Jiménez,PyME,Quito,EC,2020-11-06,Medios Pagos,18-25
+C00437,Mateo Flores,Consumidor,Monterrey,MX,2021-12-31,Socio,36-45
+C00438,Lucía Herrera,PyME,Quito,EC,2021-10-19,Medios Pagos,46-60
+C00439,Camila Hernández,PyME,Monterrey,MX,2022-08-09,Socio,26-35
+C00440,Sebastián Ramírez,Consumidor,Lima,PE,2022-05-31,Medios Pagos,60+
+C00441,Pablo Jiménez,Consumidor,Monterrey,MX,2021-07-26,Medios Pagos,46-60
+C00442,Sofía Castro,Consumidor,Santo Domingo,DO,2020-10-08,Orgánico,36-45
+C00443,Andrés Torres,Consumidor,San José,CR,2022-08-27,Referido,46-60
+C00444,Felipe Sánchez,Consumidor,Ciudad de México,MX,2021-02-12,Medios Pagos,46-60
+C00445,Javier Martínez,PyME,Lima,PE,2022-01-08,Socio,18-25
+C00446,Lucía Castro,Consumidor,Guadalajara,MX,2021-08-19,Referido,46-60
+C00447,Ana Jiménez,Consumidor,Lima,PE,2020-10-30,Referido,18-25
+C00448,Juan Sánchez,Consumidor,San José,CR,2021-02-18,Referido,46-60
+C00449,Javier Flores,Corporativo,Ciudad de México,MX,2020-08-18,Orgánico,60+
+C00450,Javier Díaz,Consumidor,Guadalajara,MX,2020-10-16,Orgánico,36-45
+C00451,Felipe Morales,Consumidor,Guadalajara,MX,2022-10-17,Orgánico,46-60
+C00452,Lucía Rivera,Consumidor,Quito,EC,2022-04-26,Medios Pagos,18-25
+C00453,Lucía Flores,PyME,San José,CR,2022-07-29,Medios Pagos,60+
+C00454,Sofía Morales,Consumidor,Quito,EC,2020-07-27,Socio,26-35
+C00455,Mariana Ortiz,PyME,Monterrey,MX,2022-08-18,Referido,36-45
+C00456,Mariana Martínez,Consumidor,Santiago,CL,2022-02-25,Socio,46-60
+C00457,Ximena López,PyME,San José,CR,2020-12-16,Medios Pagos,60+
+C00458,Sebastián López,PyME,Santiago,CL,2022-05-02,Medios Pagos,26-35
+C00459,Alejandro Martínez,Corporativo,Monterrey,MX,2021-07-05,Medios Pagos,36-45
+C00460,Andrés Díaz,Consumidor,Santo Domingo,DO,2022-02-13,Referido,18-25
+C00461,Isabella Pérez,Consumidor,Ciudad de México,MX,2022-05-12,Socio,36-45
+C00462,Mateo Flores,Consumidor,Santo Domingo,DO,2022-10-30,Orgánico,60+
+C00463,Javier Sánchez,PyME,Santo Domingo,DO,2021-10-30,Medios Pagos,36-45
+C00464,Santiago Díaz,PyME,Bogotá,CO,2021-05-16,Medios Pagos,26-35
+C00465,Javier Gómez,PyME,Lima,PE,2020-08-05,Medios Pagos,60+
+C00466,Carla Pérez,PyME,Lima,PE,2022-06-04,Socio,60+
+C00467,Isabella Romero,Consumidor,Buenos Aires,AR,2021-05-12,Orgánico,36-45
+C00468,Santiago Ortiz,Consumidor,Bogotá,CO,2021-03-31,Medios Pagos,36-45
+C00469,Valentina Sánchez,Consumidor,Bogotá,CO,2022-09-19,Orgánico,26-35
+C00470,Mateo Torres,Consumidor,Quito,EC,2022-08-30,Medios Pagos,36-45
+C00471,Pablo Rodríguez,Consumidor,San José,CR,2021-06-07,Medios Pagos,18-25
+C00472,Santiago Martínez,Consumidor,San José,CR,2022-03-28,Referido,18-25
+C00473,Ximena Gómez,Consumidor,Buenos Aires,AR,2022-11-07,Referido,60+
+C00474,Diego Pérez,Consumidor,Santo Domingo,DO,2022-09-09,Socio,60+
+C00475,Gabriela Vargas,Consumidor,Santiago,CL,2021-01-15,Medios Pagos,26-35
+C00476,Camila Díaz,Consumidor,Guadalajara,MX,2020-10-29,Referido,36-45
+C00477,Isabella Rodríguez,Consumidor,Monterrey,MX,2020-09-10,Orgánico,26-35
+C00478,Mariana Jiménez,Corporativo,Bogotá,CO,2022-11-15,Referido,60+
+C00479,Carla Gómez,Consumidor,Ciudad de México,MX,2020-12-15,Socio,18-25
+C00480,Mariana Díaz,Consumidor,Lima,PE,2021-11-07,Referido,60+
+C00481,Camila López,Consumidor,Santo Domingo,DO,2022-02-03,Medios Pagos,36-45
+C00482,Sofía Ortiz,Corporativo,Ciudad de México,MX,2022-11-27,Referido,60+
+C00483,Andrés Sánchez,Corporativo,Bogotá,CO,2022-04-30,Orgánico,26-35
+C00484,Alejandro Flores,Consumidor,San José,CR,2022-10-08,Referido,18-25
+C00485,Sofía Morales,Consumidor,Guadalajara,MX,2022-05-14,Socio,36-45
+C00486,Pablo Flores,Consumidor,Santiago,CL,2022-01-11,Orgánico,36-45
+C00487,Valentina Vargas,PyME,San José,CR,2021-11-24,Orgánico,36-45
+C00488,Valentina Morales,Consumidor,Bogotá,CO,2022-07-18,Referido,36-45
+C00489,Sebastián García,PyME,Guadalajara,MX,2022-06-06,Medios Pagos,26-35
+C00490,Ximena Díaz,PyME,Guadalajara,MX,2022-11-13,Medios Pagos,60+
+C00491,Isabella Rodríguez,Consumidor,Ciudad de México,MX,2021-05-17,Medios Pagos,60+
+C00492,Juan Romero,Consumidor,San José,CR,2020-11-12,Referido,60+
+C00493,Javier Ortiz,Consumidor,Ciudad de México,MX,2021-01-23,Medios Pagos,60+
+C00494,Pablo Gómez,Consumidor,Monterrey,MX,2020-11-09,Orgánico,46-60
+C00495,Gabriela Sánchez,Consumidor,Santiago,CL,2022-10-20,Socio,36-45
+C00496,Ximena Herrera,Consumidor,Bogotá,CO,2022-08-19,Medios Pagos,36-45
+C00497,Mariana Gómez,Consumidor,Quito,EC,2021-02-01,Referido,18-25
+C00498,Mateo Morales,Consumidor,Bogotá,CO,2020-08-18,Medios Pagos,60+
+C00499,Javier García,Consumidor,Lima,PE,2022-06-16,Referido,36-45
+C00500,Javier Vargas,Consumidor,Guadalajara,MX,2021-01-25,Medios Pagos,18-25
+C00501,Felipe Vargas,Consumidor,Santiago,CL,2021-04-07,Orgánico,18-25
+C00502,Santiago Pérez,Consumidor,San José,CR,2022-07-05,Orgánico,26-35
+C00503,Ana López,Consumidor,San José,CR,2021-02-18,Socio,26-35
+C00504,Camila Castro,Consumidor,Quito,EC,2021-03-27,Medios Pagos,26-35
+C00505,Valentina Flores,PyME,Monterrey,MX,2020-11-21,Referido,18-25
+C00506,Andrés Romero,Consumidor,Santo Domingo,DO,2021-01-01,Referido,26-35
+C00507,Alejandro Sánchez,Consumidor,Ciudad de México,MX,2020-09-21,Medios Pagos,18-25
+C00508,Andrés Gómez,Consumidor,Quito,EC,2021-06-16,Medios Pagos,60+
+C00509,Mariana Gómez,Consumidor,Lima,PE,2020-09-15,Referido,60+
+C00510,Sebastián Rodríguez,Consumidor,Guadalajara,MX,2022-02-15,Referido,26-35
+C00511,Ximena Jiménez,Consumidor,Ciudad de México,MX,2021-04-20,Referido,46-60
+C00512,Sofía Herrera,PyME,Monterrey,MX,2021-09-22,Orgánico,60+
+C00513,Mariana Rivera,Consumidor,Buenos Aires,AR,2021-01-05,Referido,60+
+C00514,Mateo Ramírez,Consumidor,Buenos Aires,AR,2021-04-20,Medios Pagos,18-25
+C00515,Gabriela Sánchez,PyME,Monterrey,MX,2022-08-22,Referido,36-45
+C00516,Ana García,PyME,Quito,EC,2021-02-19,Medios Pagos,46-60
+C00517,Javier Gómez,Corporativo,Guadalajara,MX,2022-03-08,Orgánico,18-25
+C00518,Sebastián Hernández,PyME,Buenos Aires,AR,2020-12-04,Socio,26-35
+C00519,Ximena López,PyME,Santiago,CL,2020-07-15,Orgánico,60+
+C00520,Ana Pérez,Consumidor,Bogotá,CO,2022-04-02,Orgánico,36-45
+C00521,Sofía Rivera,PyME,Quito,EC,2021-10-13,Referido,18-25
+C00522,Mateo Herrera,Corporativo,San José,CR,2021-12-11,Orgánico,26-35
+C00523,Felipe Vargas,Consumidor,Ciudad de México,MX,2022-03-10,Referido,60+
+C00524,Sofía Herrera,Consumidor,Buenos Aires,AR,2021-05-31,Medios Pagos,46-60
+C00525,Lucía Flores,Consumidor,Bogotá,CO,2020-09-29,Medios Pagos,18-25
+C00526,Javier Martínez,Consumidor,Santiago,CL,2021-01-08,Referido,36-45
+C00527,Juan García,Consumidor,Buenos Aires,AR,2022-03-23,Referido,36-45
+C00528,Felipe Rivera,Consumidor,San José,CR,2022-03-02,Referido,26-35
+C00529,Javier Rivera,Consumidor,Buenos Aires,AR,2022-05-05,Medios Pagos,60+
+C00530,Ana Rodríguez,Consumidor,Lima,PE,2021-03-14,Socio,46-60
+C00531,Pablo Pérez,Consumidor,San José,CR,2022-02-24,Socio,60+
+C00532,Alejandro Hernández,Consumidor,Quito,EC,2021-07-31,Referido,46-60
+C00533,Ximena Flores,PyME,Lima,PE,2022-08-01,Orgánico,18-25
+C00534,Felipe Rodríguez,Consumidor,San José,CR,2022-03-12,Orgánico,36-45
+C00535,Pablo Vargas,Consumidor,Bogotá,CO,2022-05-28,Orgánico,36-45
+C00536,Javier Jiménez,Consumidor,San José,CR,2020-12-30,Medios Pagos,26-35
+C00537,Camila Morales,Consumidor,Santiago,CL,2022-07-06,Medios Pagos,26-35
+C00538,Valentina Morales,Consumidor,Santo Domingo,DO,2020-11-25,Orgánico,60+
+C00539,Felipe Hernández,PyME,Guadalajara,MX,2020-12-25,Orgánico,36-45
+C00540,Alejandro Rodríguez,Consumidor,Bogotá,CO,2021-11-29,Socio,36-45
+C00541,Sebastián Rivera,Consumidor,Bogotá,CO,2021-01-06,Referido,60+
+C00542,Lucía García,Consumidor,Lima,PE,2020-09-30,Referido,36-45
+C00543,Valentina Vargas,Consumidor,Monterrey,MX,2021-02-15,Referido,60+
+C00544,Juan Herrera,Consumidor,Bogotá,CO,2022-01-12,Referido,46-60
+C00545,Sofía Sánchez,Consumidor,Bogotá,CO,2020-10-28,Socio,46-60
+C00546,Carla Rivera,Consumidor,Buenos Aires,AR,2020-11-01,Orgánico,18-25
+C00547,Santiago Díaz,Consumidor,Lima,PE,2021-05-20,Medios Pagos,60+
+C00548,Javier Torres,PyME,Quito,EC,2022-01-20,Medios Pagos,46-60
+C00549,Santiago Gómez,PyME,Monterrey,MX,2022-11-03,Medios Pagos,36-45
+C00550,Camila Rodríguez,PyME,Santo Domingo,DO,2021-09-03,Orgánico,60+
+C00551,Ximena Rodríguez,Consumidor,San José,CR,2021-09-13,Orgánico,36-45
+C00552,Camila López,Consumidor,Quito,EC,2022-03-11,Orgánico,60+
+C00553,Pablo Rodríguez,PyME,Bogotá,CO,2022-02-12,Orgánico,46-60
+C00554,Javier Díaz,Corporativo,Buenos Aires,AR,2021-03-31,Referido,26-35
+C00555,Felipe Ramírez,Consumidor,Quito,EC,2022-03-22,Medios Pagos,26-35
+C00556,Isabella López,Consumidor,San José,CR,2020-08-28,Referido,60+
+C00557,Camila López,PyME,Guadalajara,MX,2022-05-30,Orgánico,46-60
+C00558,Santiago Rodríguez,PyME,Ciudad de México,MX,2022-06-30,Orgánico,18-25
+C00559,Ana Torres,Consumidor,Lima,PE,2020-11-18,Orgánico,18-25
+C00560,Santiago Martínez,Consumidor,Bogotá,CO,2021-08-15,Orgánico,26-35
+C00561,Pablo Pérez,Consumidor,Guadalajara,MX,2021-05-25,Orgánico,36-45
+C00562,Lucía Torres,PyME,Santiago,CL,2021-11-03,Medios Pagos,18-25
+C00563,Gabriela Morales,Consumidor,Guadalajara,MX,2021-06-17,Referido,36-45
+C00564,Diego Herrera,Corporativo,Santo Domingo,DO,2021-06-17,Referido,36-45
+C00565,Javier Vargas,Consumidor,Santiago,CL,2022-08-09,Orgánico,26-35
+C00566,Pablo Ortiz,PyME,Ciudad de México,MX,2021-04-16,Orgánico,18-25
+C00567,Santiago Hernández,Consumidor,San José,CR,2021-12-21,Referido,26-35
+C00568,Mateo Flores,PyME,Santo Domingo,DO,2020-09-16,Medios Pagos,18-25
+C00569,Santiago Morales,PyME,Monterrey,MX,2022-03-21,Medios Pagos,60+
+C00570,Lucía Herrera,Consumidor,Bogotá,CO,2022-01-05,Medios Pagos,60+
+C00571,Camila Flores,Corporativo,Guadalajara,MX,2021-06-07,Orgánico,36-45
+C00572,Sebastián Gómez,Consumidor,Monterrey,MX,2022-11-13,Medios Pagos,26-35
+C00573,Mariana Rivera,Consumidor,Santo Domingo,DO,2020-08-16,Referido,46-60
+C00574,Diego Sánchez,PyME,Bogotá,CO,2022-08-11,Medios Pagos,18-25
+C00575,Diego Morales,PyME,Ciudad de México,MX,2022-05-10,Orgánico,18-25
+C00576,Santiago Gómez,Consumidor,San José,CR,2022-03-15,Orgánico,18-25
+C00577,Carla Flores,Consumidor,Lima,PE,2020-08-02,Medios Pagos,18-25
+C00578,Sebastián Herrera,Consumidor,Ciudad de México,MX,2020-08-11,Referido,18-25
+C00579,Diego Jiménez,PyME,Santiago,CL,2021-06-19,Medios Pagos,60+
+C00580,Alejandro Vargas,Consumidor,Monterrey,MX,2021-05-10,Medios Pagos,60+
+C00581,Felipe Pérez,Consumidor,Quito,EC,2022-08-18,Referido,60+
+C00582,Alejandro Martínez,Consumidor,Bogotá,CO,2022-01-14,Medios Pagos,46-60
+C00583,Javier Castro,PyME,Bogotá,CO,2021-03-19,Referido,46-60
+C00584,Ana Hernández,PyME,Lima,PE,2021-10-22,Socio,60+
+C00585,Juan Torres,Consumidor,Buenos Aires,AR,2022-11-26,Orgánico,36-45
+C00586,Alejandro Castro,Consumidor,Santo Domingo,DO,2021-06-27,Socio,26-35
+C00587,Isabella Gómez,Consumidor,Monterrey,MX,2022-07-14,Medios Pagos,26-35
+C00588,Carla Martínez,Consumidor,Santiago,CL,2020-11-11,Medios Pagos,26-35
+C00589,Diego Ortiz,Consumidor,San José,CR,2020-08-15,Referido,18-25
+C00590,Andrés Vargas,PyME,Bogotá,CO,2021-12-11,Socio,18-25
+C00591,Mariana Hernández,PyME,San José,CR,2022-11-21,Orgánico,18-25
+C00592,Mariana Flores,Consumidor,Monterrey,MX,2022-10-12,Medios Pagos,60+
+C00593,Mariana Romero,Consumidor,Buenos Aires,AR,2020-09-18,Orgánico,18-25
+C00594,Andrés Romero,Consumidor,Quito,EC,2021-07-07,Medios Pagos,46-60
+C00595,Alejandro Ortiz,Consumidor,San José,CR,2022-05-16,Socio,60+
+C00596,Diego Vargas,Consumidor,San José,CR,2022-09-02,Referido,36-45
+C00597,Juan Pérez,Consumidor,Ciudad de México,MX,2020-10-05,Socio,60+
+C00598,Mateo Romero,PyME,Santiago,CL,2022-05-12,Medios Pagos,18-25
+C00599,Juan Díaz,Consumidor,San José,CR,2022-07-04,Orgánico,18-25
+C00600,Alejandro Sánchez,Consumidor,Santiago,CL,2022-05-08,Medios Pagos,60+
+C00601,Ana Ramírez,Consumidor,Monterrey,MX,2020-12-21,Referido,60+
+C00602,Santiago Flores,Consumidor,San José,CR,2022-02-28,Medios Pagos,18-25
+C00603,Ana López,Consumidor,Bogotá,CO,2022-08-14,Medios Pagos,46-60
+C00604,Sebastián Rodríguez,Consumidor,Bogotá,CO,2021-07-24,Orgánico,26-35
+C00605,Javier Sánchez,Consumidor,Ciudad de México,MX,2022-10-23,Orgánico,46-60
+C00606,Ximena Herrera,Consumidor,Buenos Aires,AR,2022-04-05,Medios Pagos,36-45
+C00607,Isabella Torres,PyME,Ciudad de México,MX,2021-05-13,Orgánico,46-60
+C00608,Javier Vargas,PyME,San José,CR,2021-03-02,Orgánico,26-35
+C00609,Lucía Rodríguez,Consumidor,San José,CR,2021-12-30,Orgánico,26-35
+C00610,Andrés Romero,Consumidor,Santo Domingo,DO,2022-07-17,Medios Pagos,60+
+C00611,Diego Pérez,Corporativo,Santo Domingo,DO,2021-06-05,Orgánico,26-35
+C00612,Lucía Herrera,PyME,Quito,EC,2022-01-26,Orgánico,26-35
+C00613,Isabella Ortiz,Consumidor,San José,CR,2021-03-11,Referido,26-35
+C00614,Ximena Ortiz,Consumidor,Lima,PE,2022-07-18,Referido,36-45
+C00615,Felipe Rivera,Consumidor,Lima,PE,2022-07-15,Orgánico,46-60
+C00616,Gabriela García,PyME,Santiago,CL,2020-10-18,Orgánico,46-60
+C00617,Javier Vargas,PyME,Bogotá,CO,2021-08-21,Referido,18-25
+C00618,Alejandro Sánchez,PyME,San José,CR,2021-04-03,Referido,18-25
+C00619,Ximena Rodríguez,Consumidor,Ciudad de México,MX,2022-03-26,Referido,18-25
+C00620,Mariana López,Consumidor,Buenos Aires,AR,2021-09-08,Medios Pagos,36-45
+C00621,Ximena Romero,Consumidor,San José,CR,2022-10-08,Referido,46-60
+C00622,Mariana Vargas,Consumidor,Santo Domingo,DO,2022-07-17,Orgánico,18-25
+C00623,Carla Herrera,Consumidor,Santiago,CL,2021-08-24,Orgánico,26-35
+C00624,Ximena Ramírez,PyME,Bogotá,CO,2022-09-06,Medios Pagos,60+
+C00625,Santiago Pérez,PyME,Santo Domingo,DO,2021-11-08,Socio,60+
+C00626,Juan López,PyME,Ciudad de México,MX,2021-09-29,Medios Pagos,46-60
+C00627,Ana Ortiz,Consumidor,Monterrey,MX,2022-05-09,Medios Pagos,18-25
+C00628,Gabriela Castro,Consumidor,Lima,PE,2022-04-03,Medios Pagos,46-60
+C00629,Javier Rodríguez,Consumidor,San José,CR,2022-11-26,Orgánico,60+
+C00630,Camila Hernández,PyME,Bogotá,CO,2022-10-26,Medios Pagos,60+
+C00631,Andrés Pérez,Consumidor,Ciudad de México,MX,2022-08-13,Orgánico,36-45
+C00632,Sofía Gómez,PyME,Monterrey,MX,2021-08-23,Socio,18-25
+C00633,Carla Vargas,PyME,Quito,EC,2020-08-15,Medios Pagos,18-25
+C00634,Ximena Rivera,Consumidor,Santo Domingo,DO,2021-10-05,Medios Pagos,60+
+C00635,Pablo Ortiz,Consumidor,Santo Domingo,DO,2022-09-04,Socio,36-45
+C00636,Camila Ortiz,Consumidor,San José,CR,2021-12-05,Referido,60+
+C00637,Javier López,PyME,Monterrey,MX,2021-03-18,Socio,18-25
+C00638,Sebastián Vargas,Consumidor,Santiago,CL,2020-09-05,Referido,36-45
+C00639,Gabriela López,Consumidor,Santiago,CL,2022-11-21,Orgánico,18-25
+C00640,Mariana Castro,Consumidor,Bogotá,CO,2021-12-18,Referido,18-25
+C00641,Pablo Morales,PyME,Bogotá,CO,2021-01-13,Medios Pagos,26-35
+C00642,Andrés Hernández,Consumidor,Bogotá,CO,2021-08-16,Medios Pagos,36-45
+C00643,Ana Rivera,Consumidor,Santo Domingo,DO,2021-06-02,Referido,36-45
+C00644,Ana Martínez,PyME,Buenos Aires,AR,2020-07-25,Socio,60+
+C00645,Sebastián Jiménez,PyME,Quito,EC,2022-05-25,Medios Pagos,36-45
+C00646,Mateo Flores,PyME,Lima,PE,2022-04-03,Medios Pagos,36-45
+C00647,Santiago Rivera,Consumidor,Guadalajara,MX,2021-11-14,Socio,46-60
+C00648,Ximena López,Consumidor,Bogotá,CO,2021-07-25,Medios Pagos,26-35
+C00649,Camila Rivera,PyME,Santo Domingo,DO,2021-01-09,Medios Pagos,46-60
+C00650,Sebastián García,Consumidor,Ciudad de México,MX,2020-12-29,Orgánico,18-25
+C00651,Sofía López,Consumidor,Buenos Aires,AR,2022-11-09,Referido,26-35
+C00652,Diego Herrera,Consumidor,Lima,PE,2021-01-14,Orgánico,36-45
+C00653,Diego Rivera,Consumidor,Santo Domingo,DO,2021-06-24,Referido,60+
+C00654,Carla López,Consumidor,Santiago,CL,2022-06-10,Referido,36-45
+C00655,Santiago Jiménez,Consumidor,Ciudad de México,MX,2021-08-07,Referido,18-25
+C00656,Mateo López,Consumidor,Lima,PE,2021-03-11,Orgánico,26-35
+C00657,Lucía Castro,PyME,Santo Domingo,DO,2022-09-13,Orgánico,46-60
+C00658,Javier Romero,Consumidor,Lima,PE,2022-04-09,Medios Pagos,60+
+C00659,Valentina Martínez,Consumidor,Monterrey,MX,2020-12-16,Referido,18-25
+C00660,Mateo Ortiz,Consumidor,Buenos Aires,AR,2020-10-07,Referido,60+
+C00661,Alejandro García,Consumidor,Guadalajara,MX,2022-01-03,Medios Pagos,60+
+C00662,Mariana García,Consumidor,Monterrey,MX,2021-07-27,Orgánico,60+
+C00663,Valentina Rodríguez,Consumidor,San José,CR,2020-09-17,Medios Pagos,26-35
+C00664,Sofía Ortiz,PyME,Lima,PE,2022-08-07,Referido,60+
+C00665,Carla Ortiz,Consumidor,Buenos Aires,AR,2021-10-13,Orgánico,60+
+C00666,Camila Castro,PyME,Guadalajara,MX,2022-04-24,Socio,18-25
+C00667,Juan Ramírez,PyME,Lima,PE,2021-06-06,Referido,46-60
+C00668,Mateo García,Consumidor,Buenos Aires,AR,2021-09-13,Referido,60+
+C00669,Santiago Gómez,Corporativo,Monterrey,MX,2022-02-04,Socio,18-25
+C00670,Javier Vargas,Consumidor,Buenos Aires,AR,2022-11-01,Medios Pagos,46-60
+C00671,Andrés Rodríguez,PyME,Quito,EC,2021-11-07,Orgánico,26-35
+C00672,Juan Romero,Consumidor,Quito,EC,2022-06-28,Orgánico,18-25
+C00673,Andrés Romero,PyME,Lima,PE,2021-01-28,Orgánico,46-60
+C00674,Lucía Sánchez,PyME,San José,CR,2022-06-01,Referido,46-60
+C00675,Ana Castro,Consumidor,Quito,EC,2021-03-23,Referido,26-35
+C00676,Sofía Morales,PyME,Ciudad de México,MX,2022-10-25,Medios Pagos,18-25
+C00677,Ximena Herrera,Consumidor,Guadalajara,MX,2022-07-10,Referido,18-25
+C00678,Alejandro Castro,Consumidor,Guadalajara,MX,2021-01-01,Orgánico,18-25
+C00679,Lucía Sánchez,Corporativo,Ciudad de México,MX,2021-08-09,Socio,60+
+C00680,Santiago Ortiz,PyME,Buenos Aires,AR,2022-06-14,Medios Pagos,60+
+C00681,Sofía Hernández,Consumidor,San José,CR,2022-06-12,Medios Pagos,36-45
+C00682,Isabella Herrera,PyME,Santo Domingo,DO,2022-09-15,Orgánico,36-45
+C00683,Felipe Castro,Consumidor,Guadalajara,MX,2021-03-24,Medios Pagos,46-60
+C00684,Ximena Hernández,Consumidor,Monterrey,MX,2020-09-05,Orgánico,18-25
+C00685,Pablo Vargas,Corporativo,Monterrey,MX,2020-07-28,Medios Pagos,26-35
+C00686,Isabella Jiménez,PyME,Bogotá,CO,2022-10-08,Orgánico,46-60
+C00687,Mariana Ramírez,Consumidor,Santo Domingo,DO,2022-04-07,Referido,26-35
+C00688,Valentina Sánchez,Consumidor,Quito,EC,2021-01-07,Medios Pagos,18-25
+C00689,Andrés Ortiz,Consumidor,Bogotá,CO,2020-07-21,Socio,36-45
+C00690,Javier Castro,Consumidor,Quito,EC,2021-08-17,Medios Pagos,60+
+C00691,Alejandro Díaz,Consumidor,Monterrey,MX,2022-01-16,Medios Pagos,18-25
+C00692,Juan Herrera,Consumidor,Santiago,CL,2020-11-20,Orgánico,18-25
+C00693,Gabriela Ortiz,PyME,San José,CR,2021-01-29,Referido,18-25
+C00694,Felipe Jiménez,Consumidor,San José,CR,2020-09-01,Medios Pagos,36-45
+C00695,Lucía Herrera,Consumidor,Guadalajara,MX,2021-02-16,Medios Pagos,36-45
+C00696,Santiago Herrera,Consumidor,Quito,EC,2021-12-27,Socio,36-45
+C00697,Mariana Pérez,Consumidor,Santiago,CL,2021-03-18,Referido,18-25
+C00698,Isabella Jiménez,Consumidor,Lima,PE,2020-11-30,Orgánico,18-25
+C00699,Pablo Romero,Consumidor,Lima,PE,2022-11-13,Medios Pagos,18-25
+C00700,Ana Sánchez,Corporativo,Quito,EC,2021-04-23,Medios Pagos,46-60
+C00701,Javier Díaz,Consumidor,Guadalajara,MX,2021-05-28,Referido,46-60
+C00702,Santiago García,Consumidor,Buenos Aires,AR,2021-10-18,Referido,36-45
+C00703,Gabriela Pérez,Consumidor,Buenos Aires,AR,2021-02-07,Referido,46-60
+C00704,Carla Flores,PyME,Bogotá,CO,2021-07-22,Medios Pagos,26-35
+C00705,Pablo Ramírez,Consumidor,San José,CR,2022-04-02,Orgánico,60+
+C00706,Valentina Hernández,PyME,Ciudad de México,MX,2022-10-26,Orgánico,18-25
+C00707,Alejandro Romero,Consumidor,Santo Domingo,DO,2021-08-20,Medios Pagos,26-35
+C00708,Santiago Torres,Corporativo,Lima,PE,2021-03-09,Medios Pagos,26-35
+C00709,Diego Flores,Consumidor,Buenos Aires,AR,2020-08-14,Referido,60+
+C00710,Carla Rivera,Consumidor,San José,CR,2022-04-21,Referido,46-60
+C00711,Camila Martínez,Consumidor,San José,CR,2021-05-23,Medios Pagos,26-35
+C00712,Andrés Pérez,PyME,Monterrey,MX,2020-10-18,Medios Pagos,60+
+C00713,Camila Jiménez,Consumidor,San José,CR,2022-10-22,Medios Pagos,60+
+C00714,Carla Castro,Consumidor,Ciudad de México,MX,2022-06-02,Medios Pagos,46-60
+C00715,Camila Rivera,PyME,Lima,PE,2020-12-24,Orgánico,36-45
+C00716,Felipe Morales,Consumidor,Ciudad de México,MX,2021-04-01,Referido,18-25
+C00717,Ana Rodríguez,PyME,Bogotá,CO,2021-09-30,Orgánico,18-25
+C00718,Javier Flores,Corporativo,Santo Domingo,DO,2021-07-01,Medios Pagos,26-35
+C00719,Pablo Morales,Consumidor,Monterrey,MX,2020-12-31,Orgánico,18-25
+C00720,Lucía Hernández,Consumidor,San José,CR,2020-08-30,Orgánico,18-25
+C00721,Ximena Jiménez,Corporativo,Ciudad de México,MX,2021-07-24,Orgánico,26-35
+C00722,Diego Martínez,PyME,Bogotá,CO,2022-04-11,Orgánico,26-35
+C00723,Carla Morales,PyME,Quito,EC,2022-04-21,Referido,18-25
+C00724,Camila Flores,PyME,Quito,EC,2021-11-15,Medios Pagos,36-45
+C00725,Sofía Hernández,Corporativo,Monterrey,MX,2022-10-31,Orgánico,18-25
+C00726,Felipe Ortiz,PyME,Buenos Aires,AR,2021-03-24,Socio,60+
+C00727,Ximena Morales,Corporativo,Guadalajara,MX,2021-10-07,Medios Pagos,26-35
+C00728,Valentina Vargas,Consumidor,Santiago,CL,2022-03-24,Referido,60+
+C00729,Santiago Hernández,Corporativo,Ciudad de México,MX,2021-10-01,Socio,60+
+C00730,Pablo Torres,Consumidor,Guadalajara,MX,2021-08-26,Orgánico,18-25
+C00731,Mateo López,PyME,Santiago,CL,2022-07-20,Orgánico,18-25
+C00732,Sofía Díaz,Consumidor,San José,CR,2020-10-28,Socio,46-60
+C00733,Mateo Flores,PyME,Quito,EC,2022-05-27,Medios Pagos,18-25
+C00734,Andrés Herrera,PyME,Ciudad de México,MX,2022-02-02,Medios Pagos,60+
+C00735,Valentina Hernández,Consumidor,Guadalajara,MX,2021-03-07,Referido,36-45
+C00736,Felipe Rodríguez,PyME,Bogotá,CO,2021-11-22,Medios Pagos,60+
+C00737,Alejandro Jiménez,PyME,Bogotá,CO,2022-04-02,Referido,60+
+C00738,Isabella Sánchez,PyME,Bogotá,CO,2021-12-06,Medios Pagos,36-45
+C00739,Ximena Sánchez,Consumidor,Lima,PE,2021-07-23,Medios Pagos,46-60
+C00740,Carla Rivera,PyME,San José,CR,2021-11-21,Medios Pagos,46-60
+C00741,Carla Jiménez,Consumidor,Monterrey,MX,2022-02-10,Orgánico,18-25
+C00742,Andrés Rodríguez,PyME,Ciudad de México,MX,2022-02-05,Socio,46-60
+C00743,Gabriela García,Consumidor,Ciudad de México,MX,2022-02-07,Orgánico,26-35
+C00744,Sofía Sánchez,PyME,Bogotá,CO,2021-07-23,Medios Pagos,46-60
+C00745,Isabella Torres,Consumidor,Buenos Aires,AR,2022-06-10,Referido,36-45
+C00746,Felipe Rodríguez,PyME,Monterrey,MX,2021-03-09,Orgánico,26-35
+C00747,Javier Jiménez,PyME,Monterrey,MX,2022-06-20,Orgánico,36-45
+C00748,Valentina Gómez,Consumidor,Ciudad de México,MX,2021-01-20,Orgánico,46-60
+C00749,Ana Ramírez,Consumidor,Buenos Aires,AR,2022-07-31,Socio,26-35
+C00750,Valentina López,Corporativo,Santo Domingo,DO,2021-07-01,Referido,36-45
+C00751,Camila Castro,Corporativo,San José,CR,2021-01-19,Medios Pagos,46-60
+C00752,Juan Díaz,Consumidor,Santo Domingo,DO,2022-08-05,Referido,26-35
+C00753,Gabriela Castro,Consumidor,Ciudad de México,MX,2021-03-20,Referido,36-45
+C00754,Mariana Rivera,Consumidor,Guadalajara,MX,2021-06-26,Referido,60+
+C00755,Camila Vargas,PyME,Bogotá,CO,2021-10-21,Referido,36-45
+C00756,Gabriela Flores,Consumidor,Santo Domingo,DO,2022-09-04,Medios Pagos,46-60
+C00757,Andrés Romero,PyME,Quito,EC,2020-11-16,Medios Pagos,60+
+C00758,Sofía Ramírez,Consumidor,Bogotá,CO,2022-09-26,Orgánico,46-60
+C00759,Lucía Castro,PyME,Monterrey,MX,2021-05-12,Medios Pagos,26-35
+C00760,Sofía López,Consumidor,Buenos Aires,AR,2020-07-31,Referido,46-60
+C00761,Juan Morales,Consumidor,Monterrey,MX,2022-03-09,Orgánico,36-45
+C00762,Isabella Morales,Consumidor,Guadalajara,MX,2020-10-10,Socio,18-25
+C00763,Andrés Herrera,Consumidor,Lima,PE,2021-05-02,Referido,46-60
+C00764,Isabella Pérez,Corporativo,Ciudad de México,MX,2020-07-20,Referido,26-35
+C00765,Felipe Hernández,Consumidor,Monterrey,MX,2021-12-02,Orgánico,46-60
+C00766,Gabriela Pérez,PyME,Guadalajara,MX,2021-06-24,Medios Pagos,60+
+C00767,Juan Herrera,PyME,Bogotá,CO,2020-08-08,Medios Pagos,36-45
+C00768,Mateo Morales,Consumidor,Santo Domingo,DO,2022-02-17,Referido,26-35
+C00769,Gabriela Rodríguez,Consumidor,Santiago,CL,2020-08-03,Referido,60+
+C00770,Carla Jiménez,PyME,Quito,EC,2021-08-18,Medios Pagos,18-25
+C00771,Lucía Ortiz,Consumidor,Bogotá,CO,2022-07-13,Referido,36-45
+C00772,Camila Torres,Consumidor,Monterrey,MX,2020-12-22,Orgánico,26-35
+C00773,Ana Morales,Consumidor,Guadalajara,MX,2022-09-14,Medios Pagos,18-25
+C00774,Isabella Hernández,Consumidor,Lima,PE,2022-08-03,Orgánico,18-25
+C00775,Sofía Rivera,PyME,San José,CR,2022-05-06,Orgánico,36-45
+C00776,Mateo Pérez,Consumidor,San José,CR,2021-12-11,Medios Pagos,60+
+C00777,Sofía Díaz,Consumidor,Guadalajara,MX,2020-08-15,Referido,26-35
+C00778,Ximena Morales,Corporativo,Guadalajara,MX,2022-04-27,Referido,60+
+C00779,Mateo Ramírez,Consumidor,Guadalajara,MX,2022-05-31,Referido,60+
+C00780,Camila Morales,Consumidor,Guadalajara,MX,2021-06-18,Medios Pagos,36-45
+C00781,Diego Ramírez,Consumidor,Bogotá,CO,2021-07-15,Orgánico,60+
+C00782,Andrés Rivera,PyME,Quito,EC,2022-02-08,Medios Pagos,46-60
+C00783,Pablo Jiménez,Corporativo,Ciudad de México,MX,2021-01-11,Referido,60+
+C00784,Felipe García,PyME,San José,CR,2022-08-20,Referido,26-35
+C00785,Javier Vargas,Consumidor,Quito,EC,2022-07-30,Medios Pagos,36-45
+C00786,Pablo Ortiz,PyME,Quito,EC,2021-12-03,Socio,46-60
+C00787,Diego Herrera,Consumidor,Lima,PE,2022-08-14,Referido,26-35
+C00788,Ana Pérez,PyME,Guadalajara,MX,2021-07-10,Referido,36-45
+C00789,Carla Sánchez,Consumidor,Guadalajara,MX,2020-10-15,Medios Pagos,46-60
+C00790,Alejandro Rodríguez,Consumidor,Bogotá,CO,2020-08-26,Orgánico,18-25
+C00791,Lucía Martínez,Corporativo,Guadalajara,MX,2021-11-05,Medios Pagos,46-60
+C00792,Felipe Morales,Consumidor,Buenos Aires,AR,2020-12-09,Referido,36-45
+C00793,Pablo Rodríguez,PyME,Guadalajara,MX,2021-04-29,Medios Pagos,60+
+C00794,Sofía Ramírez,Consumidor,Buenos Aires,AR,2021-07-14,Referido,36-45
+C00795,Sofía Hernández,PyME,Ciudad de México,MX,2022-11-04,Orgánico,36-45
+C00796,Diego Vargas,Consumidor,Bogotá,CO,2021-11-08,Orgánico,36-45
+C00797,Javier López,Consumidor,Santiago,CL,2022-03-24,Referido,18-25
+C00798,Andrés Castro,PyME,Ciudad de México,MX,2021-08-18,Referido,46-60
+C00799,Valentina Ramírez,Consumidor,San José,CR,2022-11-10,Referido,36-45
+C00800,Ximena Martínez,Consumidor,Bogotá,CO,2021-07-12,Orgánico,36-45
+C00801,Carla Rodríguez,Consumidor,Lima,PE,2021-02-20,Orgánico,36-45
+C00802,Sofía Jiménez,Consumidor,Guadalajara,MX,2020-11-28,Referido,36-45
+C00803,Gabriela Gómez,Consumidor,Lima,PE,2021-09-21,Medios Pagos,36-45
+C00804,Isabella Ortiz,Consumidor,Quito,EC,2021-10-17,Referido,60+
+C00805,Sofía Morales,Consumidor,Santo Domingo,DO,2022-05-25,Orgánico,46-60
+C00806,Santiago Sánchez,Consumidor,Quito,EC,2021-05-02,Orgánico,46-60
+C00807,Andrés Vargas,Consumidor,Buenos Aires,AR,2020-07-21,Orgánico,18-25
+C00808,Sebastián Torres,PyME,Monterrey,MX,2022-03-15,Referido,18-25
+C00809,Pablo Rodríguez,Consumidor,Buenos Aires,AR,2021-08-14,Socio,46-60
+C00810,Isabella Rodríguez,PyME,Buenos Aires,AR,2020-09-15,Orgánico,18-25
+C00811,Carla Martínez,Corporativo,Ciudad de México,MX,2022-10-07,Referido,18-25
+C00812,Camila Torres,Corporativo,Guadalajara,MX,2021-10-22,Orgánico,60+
+C00813,Ximena Herrera,Corporativo,San José,CR,2020-09-30,Referido,18-25
+C00814,Mariana Torres,Consumidor,San José,CR,2020-11-08,Socio,26-35
+C00815,Andrés Herrera,Consumidor,Buenos Aires,AR,2021-09-08,Medios Pagos,18-25
+C00816,Javier Herrera,Consumidor,Quito,EC,2021-08-03,Medios Pagos,26-35
+C00817,Sebastián Hernández,Consumidor,Buenos Aires,AR,2022-11-11,Medios Pagos,18-25
+C00818,Mateo Jiménez,PyME,Buenos Aires,AR,2021-02-16,Referido,26-35
+C00819,Juan García,PyME,Quito,EC,2022-03-16,Socio,26-35
+C00820,Andrés Hernández,Consumidor,Bogotá,CO,2020-08-23,Orgánico,18-25
+C00821,Andrés Martínez,PyME,Lima,PE,2020-11-08,Medios Pagos,18-25
+C00822,Alejandro Martínez,PyME,San José,CR,2020-11-16,Referido,18-25
+C00823,Lucía Romero,PyME,Monterrey,MX,2021-02-25,Orgánico,26-35
+C00824,Camila Ortiz,PyME,Santo Domingo,DO,2020-12-02,Medios Pagos,36-45
+C00825,Felipe Castro,Consumidor,Monterrey,MX,2022-03-11,Medios Pagos,36-45
+C00826,Ana Díaz,Consumidor,San José,CR,2022-04-17,Socio,60+
+C00827,Isabella Pérez,PyME,Lima,PE,2022-05-13,Orgánico,60+
+C00828,Ana Sánchez,Consumidor,San José,CR,2022-08-04,Referido,46-60
+C00829,Gabriela Rivera,PyME,Santiago,CL,2020-12-02,Socio,36-45
+C00830,Juan Rivera,Consumidor,San José,CR,2022-04-26,Referido,46-60
+C00831,Sebastián Flores,PyME,Buenos Aires,AR,2022-04-05,Socio,36-45
+C00832,Mariana Rivera,Consumidor,Bogotá,CO,2020-12-23,Medios Pagos,46-60
+C00833,Santiago Hernández,PyME,Guadalajara,MX,2021-05-11,Orgánico,26-35
+C00834,Santiago Díaz,Consumidor,San José,CR,2020-12-06,Orgánico,60+
+C00835,Alejandro Hernández,Consumidor,Bogotá,CO,2022-07-20,Referido,36-45
+C00836,Ximena Vargas,Consumidor,Guadalajara,MX,2022-01-12,Orgánico,18-25
+C00837,Isabella Gómez,Consumidor,Lima,PE,2020-07-31,Socio,36-45
+C00838,Andrés Pérez,Corporativo,Santo Domingo,DO,2022-01-16,Orgánico,46-60
+C00839,Gabriela Romero,PyME,Lima,PE,2022-10-09,Orgánico,26-35
+C00840,Lucía Gómez,Consumidor,Lima,PE,2022-10-22,Socio,60+
+C00841,Mateo García,Consumidor,Monterrey,MX,2022-07-29,Orgánico,36-45
+C00842,Sofía Díaz,Consumidor,San José,CR,2022-04-29,Referido,60+
+C00843,Pablo Jiménez,Consumidor,Santiago,CL,2020-10-07,Medios Pagos,18-25
+C00844,Valentina Romero,Consumidor,Guadalajara,MX,2020-07-28,Orgánico,46-60
+C00845,Isabella Ortiz,PyME,Lima,PE,2021-02-27,Medios Pagos,36-45
+C00846,Gabriela Hernández,Corporativo,San José,CR,2022-07-23,Medios Pagos,36-45
+C00847,Sebastián Ramírez,Consumidor,Guadalajara,MX,2021-05-21,Orgánico,36-45
+C00848,Mariana Ramírez,Consumidor,Santiago,CL,2022-06-19,Orgánico,26-35
+C00849,Juan Ortiz,Consumidor,Quito,EC,2020-11-09,Orgánico,18-25
+C00850,Sofía Ortiz,PyME,Lima,PE,2022-03-03,Referido,46-60
+C00851,Andrés García,PyME,Quito,EC,2021-02-25,Orgánico,36-45
+C00852,Ximena García,Corporativo,Lima,PE,2021-06-11,Orgánico,46-60
+C00853,Camila López,Consumidor,Buenos Aires,AR,2022-07-03,Medios Pagos,60+
+C00854,Ximena Vargas,Consumidor,Santo Domingo,DO,2022-08-14,Referido,46-60
+C00855,Isabella Castro,PyME,Buenos Aires,AR,2021-12-04,Orgánico,60+
+C00856,Carla Vargas,Consumidor,Quito,EC,2022-10-17,Medios Pagos,36-45
+C00857,Isabella Martínez,Consumidor,Lima,PE,2021-03-04,Socio,26-35
+C00858,Alejandro Díaz,Consumidor,Guadalajara,MX,2021-09-14,Orgánico,18-25
+C00859,Mariana Ortiz,Consumidor,Lima,PE,2020-12-24,Medios Pagos,36-45
+C00860,Juan García,PyME,Quito,EC,2020-08-31,Orgánico,18-25
+C00861,Gabriela Morales,Consumidor,Santiago,CL,2022-11-05,Referido,26-35
+C00862,Lucía Romero,Consumidor,Buenos Aires,AR,2020-10-05,Referido,18-25
+C00863,Pablo Díaz,Consumidor,Lima,PE,2021-07-24,Medios Pagos,60+
+C00864,Diego Vargas,Consumidor,Bogotá,CO,2022-11-24,Socio,46-60
+C00865,Santiago Morales,PyME,Santo Domingo,DO,2022-02-08,Referido,60+
+C00866,Santiago Sánchez,Consumidor,Lima,PE,2022-04-09,Orgánico,60+
+C00867,Diego Morales,Consumidor,Quito,EC,2021-08-05,Referido,36-45
+C00868,Lucía Torres,Consumidor,Lima,PE,2021-12-15,Referido,60+
+C00869,Lucía Romero,Corporativo,San José,CR,2020-07-23,Medios Pagos,46-60
+C00870,Felipe Ortiz,Corporativo,Lima,PE,2020-09-05,Orgánico,18-25
+C00871,Sebastián Morales,PyME,Santiago,CL,2022-06-25,Orgánico,46-60
+C00872,Isabella Gómez,Corporativo,Ciudad de México,MX,2021-11-30,Medios Pagos,26-35
+C00873,Carla Martínez,PyME,Ciudad de México,MX,2020-08-28,Referido,60+
+C00874,Santiago Rodríguez,Consumidor,Bogotá,CO,2020-10-06,Orgánico,26-35
+C00875,Diego Hernández,PyME,San José,CR,2021-01-16,Socio,46-60
+C00876,Diego Rodríguez,PyME,San José,CR,2021-03-18,Orgánico,18-25
+C00877,Felipe López,Consumidor,Santiago,CL,2021-11-27,Medios Pagos,60+
+C00878,Gabriela Flores,Consumidor,Monterrey,MX,2022-07-30,Socio,18-25
+C00879,Ximena Pérez,Consumidor,Bogotá,CO,2022-02-12,Orgánico,36-45
+C00880,Javier Romero,PyME,Santo Domingo,DO,2021-09-27,Medios Pagos,46-60
+C00881,Mateo Díaz,Corporativo,Santo Domingo,DO,2020-09-10,Referido,18-25
+C00882,Felipe Vargas,PyME,Quito,EC,2020-10-03,Orgánico,18-25
+C00883,Ximena López,PyME,San José,CR,2022-10-04,Referido,60+
+C00884,Sebastián Romero,PyME,Buenos Aires,AR,2021-06-10,Medios Pagos,46-60
+C00885,Sebastián Flores,PyME,San José,CR,2020-09-16,Medios Pagos,46-60
+C00886,Camila Sánchez,PyME,Quito,EC,2020-11-20,Socio,36-45
+C00887,Valentina Pérez,Consumidor,Buenos Aires,AR,2021-06-17,Orgánico,60+
+C00888,Santiago Gómez,Consumidor,Santo Domingo,DO,2022-08-11,Orgánico,60+
+C00889,Juan Castro,Consumidor,Guadalajara,MX,2021-08-30,Medios Pagos,46-60
+C00890,Sebastián Torres,Consumidor,Santo Domingo,DO,2020-07-21,Referido,36-45
+C00891,Camila Ramírez,PyME,San José,CR,2021-01-13,Referido,26-35
+C00892,Camila Vargas,Consumidor,Lima,PE,2022-08-24,Medios Pagos,18-25
+C00893,Gabriela Flores,Consumidor,Monterrey,MX,2021-08-02,Orgánico,60+
+C00894,Andrés Flores,Consumidor,San José,CR,2021-07-10,Medios Pagos,46-60
+C00895,Ximena Romero,PyME,Monterrey,MX,2022-07-08,Referido,46-60
+C00896,Pablo Hernández,Consumidor,Santiago,CL,2021-08-23,Medios Pagos,60+
+C00897,Diego Jiménez,Consumidor,San José,CR,2021-10-10,Referido,36-45
+C00898,Pablo Díaz,Consumidor,Buenos Aires,AR,2022-02-04,Medios Pagos,26-35
+C00899,Gabriela Pérez,PyME,Buenos Aires,AR,2022-02-15,Medios Pagos,46-60
+C00900,Juan Castro,Consumidor,Lima,PE,2021-04-25,Referido,36-45
+C00901,Camila Sánchez,PyME,San José,CR,2022-07-20,Referido,46-60
+C00902,Sebastián Vargas,PyME,San José,CR,2021-01-21,Referido,46-60
+C00903,Isabella García,Consumidor,Lima,PE,2020-11-09,Medios Pagos,18-25
+C00904,Alejandro García,Consumidor,Guadalajara,MX,2021-02-11,Orgánico,60+
+C00905,Gabriela Morales,Consumidor,San José,CR,2021-06-16,Referido,18-25
+C00906,Sofía Flores,Consumidor,Santiago,CL,2022-03-26,Orgánico,60+
+C00907,Ana Martínez,PyME,Ciudad de México,MX,2021-07-17,Referido,46-60
+C00908,Felipe López,Consumidor,Guadalajara,MX,2021-05-27,Orgánico,36-45
+C00909,Felipe Hernández,PyME,Quito,EC,2021-01-07,Referido,36-45
+C00910,Valentina Herrera,Consumidor,Monterrey,MX,2021-10-06,Referido,18-25
+C00911,Javier Morales,Consumidor,San José,CR,2021-04-11,Referido,60+
+C00912,Pablo Díaz,Consumidor,Quito,EC,2022-09-26,Referido,26-35
+C00913,Diego Torres,Corporativo,Santo Domingo,DO,2021-04-11,Medios Pagos,26-35
+C00914,Camila Gómez,Consumidor,Santiago,CL,2020-09-22,Referido,26-35
+C00915,Lucía Hernández,PyME,Quito,EC,2021-05-13,Orgánico,46-60
+C00916,Isabella Ortiz,Corporativo,Ciudad de México,MX,2021-07-27,Orgánico,46-60
+C00917,Ximena López,Corporativo,Santiago,CL,2021-04-12,Orgánico,60+
+C00918,Alejandro Herrera,Consumidor,Monterrey,MX,2020-11-20,Medios Pagos,26-35
+C00919,Valentina Herrera,PyME,Bogotá,CO,2021-01-03,Socio,46-60
+C00920,Ana Romero,Consumidor,San José,CR,2021-12-31,Referido,18-25
+C00921,Felipe Vargas,PyME,Ciudad de México,MX,2021-01-13,Referido,46-60
+C00922,Ana Flores,PyME,Guadalajara,MX,2021-05-30,Medios Pagos,36-45
+C00923,Mariana Pérez,Corporativo,San José,CR,2021-12-01,Medios Pagos,18-25
+C00924,Isabella Gómez,Consumidor,Ciudad de México,MX,2020-10-17,Orgánico,60+
+C00925,Pablo Gómez,PyME,Santiago,CL,2022-04-07,Orgánico,46-60
+C00926,Isabella Castro,Corporativo,Quito,EC,2022-08-11,Referido,26-35
+C00927,Sebastián Castro,Consumidor,San José,CR,2021-01-13,Orgánico,60+
+C00928,Isabella Rivera,Consumidor,Santiago,CL,2021-06-15,Medios Pagos,18-25
+C00929,Isabella Rodríguez,Corporativo,Santo Domingo,DO,2021-03-13,Medios Pagos,18-25
+C00930,Andrés Herrera,Corporativo,Bogotá,CO,2021-09-16,Orgánico,60+
+C00931,Javier Hernández,Consumidor,Ciudad de México,MX,2020-11-24,Orgánico,46-60
+C00932,Ana Torres,Consumidor,San José,CR,2020-08-27,Socio,46-60
+C00933,Valentina López,Corporativo,Santiago,CL,2022-06-17,Orgánico,18-25
+C00934,Isabella Torres,Consumidor,Bogotá,CO,2020-07-25,Orgánico,26-35
+C00935,Javier García,Corporativo,Bogotá,CO,2021-06-18,Medios Pagos,60+
+C00936,Mariana Martínez,Consumidor,Ciudad de México,MX,2022-10-29,Medios Pagos,18-25
+C00937,Juan Ortiz,PyME,Lima,PE,2022-10-07,Referido,18-25
+C00938,Sebastián Vargas,Consumidor,Quito,EC,2022-08-26,Orgánico,60+
+C00939,Lucía Vargas,PyME,Lima,PE,2021-11-04,Medios Pagos,60+
+C00940,Sofía Rivera,Consumidor,Santo Domingo,DO,2021-12-31,Orgánico,18-25
+C00941,Camila Sánchez,Consumidor,Santiago,CL,2021-04-25,Orgánico,46-60
+C00942,Camila López,Consumidor,Ciudad de México,MX,2022-10-02,Referido,60+
+C00943,Alejandro Romero,Corporativo,Buenos Aires,AR,2021-04-14,Orgánico,36-45
+C00944,Javier Sánchez,PyME,Monterrey,MX,2022-10-05,Medios Pagos,60+
+C00945,Gabriela García,PyME,Santiago,CL,2022-05-11,Orgánico,46-60
+C00946,Valentina Ortiz,PyME,San José,CR,2021-05-02,Orgánico,36-45
+C00947,Javier Díaz,Consumidor,Ciudad de México,MX,2021-07-13,Referido,26-35
+C00948,Mariana Rivera,Consumidor,Bogotá,CO,2020-08-28,Referido,18-25
+C00949,Diego Romero,Consumidor,Ciudad de México,MX,2021-05-13,Orgánico,26-35
+C00950,Juan Pérez,PyME,Santiago,CL,2022-05-14,Orgánico,36-45
+C00951,Felipe Rivera,PyME,Santo Domingo,DO,2022-03-26,Orgánico,36-45
+C00952,Gabriela López,Corporativo,Guadalajara,MX,2021-12-21,Referido,36-45
+C00953,Sebastián Vargas,PyME,Santo Domingo,DO,2020-09-05,Medios Pagos,18-25
+C00954,Mateo Martínez,Consumidor,Santo Domingo,DO,2021-11-10,Referido,26-35
+C00955,Alejandro López,Corporativo,San José,CR,2022-05-23,Medios Pagos,36-45
+C00956,Pablo Rivera,Consumidor,Santo Domingo,DO,2021-04-13,Medios Pagos,46-60
+C00957,Mariana Sánchez,PyME,Monterrey,MX,2021-06-30,Referido,60+
+C00958,Isabella Castro,Consumidor,Lima,PE,2021-08-04,Referido,60+
+C00959,Javier Ramírez,PyME,Santiago,CL,2021-08-27,Orgánico,46-60
+C00960,Camila García,PyME,Santo Domingo,DO,2022-09-07,Orgánico,60+
+C00961,Sebastián Martínez,Consumidor,Lima,PE,2021-06-26,Referido,46-60
+C00962,Lucía Torres,Consumidor,Ciudad de México,MX,2022-06-02,Orgánico,18-25
+C00963,Alejandro García,Consumidor,Santo Domingo,DO,2021-06-25,Medios Pagos,26-35
+C00964,Valentina Herrera,Consumidor,Santiago,CL,2021-01-10,Orgánico,36-45
+C00965,Alejandro Herrera,Consumidor,Monterrey,MX,2020-10-23,Orgánico,36-45
+C00966,Ana Morales,Consumidor,San José,CR,2020-10-18,Medios Pagos,26-35
+C00967,Javier Sánchez,PyME,Santiago,CL,2021-08-04,Referido,60+
+C00968,Gabriela Vargas,PyME,Bogotá,CO,2020-07-19,Medios Pagos,46-60
+C00969,Mateo Romero,Consumidor,Santo Domingo,DO,2022-11-02,Referido,26-35
+C00970,Javier Vargas,Consumidor,Bogotá,CO,2021-12-20,Referido,46-60
+C00971,Sofía Díaz,PyME,Buenos Aires,AR,2022-01-03,Referido,18-25
+C00972,Sofía Ramírez,Corporativo,San José,CR,2021-03-20,Socio,26-35
+C00973,Pablo Jiménez,Corporativo,Quito,EC,2022-05-24,Orgánico,46-60
+C00974,Sebastián Morales,PyME,Monterrey,MX,2022-10-31,Orgánico,26-35
+C00975,Javier López,Consumidor,Buenos Aires,AR,2022-05-06,Medios Pagos,18-25
+C00976,Felipe Jiménez,Consumidor,Quito,EC,2021-10-28,Orgánico,46-60
+C00977,Gabriela López,Consumidor,Santiago,CL,2022-07-22,Referido,46-60
+C00978,Gabriela Díaz,Consumidor,Lima,PE,2022-02-23,Socio,46-60
+C00979,Valentina Castro,Consumidor,Santiago,CL,2021-06-12,Medios Pagos,46-60
+C00980,Juan Ramírez,Consumidor,Lima,PE,2021-12-12,Referido,26-35
+C00981,Andrés Flores,Consumidor,San José,CR,2020-11-12,Referido,26-35
+C00982,Alejandro López,PyME,Monterrey,MX,2022-02-25,Medios Pagos,18-25
+C00983,Andrés Rodríguez,PyME,Santiago,CL,2021-07-15,Orgánico,36-45
+C00984,Isabella Rivera,Consumidor,Lima,PE,2022-06-17,Referido,46-60
+C00985,Valentina Ramírez,Consumidor,Lima,PE,2021-11-07,Medios Pagos,46-60
+C00986,Lucía García,Consumidor,Lima,PE,2021-07-24,Orgánico,26-35
+C00987,Isabella Pérez,PyME,Lima,PE,2020-08-14,Orgánico,18-25
+C00988,Ana Herrera,PyME,Monterrey,MX,2022-09-14,Orgánico,36-45
+C00989,Lucía Hernández,Consumidor,Santo Domingo,DO,2022-04-25,Medios Pagos,60+
+C00990,Santiago Ortiz,PyME,Buenos Aires,AR,2021-09-04,Orgánico,46-60
+C00991,Gabriela García,PyME,Bogotá,CO,2022-04-02,Orgánico,18-25
+C00992,Felipe Pérez,Corporativo,Santiago,CL,2022-08-26,Orgánico,60+
+C00993,Gabriela Ortiz,Consumidor,Santo Domingo,DO,2021-03-01,Orgánico,60+
+C00994,Ana Ramírez,Consumidor,Bogotá,CO,2022-06-08,Medios Pagos,18-25
+C00995,Isabella Ortiz,Consumidor,Guadalajara,MX,2021-01-28,Referido,18-25
+C00996,Alejandro Castro,PyME,Guadalajara,MX,2020-12-03,Orgánico,18-25
+C00997,Camila Martínez,Consumidor,Quito,EC,2021-01-07,Orgánico,36-45
+C00998,Mariana Sánchez,Corporativo,San José,CR,2021-08-30,Referido,26-35
+C00999,Ana Ortiz,Consumidor,Ciudad de México,MX,2022-04-08,Medios Pagos,18-25
+C01000,Mateo Morales,Consumidor,Ciudad de México,MX,2022-07-15,Orgánico,26-35
+C01001,Sebastián Flores,Consumidor,Santiago,CL,2020-11-20,Medios Pagos,36-45
+C01002,Juan Díaz,Consumidor,Quito,EC,2021-02-07,Orgánico,36-45
+C01003,Javier Torres,Consumidor,Ciudad de México,MX,2021-01-21,Referido,46-60
+C01004,Gabriela Hernández,Consumidor,Lima,PE,2022-09-22,Referido,26-35
+C01005,Alejandro Rivera,Corporativo,Monterrey,MX,2021-04-05,Orgánico,18-25
+C01006,Sebastián Torres,Consumidor,Quito,EC,2022-06-05,Orgánico,60+
+C01007,Pablo García,Consumidor,Buenos Aires,AR,2020-09-23,Socio,36-45
+C01008,Camila Morales,Consumidor,Quito,EC,2020-10-15,Orgánico,46-60
+C01009,Alejandro Romero,Consumidor,Buenos Aires,AR,2021-04-02,Referido,26-35
+C01010,Carla Martínez,Consumidor,San José,CR,2021-07-28,Orgánico,46-60
+C01011,Ximena Gómez,Consumidor,Ciudad de México,MX,2022-11-19,Referido,46-60
+C01012,Andrés Hernández,Corporativo,San José,CR,2022-09-21,Socio,18-25
+C01013,Andrés Herrera,Consumidor,Santiago,CL,2020-10-12,Medios Pagos,36-45
+C01014,Javier Torres,Consumidor,Quito,EC,2021-09-24,Referido,36-45
+C01015,Sebastián Flores,PyME,Monterrey,MX,2022-03-10,Socio,26-35
+C01016,Carla Ramírez,Consumidor,Ciudad de México,MX,2022-08-05,Referido,60+
+C01017,Felipe Vargas,Corporativo,Santiago,CL,2021-09-25,Orgánico,36-45
+C01018,Carla Jiménez,Consumidor,Quito,EC,2020-10-23,Referido,36-45
+C01019,Mariana López,PyME,Santiago,CL,2020-10-27,Orgánico,26-35
+C01020,Juan Vargas,PyME,Santo Domingo,DO,2021-10-02,Orgánico,36-45
+C01021,Ximena Jiménez,Consumidor,Lima,PE,2022-05-30,Referido,26-35
+C01022,Lucía Ortiz,Consumidor,Buenos Aires,AR,2021-10-10,Orgánico,26-35
+C01023,Carla Martínez,Consumidor,Guadalajara,MX,2022-02-22,Orgánico,26-35
+C01024,Sofía Hernández,Consumidor,Ciudad de México,MX,2021-01-20,Orgánico,60+
+C01025,Isabella Morales,PyME,Santo Domingo,DO,2020-10-14,Referido,36-45
+C01026,Javier Gómez,PyME,Bogotá,CO,2020-08-18,Medios Pagos,46-60
+C01027,Diego Díaz,PyME,Bogotá,CO,2020-08-29,Referido,46-60
+C01028,Javier Gómez,PyME,Santo Domingo,DO,2022-02-19,Referido,46-60
+C01029,Valentina Díaz,Consumidor,Ciudad de México,MX,2021-02-17,Referido,18-25
+C01030,Sebastián García,Corporativo,Lima,PE,2021-10-19,Orgánico,46-60
+C01031,Mariana López,Corporativo,Guadalajara,MX,2020-11-11,Referido,26-35
+C01032,Pablo García,PyME,Ciudad de México,MX,2022-07-25,Orgánico,60+
+C01033,Pablo Rodríguez,Corporativo,Lima,PE,2022-08-06,Orgánico,26-35
+C01034,Valentina Ramírez,Consumidor,Ciudad de México,MX,2022-06-21,Medios Pagos,26-35
+C01035,Camila Rodríguez,PyME,Guadalajara,MX,2021-01-20,Referido,46-60
+C01036,Valentina Ramírez,Consumidor,San José,CR,2022-09-27,Socio,46-60
+C01037,Javier Torres,PyME,Quito,EC,2020-08-27,Orgánico,36-45
+C01038,Mateo Romero,Consumidor,Guadalajara,MX,2021-04-25,Medios Pagos,46-60
+C01039,Alejandro Rivera,Consumidor,Ciudad de México,MX,2021-04-07,Medios Pagos,46-60
+C01040,Sebastián Castro,Consumidor,Santo Domingo,DO,2021-01-22,Orgánico,46-60
+C01041,Juan Torres,Consumidor,Bogotá,CO,2022-07-07,Referido,46-60
+C01042,Valentina López,Consumidor,Ciudad de México,MX,2021-03-29,Referido,18-25
+C01043,Gabriela Morales,Consumidor,San José,CR,2021-07-31,Orgánico,46-60
+C01044,Santiago Pérez,Consumidor,Santiago,CL,2020-12-15,Medios Pagos,46-60
+C01045,Alejandro Ramírez,Consumidor,Monterrey,MX,2022-11-10,Orgánico,46-60
+C01046,Gabriela Rodríguez,Corporativo,Buenos Aires,AR,2022-02-16,Referido,26-35
+C01047,Juan Flores,Consumidor,Ciudad de México,MX,2020-07-15,Medios Pagos,60+
+C01048,Gabriela Díaz,Consumidor,Santiago,CL,2020-08-31,Referido,60+
+C01049,Andrés Pérez,Consumidor,Monterrey,MX,2021-11-12,Socio,18-25
+C01050,Valentina Castro,Consumidor,Santo Domingo,DO,2021-02-05,Referido,26-35
+C01051,Javier Ramírez,PyME,Ciudad de México,MX,2022-08-03,Referido,60+
+C01052,Lucía Ramírez,Corporativo,Guadalajara,MX,2020-09-27,Orgánico,46-60
+C01053,Pablo Sánchez,Consumidor,Guadalajara,MX,2022-07-31,Orgánico,60+
+C01054,Mariana Morales,Consumidor,San José,CR,2022-05-31,Socio,46-60
+C01055,Alejandro Pérez,Consumidor,Bogotá,CO,2022-09-28,Referido,18-25
+C01056,Sofía Rodríguez,Consumidor,Guadalajara,MX,2021-06-19,Medios Pagos,18-25
+C01057,Sebastián Pérez,PyME,Guadalajara,MX,2022-05-31,Orgánico,46-60
+C01058,Alejandro Herrera,PyME,Monterrey,MX,2022-09-04,Medios Pagos,18-25
+C01059,Alejandro Pérez,Consumidor,Buenos Aires,AR,2021-11-25,Referido,18-25
+C01060,Alejandro Flores,Consumidor,Buenos Aires,AR,2021-01-27,Orgánico,46-60
+C01061,Alejandro Sánchez,PyME,Bogotá,CO,2021-03-22,Orgánico,18-25
+C01062,Sebastián Rodríguez,PyME,Santiago,CL,2022-07-18,Orgánico,36-45
+C01063,Alejandro Herrera,Consumidor,Quito,EC,2022-09-17,Orgánico,26-35
+C01064,Gabriela García,Consumidor,Monterrey,MX,2021-06-02,Referido,36-45
+C01065,Mateo Castro,Corporativo,Santiago,CL,2020-12-01,Medios Pagos,60+
+C01066,Ana Ortiz,PyME,Quito,EC,2021-11-09,Orgánico,36-45
+C01067,Carla Martínez,Consumidor,Santo Domingo,DO,2021-10-12,Referido,36-45
+C01068,Diego Ramírez,Corporativo,Buenos Aires,AR,2022-11-22,Socio,26-35
+C01069,Ximena López,Consumidor,Guadalajara,MX,2022-06-06,Referido,46-60
+C01070,Diego Hernández,Consumidor,Buenos Aires,AR,2021-03-20,Orgánico,46-60
+C01071,Sebastián Ramírez,Consumidor,Santo Domingo,DO,2021-05-17,Referido,26-35
+C01072,Sofía Herrera,Consumidor,Monterrey,MX,2021-11-10,Orgánico,36-45
+C01073,Lucía Pérez,PyME,San José,CR,2021-09-30,Referido,36-45
+C01074,Carla López,PyME,Santiago,CL,2022-01-24,Referido,36-45
+C01075,Javier García,PyME,Guadalajara,MX,2020-11-15,Orgánico,18-25
+C01076,Ximena Romero,Consumidor,Ciudad de México,MX,2021-09-24,Referido,60+
+C01077,Diego Ramírez,PyME,Santo Domingo,DO,2020-12-18,Orgánico,26-35
+C01078,Ximena Ortiz,Corporativo,Bogotá,CO,2022-03-27,Orgánico,46-60
+C01079,Felipe García,Corporativo,Santo Domingo,DO,2022-04-16,Referido,26-35
+C01080,Valentina Torres,Consumidor,Bogotá,CO,2022-08-09,Medios Pagos,18-25
+C01081,Ana Castro,Consumidor,Buenos Aires,AR,2022-04-28,Referido,36-45
+C01082,Pablo Hernández,Corporativo,Lima,PE,2021-03-10,Referido,60+
+C01083,Mateo Pérez,Consumidor,Guadalajara,MX,2022-11-27,Referido,18-25
+C01084,Diego Morales,Consumidor,Monterrey,MX,2021-10-08,Orgánico,36-45
+C01085,Andrés Pérez,Consumidor,Buenos Aires,AR,2021-11-24,Referido,36-45
+C01086,Andrés Díaz,Consumidor,Bogotá,CO,2020-10-28,Referido,26-35
+C01087,Andrés Martínez,Consumidor,Monterrey,MX,2021-10-24,Socio,26-35
+C01088,Pablo Rodríguez,PyME,Guadalajara,MX,2021-09-27,Referido,26-35
+C01089,Mariana Romero,Consumidor,Quito,EC,2021-07-07,Orgánico,18-25
+C01090,Valentina Vargas,PyME,Santiago,CL,2022-10-10,Socio,18-25
+C01091,Andrés Torres,Consumidor,Lima,PE,2022-09-09,Referido,60+
+C01092,Andrés Rivera,Consumidor,Santiago,CL,2021-01-19,Referido,18-25
+C01093,Sofía Romero,PyME,Monterrey,MX,2022-05-23,Orgánico,26-35
+C01094,Gabriela García,Consumidor,Ciudad de México,MX,2021-03-11,Medios Pagos,46-60
+C01095,Valentina Vargas,Consumidor,Santiago,CL,2022-04-19,Referido,60+
+C01096,Andrés Torres,Consumidor,Bogotá,CO,2020-12-04,Orgánico,18-25
+C01097,Juan Morales,Consumidor,Bogotá,CO,2022-04-29,Orgánico,60+
+C01098,Diego Díaz,Consumidor,Buenos Aires,AR,2022-08-10,Medios Pagos,26-35
+C01099,Sofía Sánchez,Consumidor,Bogotá,CO,2020-11-02,Referido,26-35
+C01100,Sebastián Jiménez,PyME,Monterrey,MX,2021-02-26,Orgánico,26-35
+C01101,Alejandro Ortiz,Consumidor,Guadalajara,MX,2022-09-17,Orgánico,46-60
+C01102,Alejandro Herrera,Corporativo,Santiago,CL,2021-09-30,Medios Pagos,60+
+C01103,Diego Vargas,Corporativo,Lima,PE,2021-02-26,Orgánico,46-60
+C01104,Camila López,Consumidor,Buenos Aires,AR,2020-12-19,Orgánico,60+
+C01105,Mariana Morales,Consumidor,Santiago,CL,2020-11-04,Medios Pagos,60+
+C01106,Sebastián Herrera,Corporativo,Quito,EC,2021-10-18,Orgánico,18-25
+C01107,Ximena Flores,Consumidor,Ciudad de México,MX,2020-09-14,Referido,60+
+C01108,Javier Hernández,Consumidor,Guadalajara,MX,2022-06-10,Referido,36-45
+C01109,Isabella Hernández,Consumidor,Buenos Aires,AR,2022-07-19,Referido,26-35
+C01110,Valentina García,Corporativo,San José,CR,2021-11-20,Socio,60+
+C01111,Valentina Hernández,Consumidor,San José,CR,2022-02-04,Referido,18-25
+C01112,Sofía Jiménez,PyME,Ciudad de México,MX,2021-05-31,Medios Pagos,46-60
+C01113,Gabriela Flores,Corporativo,San José,CR,2021-05-17,Orgánico,36-45
+C01114,Andrés Gómez,Consumidor,Lima,PE,2022-04-09,Orgánico,46-60
+C01115,Felipe Rivera,Consumidor,Monterrey,MX,2020-08-19,Referido,26-35
+C01116,Sebastián Rivera,PyME,Quito,EC,2020-12-29,Orgánico,18-25
+C01117,Ximena Romero,Consumidor,Quito,EC,2022-08-22,Medios Pagos,18-25
+C01118,Javier García,PyME,Ciudad de México,MX,2022-07-20,Orgánico,60+
+C01119,Valentina García,Consumidor,Guadalajara,MX,2021-05-26,Orgánico,46-60
+C01120,Javier Hernández,PyME,Lima,PE,2022-06-27,Referido,36-45
+C01121,Alejandro López,PyME,Ciudad de México,MX,2022-08-19,Orgánico,46-60
+C01122,Juan Torres,Consumidor,Monterrey,MX,2021-12-06,Socio,46-60
+C01123,Felipe Jiménez,PyME,Guadalajara,MX,2021-07-17,Orgánico,36-45
+C01124,Sebastián Romero,Consumidor,Guadalajara,MX,2022-10-19,Orgánico,60+
+C01125,Juan Ortiz,Consumidor,Quito,EC,2022-07-02,Medios Pagos,36-45
+C01126,Carla Díaz,PyME,Buenos Aires,AR,2020-08-24,Medios Pagos,26-35
+C01127,Lucía Morales,PyME,Monterrey,MX,2021-10-29,Medios Pagos,18-25
+C01128,Mariana Gómez,Consumidor,Monterrey,MX,2022-05-30,Orgánico,46-60
+C01129,Valentina Romero,Consumidor,San José,CR,2020-09-11,Medios Pagos,26-35
+C01130,Javier Ramírez,Consumidor,Santo Domingo,DO,2020-08-13,Orgánico,46-60
+C01131,Carla Torres,Consumidor,Santiago,CL,2020-12-13,Referido,26-35
+C01132,Mateo Gómez,Corporativo,Guadalajara,MX,2022-10-02,Medios Pagos,26-35
+C01133,Javier Rivera,Consumidor,Santo Domingo,DO,2021-09-27,Medios Pagos,18-25
+C01134,Andrés Gómez,PyME,Ciudad de México,MX,2020-12-20,Orgánico,18-25
+C01135,Ana Romero,PyME,San José,CR,2022-06-24,Referido,18-25
+C01136,Camila Sánchez,Consumidor,Monterrey,MX,2021-08-08,Medios Pagos,36-45
+C01137,Ana López,Consumidor,Lima,PE,2020-09-23,Orgánico,18-25
+C01138,Andrés Flores,PyME,Ciudad de México,MX,2021-10-23,Referido,36-45
+C01139,Felipe Herrera,Corporativo,Santiago,CL,2021-09-25,Socio,60+
+C01140,Mariana Pérez,Consumidor,Ciudad de México,MX,2022-04-22,Medios Pagos,60+
+C01141,Valentina Ramírez,PyME,Lima,PE,2021-08-01,Medios Pagos,26-35
+C01142,Mateo Ortiz,Consumidor,Guadalajara,MX,2022-09-14,Medios Pagos,36-45
+C01143,Carla Rivera,Consumidor,Santo Domingo,DO,2022-08-15,Referido,36-45
+C01144,Sofía Hernández,Consumidor,Guadalajara,MX,2021-04-28,Referido,46-60
+C01145,Mateo López,Consumidor,Buenos Aires,AR,2022-11-24,Socio,60+
+C01146,Andrés Sánchez,Consumidor,Guadalajara,MX,2021-12-28,Orgánico,26-35
+C01147,Santiago López,Consumidor,Lima,PE,2021-04-11,Orgánico,46-60
+C01148,Camila Pérez,Consumidor,Santiago,CL,2020-08-28,Socio,60+
+C01149,Valentina Flores,Consumidor,Santo Domingo,DO,2020-10-06,Medios Pagos,36-45
+C01150,Gabriela Ortiz,Consumidor,Quito,EC,2022-04-02,Referido,26-35
+C01151,Ana Romero,Consumidor,Guadalajara,MX,2020-08-30,Medios Pagos,36-45
+C01152,Valentina Pérez,Consumidor,Guadalajara,MX,2021-08-24,Socio,26-35
+C01153,Carla Pérez,Consumidor,Bogotá,CO,2022-09-02,Medios Pagos,46-60
+C01154,Sofía Morales,Consumidor,Monterrey,MX,2022-07-29,Orgánico,36-45
+C01155,Mateo Sánchez,Consumidor,Monterrey,MX,2021-09-07,Medios Pagos,36-45
+C01156,Santiago Torres,Consumidor,Ciudad de México,MX,2021-03-07,Medios Pagos,60+
+C01157,Felipe Castro,Consumidor,Buenos Aires,AR,2021-11-13,Referido,18-25
+C01158,Alejandro Flores,Consumidor,Lima,PE,2021-02-13,Orgánico,26-35
+C01159,Andrés Rivera,PyME,Quito,EC,2020-10-07,Referido,18-25
+C01160,Isabella Flores,Consumidor,Lima,PE,2022-08-07,Orgánico,26-35
+C01161,Sofía Hernández,Corporativo,Santiago,CL,2022-01-09,Socio,46-60
+C01162,Gabriela Díaz,Consumidor,Santiago,CL,2022-10-08,Socio,46-60
+C01163,Carla Herrera,Consumidor,Guadalajara,MX,2022-07-10,Referido,36-45
+C01164,Santiago García,PyME,Buenos Aires,AR,2022-05-28,Medios Pagos,46-60
+C01165,Mateo Vargas,Consumidor,Monterrey,MX,2022-05-13,Referido,60+
+C01166,Ana Rodríguez,PyME,San José,CR,2021-10-30,Medios Pagos,60+
+C01167,Camila Martínez,Consumidor,San José,CR,2021-03-11,Medios Pagos,36-45
+C01168,Andrés Herrera,Consumidor,Bogotá,CO,2022-08-08,Referido,18-25
+C01169,Lucía Castro,Corporativo,Monterrey,MX,2021-02-21,Orgánico,26-35
+C01170,Gabriela Gómez,PyME,San José,CR,2021-11-11,Orgánico,26-35
+C01171,Mateo Díaz,Corporativo,Ciudad de México,MX,2021-11-18,Orgánico,36-45
+C01172,Andrés Gómez,Consumidor,Lima,PE,2021-10-05,Referido,60+
+C01173,Felipe Flores,Consumidor,Bogotá,CO,2022-08-08,Referido,26-35
+C01174,Juan Ortiz,Consumidor,Quito,EC,2021-02-21,Socio,18-25
+C01175,Ana Ortiz,Corporativo,Guadalajara,MX,2022-09-02,Socio,18-25
+C01176,Sofía Hernández,Consumidor,Lima,PE,2021-07-05,Medios Pagos,46-60
+C01177,Diego Rivera,Consumidor,Santo Domingo,DO,2021-11-07,Medios Pagos,18-25
+C01178,Mateo Torres,Consumidor,Quito,EC,2022-11-25,Referido,36-45
+C01179,Javier Díaz,PyME,Quito,EC,2021-01-12,Socio,46-60
+C01180,Sebastián Martínez,Consumidor,Santo Domingo,DO,2020-08-15,Orgánico,60+
+C01181,Sebastián Ramírez,Corporativo,Quito,EC,2022-05-19,Medios Pagos,60+
+C01182,Ximena Pérez,Consumidor,Quito,EC,2022-01-11,Referido,18-25
+C01183,Sofía Ramírez,PyME,Guadalajara,MX,2021-02-24,Medios Pagos,36-45
+C01184,Ana Castro,PyME,Ciudad de México,MX,2021-09-11,Orgánico,60+
+C01185,Mariana Díaz,PyME,Guadalajara,MX,2021-04-26,Medios Pagos,26-35
+C01186,Gabriela Rodríguez,Corporativo,Santiago,CL,2022-02-01,Medios Pagos,46-60
+C01187,Camila Díaz,PyME,Buenos Aires,AR,2022-09-09,Referido,60+
+C01188,Isabella Pérez,PyME,Monterrey,MX,2022-02-16,Orgánico,46-60
+C01189,Diego Morales,PyME,Santiago,CL,2021-10-28,Medios Pagos,46-60
+C01190,Lucía Pérez,Consumidor,Quito,EC,2022-01-15,Orgánico,18-25
+C01191,Diego Martínez,Corporativo,San José,CR,2022-10-31,Socio,46-60
+C01192,Gabriela Ortiz,Corporativo,Buenos Aires,AR,2022-07-31,Orgánico,18-25
+C01193,Diego Rivera,Consumidor,Santiago,CL,2021-11-24,Orgánico,26-35
+C01194,Carla Gómez,Consumidor,Lima,PE,2022-05-12,Medios Pagos,36-45
+C01195,Mariana Rivera,Consumidor,Quito,EC,2021-06-26,Orgánico,26-35
+C01196,Sofía López,PyME,San José,CR,2020-09-11,Orgánico,26-35
+C01197,Sebastián Herrera,Corporativo,Lima,PE,2021-09-25,Medios Pagos,60+
+C01198,Felipe Hernández,Consumidor,Guadalajara,MX,2021-08-29,Socio,36-45
+C01199,Mariana Díaz,Consumidor,Santo Domingo,DO,2021-12-07,Orgánico,36-45
+C01200,Camila Martínez,Consumidor,Bogotá,CO,2021-11-17,Orgánico,36-45
+C01201,Sofía Martínez,PyME,Santiago,CL,2021-08-13,Medios Pagos,60+
+C01202,Sebastián García,Consumidor,Santo Domingo,DO,2022-02-21,Referido,46-60
+C01203,Gabriela Hernández,PyME,Bogotá,CO,2022-05-14,Medios Pagos,46-60
+C01204,Sofía Ramírez,Consumidor,San José,CR,2022-01-02,Orgánico,18-25
+C01205,Lucía López,Consumidor,San José,CR,2022-11-28,Orgánico,46-60
+C01206,Pablo Jiménez,Consumidor,Ciudad de México,MX,2022-09-22,Medios Pagos,46-60
+C01207,Carla Rodríguez,PyME,Bogotá,CO,2021-10-19,Medios Pagos,46-60
+C01208,Mateo Ortiz,PyME,Guadalajara,MX,2020-07-22,Orgánico,26-35
+C01209,Andrés Torres,Consumidor,Guadalajara,MX,2022-01-06,Orgánico,26-35
+C01210,Santiago Herrera,PyME,Ciudad de México,MX,2020-12-28,Medios Pagos,18-25
+C01211,Valentina Ortiz,Consumidor,Guadalajara,MX,2022-03-07,Medios Pagos,46-60
+C01212,Camila Castro,Consumidor,Monterrey,MX,2022-01-10,Medios Pagos,46-60
+C01213,Javier Castro,PyME,Santo Domingo,DO,2021-06-10,Referido,46-60
+C01214,Juan García,Corporativo,Buenos Aires,AR,2020-10-09,Referido,26-35
+C01215,Carla García,PyME,Santiago,CL,2020-12-21,Socio,18-25
+C01216,Valentina Rivera,Consumidor,Lima,PE,2022-08-17,Medios Pagos,60+
+C01217,Lucía Romero,Consumidor,Buenos Aires,AR,2020-12-07,Medios Pagos,18-25
+C01218,Gabriela Ramírez,Corporativo,San José,CR,2021-06-25,Orgánico,36-45
+C01219,Diego Romero,Consumidor,San José,CR,2021-02-07,Referido,18-25
+C01220,Ximena Flores,PyME,Ciudad de México,MX,2021-08-02,Referido,18-25
+C01221,Camila Ramírez,Corporativo,Quito,EC,2022-04-29,Referido,60+
+C01222,Andrés Rivera,Consumidor,Quito,EC,2020-11-13,Orgánico,46-60
+C01223,Ximena Vargas,Consumidor,San José,CR,2021-07-15,Orgánico,18-25
+C01224,Isabella Torres,PyME,Ciudad de México,MX,2021-04-22,Orgánico,18-25
+C01225,Mariana Jiménez,Consumidor,Quito,EC,2021-10-27,Orgánico,36-45
+C01226,Ana Jiménez,Consumidor,San José,CR,2022-02-11,Orgánico,60+
+C01227,Valentina García,Consumidor,Santiago,CL,2022-06-11,Orgánico,36-45
+C01228,Felipe Herrera,PyME,Bogotá,CO,2022-11-11,Medios Pagos,26-35
+C01229,Pablo Castro,PyME,San José,CR,2021-12-07,Orgánico,26-35
+C01230,Javier Sánchez,Consumidor,Buenos Aires,AR,2020-07-30,Referido,26-35
+C01231,Pablo Gómez,PyME,Bogotá,CO,2021-08-26,Socio,36-45
+C01232,Valentina Sánchez,PyME,Buenos Aires,AR,2020-12-05,Medios Pagos,60+
+C01233,Ana Romero,Consumidor,Santo Domingo,DO,2020-11-17,Socio,26-35
+C01234,Gabriela García,PyME,Quito,EC,2021-11-29,Orgánico,46-60
+C01235,Ximena Pérez,PyME,Santo Domingo,DO,2021-08-29,Orgánico,36-45
+C01236,Santiago Castro,PyME,Buenos Aires,AR,2022-05-21,Referido,36-45
+C01237,Mateo López,PyME,Lima,PE,2021-05-01,Orgánico,18-25
+C01238,Alejandro Pérez,Consumidor,Buenos Aires,AR,2021-03-04,Orgánico,36-45
+C01239,Gabriela López,Consumidor,Lima,PE,2022-10-22,Medios Pagos,18-25
+C01240,Isabella Romero,Consumidor,Ciudad de México,MX,2022-10-12,Referido,36-45
+C01241,Carla Herrera,PyME,Santo Domingo,DO,2022-06-27,Orgánico,26-35
+C01242,Mariana Vargas,Consumidor,Bogotá,CO,2022-03-23,Referido,18-25
+C01243,Felipe Castro,PyME,San José,CR,2022-01-18,Referido,36-45
+C01244,Gabriela López,PyME,Quito,EC,2021-05-14,Orgánico,36-45
+C01245,Mariana Vargas,Consumidor,Santo Domingo,DO,2022-05-29,Orgánico,60+
+C01246,Andrés Flores,Consumidor,Lima,PE,2021-12-05,Referido,46-60
+C01247,Andrés García,Consumidor,Ciudad de México,MX,2020-10-08,Medios Pagos,60+
+C01248,Sofía López,Corporativo,San José,CR,2021-05-25,Orgánico,46-60
+C01249,Ximena Flores,Consumidor,Lima,PE,2020-08-28,Medios Pagos,18-25
+C01250,Juan Castro,Consumidor,Guadalajara,MX,2020-08-13,Referido,36-45
+C01251,Ximena Hernández,PyME,San José,CR,2021-01-11,Medios Pagos,60+
+C01252,Juan Díaz,Consumidor,Monterrey,MX,2022-01-28,Medios Pagos,60+
+C01253,Sebastián Jiménez,PyME,Ciudad de México,MX,2022-06-29,Referido,26-35
+C01254,Juan Ramírez,Consumidor,Ciudad de México,MX,2022-07-31,Referido,26-35
+C01255,Sebastián Flores,PyME,Santo Domingo,DO,2022-03-11,Medios Pagos,60+
+C01256,Ximena Rodríguez,Consumidor,Santiago,CL,2022-06-11,Orgánico,46-60
+C01257,Mateo Herrera,Consumidor,San José,CR,2021-07-16,Referido,18-25
+C01258,Mariana Díaz,Consumidor,Guadalajara,MX,2021-05-04,Referido,18-25
+C01259,Santiago Gómez,PyME,San José,CR,2021-09-03,Socio,46-60
+C01260,Gabriela Gómez,PyME,Santo Domingo,DO,2021-07-05,Socio,60+
+C01261,Sofía Martínez,Consumidor,Monterrey,MX,2021-12-07,Referido,26-35
+C01262,Pablo Ortiz,Consumidor,Lima,PE,2021-11-12,Medios Pagos,60+
+C01263,Camila Martínez,PyME,Santo Domingo,DO,2022-03-12,Referido,60+
+C01264,Diego Jiménez,Consumidor,Monterrey,MX,2022-04-09,Referido,46-60
+C01265,Felipe Ramírez,Consumidor,Santiago,CL,2022-08-17,Medios Pagos,46-60
+C01266,Mateo Ortiz,Corporativo,Guadalajara,MX,2021-09-06,Referido,18-25
+C01267,Camila Castro,Corporativo,Lima,PE,2021-11-11,Referido,26-35
+C01268,Ximena Rivera,Consumidor,Monterrey,MX,2021-09-14,Orgánico,18-25
+C01269,Camila Díaz,PyME,Santiago,CL,2022-10-29,Referido,46-60
+C01270,Gabriela Rivera,Consumidor,Santo Domingo,DO,2021-07-12,Referido,46-60
+C01271,Carla Flores,Consumidor,Santo Domingo,DO,2022-07-14,Referido,46-60
+C01272,Pablo Torres,PyME,Guadalajara,MX,2022-08-04,Orgánico,60+
+C01273,Isabella Ramírez,Consumidor,Buenos Aires,AR,2020-08-06,Medios Pagos,18-25
+C01274,Sebastián Sánchez,PyME,Santiago,CL,2021-06-20,Orgánico,60+
+C01275,Pablo Herrera,Consumidor,Guadalajara,MX,2021-04-15,Medios Pagos,18-25
+C01276,Alejandro Martínez,Consumidor,Monterrey,MX,2022-05-07,Socio,18-25
+C01277,Santiago Gómez,Consumidor,San José,CR,2021-03-18,Socio,46-60
+C01278,Santiago Jiménez,Consumidor,Monterrey,MX,2022-02-28,Orgánico,60+
+C01279,Javier Díaz,Consumidor,Lima,PE,2022-01-26,Socio,18-25
+C01280,Pablo Hernández,PyME,Ciudad de México,MX,2021-05-16,Referido,46-60
+C01281,Camila Jiménez,PyME,Quito,EC,2021-05-19,Referido,60+
+C01282,Javier García,Corporativo,Ciudad de México,MX,2022-04-03,Referido,26-35
+C01283,Santiago Díaz,Consumidor,Santo Domingo,DO,2021-04-30,Medios Pagos,26-35
+C01284,Mateo Ortiz,PyME,Ciudad de México,MX,2022-01-15,Medios Pagos,26-35
+C01285,Diego García,Corporativo,Quito,EC,2021-07-30,Orgánico,60+
+C01286,Juan Gómez,Consumidor,Santiago,CL,2021-09-04,Medios Pagos,36-45
+C01287,Alejandro Sánchez,PyME,Buenos Aires,AR,2022-01-10,Orgánico,36-45
+C01288,Ximena Torres,Corporativo,Santiago,CL,2022-07-15,Orgánico,60+
+C01289,Javier Flores,Consumidor,Monterrey,MX,2022-10-27,Referido,46-60
+C01290,Juan García,Corporativo,San José,CR,2021-11-04,Orgánico,60+
+C01291,Lucía Hernández,Consumidor,Quito,EC,2021-11-04,Orgánico,46-60
+C01292,Mateo Díaz,Consumidor,Santo Domingo,DO,2020-10-12,Socio,36-45
+C01293,Ana Martínez,Corporativo,San José,CR,2022-04-25,Medios Pagos,60+
+C01294,Diego Rodríguez,Consumidor,Ciudad de México,MX,2020-08-28,Referido,36-45
+C01295,Sofía Castro,PyME,Lima,PE,2021-09-24,Medios Pagos,36-45
+C01296,Isabella Herrera,Consumidor,Monterrey,MX,2022-11-17,Orgánico,26-35
+C01297,Santiago Ortiz,PyME,San José,CR,2021-10-24,Orgánico,36-45
+C01298,Sofía Martínez,PyME,Guadalajara,MX,2022-01-22,Medios Pagos,26-35
+C01299,Santiago Gómez,Consumidor,Ciudad de México,MX,2021-08-12,Referido,60+
+C01300,Valentina García,Consumidor,San José,CR,2021-05-17,Referido,36-45
+C01301,Javier Pérez,PyME,Lima,PE,2022-07-25,Orgánico,60+
+C01302,Sofía Martínez,PyME,Santo Domingo,DO,2021-09-08,Orgánico,26-35
+C01303,Ana Gómez,Consumidor,Buenos Aires,AR,2022-03-14,Referido,18-25
+C01304,Javier Rivera,PyME,Santo Domingo,DO,2022-09-14,Orgánico,36-45
+C01305,Andrés López,PyME,Guadalajara,MX,2021-02-13,Orgánico,36-45
+C01306,Juan Ortiz,PyME,Bogotá,CO,2021-08-08,Orgánico,36-45
+C01307,Diego Ortiz,Consumidor,San José,CR,2022-11-06,Orgánico,36-45
+C01308,Mariana Castro,Consumidor,Bogotá,CO,2022-04-26,Orgánico,26-35
+C01309,Javier Castro,Consumidor,Guadalajara,MX,2022-09-14,Referido,60+
+C01310,Santiago Ortiz,PyME,Santo Domingo,DO,2020-09-06,Referido,60+
+C01311,Sofía López,Consumidor,Santiago,CL,2020-07-29,Socio,36-45
+C01312,Javier Flores,Consumidor,Guadalajara,MX,2020-12-23,Medios Pagos,46-60
+C01313,Mateo Morales,Consumidor,Santo Domingo,DO,2022-09-15,Referido,46-60
+C01314,Andrés Castro,PyME,Santo Domingo,DO,2022-03-27,Medios Pagos,60+
+C01315,Carla Vargas,Consumidor,Bogotá,CO,2022-08-04,Referido,26-35
+C01316,Felipe Jiménez,Consumidor,Lima,PE,2022-11-17,Referido,60+
+C01317,Santiago Vargas,PyME,Guadalajara,MX,2022-07-26,Orgánico,26-35
+C01318,Camila Ramírez,Corporativo,Quito,EC,2021-12-05,Medios Pagos,26-35
+C01319,Sebastián Ortiz,PyME,Bogotá,CO,2021-04-06,Orgánico,18-25
+C01320,Andrés López,Consumidor,Lima,PE,2020-11-04,Medios Pagos,26-35
+C01321,Ximena García,PyME,San José,CR,2020-08-15,Orgánico,18-25
+C01322,Ximena Castro,Consumidor,Lima,PE,2022-06-05,Orgánico,18-25
+C01323,Ximena Sánchez,Consumidor,Ciudad de México,MX,2021-05-04,Referido,46-60
+C01324,Gabriela Vargas,Consumidor,Ciudad de México,MX,2020-08-21,Referido,60+
+C01325,Felipe Jiménez,PyME,Bogotá,CO,2022-02-14,Orgánico,46-60
+C01326,Diego Torres,Consumidor,San José,CR,2020-10-22,Medios Pagos,26-35
+C01327,Felipe Díaz,Consumidor,Santo Domingo,DO,2020-10-21,Referido,18-25
+C01328,Gabriela López,Corporativo,Ciudad de México,MX,2021-11-19,Socio,60+
+C01329,Lucía López,Consumidor,Monterrey,MX,2020-08-04,Socio,18-25
+C01330,Diego Gómez,Consumidor,Buenos Aires,AR,2020-11-13,Medios Pagos,26-35
+C01331,Isabella Flores,PyME,Santo Domingo,DO,2021-12-24,Referido,60+
+C01332,Diego Sánchez,PyME,Ciudad de México,MX,2021-09-15,Orgánico,60+
+C01333,Ana Torres,PyME,Ciudad de México,MX,2021-02-21,Orgánico,46-60
+C01334,Felipe Morales,PyME,Lima,PE,2020-08-21,Orgánico,26-35
+C01335,Gabriela Díaz,PyME,Santo Domingo,DO,2020-11-22,Referido,46-60
+C01336,Mariana Castro,Consumidor,Buenos Aires,AR,2021-03-14,Orgánico,36-45
+C01337,Javier López,Consumidor,Monterrey,MX,2022-01-29,Medios Pagos,46-60
+C01338,Diego López,PyME,Guadalajara,MX,2022-04-22,Referido,46-60
+C01339,Lucía Martínez,Consumidor,Guadalajara,MX,2022-06-05,Medios Pagos,36-45
+C01340,Andrés Torres,PyME,Lima,PE,2021-03-27,Orgánico,36-45
+C01341,Alejandro Martínez,Consumidor,Quito,EC,2022-10-01,Orgánico,36-45
+C01342,Pablo Torres,Consumidor,Ciudad de México,MX,2022-03-03,Orgánico,18-25
+C01343,Alejandro Rivera,Consumidor,San José,CR,2022-06-15,Medios Pagos,18-25
+C01344,Ana Ramírez,Corporativo,Ciudad de México,MX,2020-11-23,Orgánico,36-45
+C01345,Santiago Sánchez,Corporativo,Santo Domingo,DO,2022-09-29,Orgánico,60+
+C01346,Felipe Gómez,Consumidor,Santiago,CL,2022-02-08,Orgánico,26-35
+C01347,Ana Sánchez,Consumidor,Ciudad de México,MX,2022-10-27,Orgánico,46-60
+C01348,Isabella Jiménez,PyME,Santiago,CL,2022-10-29,Medios Pagos,46-60
+C01349,Carla García,PyME,Buenos Aires,AR,2022-09-07,Referido,46-60
+C01350,Sofía Ramírez,Consumidor,Guadalajara,MX,2020-11-09,Orgánico,60+
+C01351,Ana López,PyME,Quito,EC,2021-06-26,Orgánico,26-35
+C01352,Javier Vargas,Consumidor,Quito,EC,2022-08-29,Referido,46-60
+C01353,Mariana Díaz,Consumidor,Santo Domingo,DO,2022-03-27,Socio,46-60
+C01354,Mariana Torres,Corporativo,San José,CR,2022-11-07,Referido,46-60
+C01355,Carla Jiménez,Consumidor,Bogotá,CO,2022-07-08,Referido,26-35
+C01356,Pablo Sánchez,PyME,San José,CR,2020-07-27,Medios Pagos,60+
+C01357,Andrés López,PyME,Lima,PE,2022-03-19,Medios Pagos,26-35
+C01358,Gabriela Rodríguez,Consumidor,Buenos Aires,AR,2020-12-26,Medios Pagos,60+
+C01359,Lucía Morales,Consumidor,Santiago,CL,2022-01-07,Referido,18-25
+C01360,Ximena Jiménez,Corporativo,Ciudad de México,MX,2022-06-20,Orgánico,46-60
+C01361,Felipe Sánchez,PyME,Quito,EC,2021-07-13,Referido,60+
+C01362,Valentina Ortiz,Consumidor,Buenos Aires,AR,2021-06-15,Medios Pagos,60+
+C01363,Gabriela Ortiz,PyME,Santo Domingo,DO,2020-12-31,Socio,36-45
+C01364,Ximena Morales,Consumidor,Monterrey,MX,2022-06-17,Orgánico,46-60
+C01365,Gabriela Rivera,Consumidor,Ciudad de México,MX,2022-01-17,Medios Pagos,60+
+C01366,Alejandro Torres,Consumidor,Guadalajara,MX,2021-12-09,Orgánico,18-25
+C01367,Juan Gómez,Corporativo,Quito,EC,2021-04-13,Referido,46-60
+C01368,Diego Rivera,Corporativo,San José,CR,2022-06-29,Orgánico,36-45
+C01369,Mariana Martínez,Consumidor,Santo Domingo,DO,2021-04-10,Referido,60+
+C01370,Felipe Díaz,PyME,Lima,PE,2022-05-02,Medios Pagos,26-35
+C01371,Felipe Morales,Consumidor,Monterrey,MX,2022-07-09,Medios Pagos,36-45
+C01372,Pablo Martínez,Consumidor,Quito,EC,2021-01-21,Orgánico,18-25
+C01373,Pablo Gómez,Consumidor,Quito,EC,2020-12-09,Orgánico,60+
+C01374,Isabella Romero,Consumidor,Monterrey,MX,2021-02-22,Medios Pagos,60+
+C01375,Diego Rodríguez,Consumidor,Buenos Aires,AR,2020-12-31,Medios Pagos,36-45
+C01376,Andrés Rivera,Consumidor,Bogotá,CO,2020-11-17,Referido,26-35
+C01377,Lucía Gómez,Consumidor,Ciudad de México,MX,2022-05-16,Referido,18-25
+C01378,Sebastián Herrera,Consumidor,Santo Domingo,DO,2022-11-19,Orgánico,36-45
+C01379,Santiago Castro,PyME,Buenos Aires,AR,2022-02-25,Medios Pagos,46-60
+C01380,Diego Hernández,Corporativo,Santo Domingo,DO,2020-08-28,Referido,60+
+C01381,Carla Vargas,PyME,Monterrey,MX,2022-07-21,Medios Pagos,18-25
+C01382,Gabriela Ortiz,Consumidor,Santo Domingo,DO,2022-02-21,Medios Pagos,36-45
+C01383,Felipe Castro,PyME,Bogotá,CO,2020-12-06,Medios Pagos,36-45
+C01384,Gabriela Sánchez,Consumidor,Ciudad de México,MX,2022-09-27,Orgánico,36-45
+C01385,Gabriela Sánchez,Consumidor,Buenos Aires,AR,2021-03-19,Referido,18-25
+C01386,Lucía García,Consumidor,Guadalajara,MX,2021-05-02,Orgánico,18-25
+C01387,Ana Pérez,Consumidor,Bogotá,CO,2021-04-06,Medios Pagos,26-35
+C01388,Gabriela Romero,PyME,Buenos Aires,AR,2020-07-28,Orgánico,46-60
+C01389,Valentina Vargas,PyME,Monterrey,MX,2021-05-03,Orgánico,26-35
+C01390,Carla Morales,Consumidor,Lima,PE,2022-03-07,Referido,36-45
+C01391,Felipe Hernández,Consumidor,Lima,PE,2020-08-05,Socio,60+
+C01392,Juan Rivera,Consumidor,Bogotá,CO,2021-02-09,Orgánico,60+
+C01393,Ximena Rivera,Consumidor,Buenos Aires,AR,2022-09-01,Orgánico,46-60
+C01394,Lucía Castro,Consumidor,Lima,PE,2022-07-12,Orgánico,60+
+C01395,Diego Gómez,Consumidor,Ciudad de México,MX,2022-01-06,Medios Pagos,18-25
+C01396,Juan Pérez,Consumidor,Monterrey,MX,2021-12-01,Referido,26-35
+C01397,Sofía Castro,PyME,San José,CR,2021-08-22,Medios Pagos,46-60
+C01398,Mariana López,Consumidor,Lima,PE,2021-01-07,Orgánico,26-35
+C01399,Andrés Vargas,PyME,Santo Domingo,DO,2022-08-14,Medios Pagos,60+
+C01400,Ximena Rivera,Consumidor,San José,CR,2020-12-18,Socio,60+
+C01401,Santiago García,PyME,Bogotá,CO,2020-09-16,Orgánico,26-35
+C01402,Felipe López,PyME,Monterrey,MX,2022-05-11,Orgánico,26-35
+C01403,Javier Romero,Consumidor,Guadalajara,MX,2020-11-21,Medios Pagos,36-45
+C01404,Gabriela Morales,Consumidor,Quito,EC,2020-12-17,Medios Pagos,46-60
+C01405,Camila Martínez,PyME,Guadalajara,MX,2021-11-01,Medios Pagos,26-35
+C01406,Mariana Rodríguez,Consumidor,Quito,EC,2021-03-31,Orgánico,46-60
+C01407,Sebastián Pérez,PyME,Ciudad de México,MX,2022-04-19,Medios Pagos,36-45
+C01408,Javier Romero,Consumidor,Quito,EC,2022-09-14,Referido,18-25
+C01409,Felipe Vargas,Consumidor,Bogotá,CO,2021-11-04,Orgánico,36-45
+C01410,Felipe Ramírez,Consumidor,Quito,EC,2022-06-02,Medios Pagos,18-25
+C01411,Mariana Díaz,Consumidor,Guadalajara,MX,2021-01-30,Orgánico,26-35
+C01412,Santiago López,Consumidor,Quito,EC,2021-09-26,Referido,18-25
+C01413,Mateo Morales,PyME,Lima,PE,2021-07-06,Medios Pagos,60+
+C01414,Carla Romero,Corporativo,Quito,EC,2021-01-11,Orgánico,60+
+C01415,Lucía Vargas,Consumidor,San José,CR,2020-11-17,Orgánico,36-45
+C01416,Mateo Herrera,Consumidor,San José,CR,2020-12-30,Referido,36-45
+C01417,Juan Gómez,PyME,Buenos Aires,AR,2022-06-02,Referido,46-60
+C01418,Mariana Torres,Consumidor,Ciudad de México,MX,2021-06-06,Orgánico,60+
+C01419,Isabella Gómez,Consumidor,Lima,PE,2021-09-17,Socio,60+
+C01420,Lucía Hernández,Consumidor,Santo Domingo,DO,2021-04-29,Orgánico,36-45
+C01421,Ximena García,Consumidor,Guadalajara,MX,2021-11-06,Orgánico,36-45
+C01422,Andrés Jiménez,Consumidor,Guadalajara,MX,2020-07-29,Medios Pagos,60+
+C01423,Javier Hernández,Consumidor,Santo Domingo,DO,2021-05-29,Referido,46-60
+C01424,Ximena Hernández,Consumidor,Monterrey,MX,2022-02-22,Referido,26-35
+C01425,Ana Vargas,PyME,Quito,EC,2022-05-04,Medios Pagos,36-45
+C01426,Ana Martínez,Consumidor,Santiago,CL,2022-04-16,Orgánico,60+
+C01427,Andrés Ortiz,Consumidor,Lima,PE,2021-04-09,Orgánico,46-60
+C01428,Lucía Morales,Consumidor,Lima,PE,2022-06-30,Orgánico,26-35
+C01429,Sofía García,PyME,Ciudad de México,MX,2021-01-25,Referido,60+
+C01430,Valentina Flores,Corporativo,Buenos Aires,AR,2022-02-07,Medios Pagos,18-25
+C01431,Sofía Vargas,Consumidor,San José,CR,2021-12-07,Referido,18-25
+C01432,Camila Ramírez,PyME,Quito,EC,2021-05-31,Referido,18-25
+C01433,Juan Pérez,Consumidor,Guadalajara,MX,2021-04-27,Medios Pagos,46-60
+C01434,Mateo Jiménez,Consumidor,Buenos Aires,AR,2022-01-09,Medios Pagos,36-45
+C01435,Pablo Flores,Consumidor,Santiago,CL,2021-10-15,Orgánico,46-60
+C01436,Lucía Pérez,Consumidor,Bogotá,CO,2020-10-12,Medios Pagos,18-25
+C01437,Gabriela Díaz,Consumidor,Quito,EC,2021-10-08,Referido,26-35
+C01438,Valentina Ortiz,PyME,Quito,EC,2022-11-09,Orgánico,60+
+C01439,Sebastián Ramírez,PyME,Bogotá,CO,2022-11-09,Referido,26-35
+C01440,Gabriela Martínez,PyME,Monterrey,MX,2021-08-06,Orgánico,18-25
+C01441,Javier Ortiz,PyME,Lima,PE,2021-08-19,Referido,26-35
+C01442,Valentina Pérez,PyME,San José,CR,2020-07-28,Orgánico,18-25
+C01443,Pablo Ramírez,Consumidor,Quito,EC,2021-06-18,Orgánico,46-60
+C01444,Alejandro Díaz,Corporativo,San José,CR,2021-02-08,Referido,18-25
+C01445,Mariana Sánchez,Consumidor,Ciudad de México,MX,2021-11-25,Referido,46-60
+C01446,Diego Pérez,Consumidor,San José,CR,2020-10-22,Referido,36-45
+C01447,Isabella Jiménez,Consumidor,Lima,PE,2022-05-01,Orgánico,18-25
+C01448,Lucía Martínez,Consumidor,Bogotá,CO,2022-02-03,Medios Pagos,36-45
+C01449,Ximena López,Consumidor,Monterrey,MX,2022-07-04,Orgánico,36-45
+C01450,Juan Morales,Consumidor,San José,CR,2021-02-21,Medios Pagos,36-45
+C01451,Sebastián López,Consumidor,Monterrey,MX,2022-07-05,Medios Pagos,36-45
+C01452,Isabella Gómez,PyME,San José,CR,2022-11-20,Medios Pagos,60+
+C01453,Camila Castro,Consumidor,Monterrey,MX,2021-12-15,Medios Pagos,36-45
+C01454,Felipe Morales,Consumidor,Santo Domingo,DO,2021-07-27,Medios Pagos,18-25
+C01455,Gabriela Torres,PyME,Santiago,CL,2022-01-20,Orgánico,60+
+C01456,Ana Sánchez,PyME,Lima,PE,2021-04-28,Medios Pagos,26-35
+C01457,Ximena García,Consumidor,Guadalajara,MX,2021-12-30,Orgánico,60+
+C01458,Ximena Torres,PyME,Lima,PE,2021-05-01,Orgánico,26-35
+C01459,Lucía Pérez,PyME,Santiago,CL,2022-04-13,Orgánico,60+
+C01460,Ximena López,Consumidor,Guadalajara,MX,2022-07-20,Orgánico,26-35
+C01461,Diego Rodríguez,Consumidor,Lima,PE,2021-08-14,Medios Pagos,18-25
+C01462,Gabriela Jiménez,Consumidor,Guadalajara,MX,2021-08-02,Referido,26-35
+C01463,Andrés Jiménez,Consumidor,Ciudad de México,MX,2021-04-16,Medios Pagos,46-60
+C01464,Isabella Vargas,PyME,Lima,PE,2022-12-02,Referido,46-60
+C01465,Juan López,PyME,Lima,PE,2021-06-24,Orgánico,60+
+C01466,Felipe Morales,Consumidor,Lima,PE,2022-08-10,Orgánico,60+
+C01467,Andrés López,Consumidor,Guadalajara,MX,2020-10-15,Orgánico,46-60
+C01468,Javier Rivera,Consumidor,Guadalajara,MX,2020-10-12,Orgánico,36-45
+C01469,Juan Ortiz,Consumidor,Guadalajara,MX,2020-12-31,Orgánico,26-35
+C01470,Felipe Martínez,Consumidor,Monterrey,MX,2021-03-18,Socio,46-60
+C01471,Isabella Morales,PyME,Buenos Aires,AR,2022-04-12,Socio,36-45
+C01472,Juan Vargas,Consumidor,Bogotá,CO,2021-08-29,Referido,46-60
+C01473,Mateo Romero,Consumidor,Ciudad de México,MX,2021-10-10,Socio,36-45
+C01474,Mateo Díaz,Consumidor,Buenos Aires,AR,2020-08-02,Orgánico,46-60
+C01475,Gabriela Ortiz,Consumidor,Santiago,CL,2020-09-07,Referido,36-45
+C01476,Santiago Ramírez,Consumidor,San José,CR,2021-08-08,Medios Pagos,46-60
+C01477,Santiago Jiménez,Consumidor,San José,CR,2021-11-13,Orgánico,36-45
+C01478,Carla Martínez,Consumidor,Monterrey,MX,2020-10-26,Socio,46-60
+C01479,Sofía Rivera,PyME,San José,CR,2022-01-30,Referido,46-60
+C01480,Juan Díaz,Consumidor,Santo Domingo,DO,2020-08-18,Orgánico,18-25
+C01481,Lucía Rivera,PyME,Bogotá,CO,2021-11-28,Orgánico,46-60
+C01482,Sebastián Díaz,Consumidor,Buenos Aires,AR,2022-03-16,Orgánico,46-60
+C01483,Ximena Hernández,Consumidor,Ciudad de México,MX,2020-08-03,Socio,60+
+C01484,Alejandro Morales,Consumidor,Bogotá,CO,2020-09-14,Orgánico,36-45
+C01485,Alejandro Jiménez,PyME,San José,CR,2022-08-30,Referido,60+
+C01486,Carla Vargas,PyME,Santiago,CL,2020-10-24,Medios Pagos,46-60
+C01487,Valentina García,Consumidor,Monterrey,MX,2021-02-04,Orgánico,60+
+C01488,Mariana Castro,Consumidor,Quito,EC,2022-11-11,Orgánico,60+
+C01489,Andrés Romero,PyME,Santiago,CL,2022-01-06,Orgánico,26-35
+C01490,Sofía Gómez,Consumidor,Santiago,CL,2020-10-05,Medios Pagos,60+
+C01491,Felipe Jiménez,Consumidor,Santiago,CL,2022-01-21,Orgánico,60+
+C01492,Valentina Torres,Corporativo,Guadalajara,MX,2022-01-01,Medios Pagos,26-35
+C01493,Gabriela Gómez,Consumidor,Buenos Aires,AR,2022-04-08,Orgánico,46-60
+C01494,Santiago Flores,Consumidor,Santiago,CL,2021-11-08,Referido,26-35
+C01495,Felipe Sánchez,Consumidor,Guadalajara,MX,2022-08-29,Socio,60+
+C01496,Valentina Vargas,Consumidor,San José,CR,2021-12-01,Orgánico,18-25
+C01497,Diego Flores,PyME,Buenos Aires,AR,2021-06-30,Orgánico,46-60
+C01498,Carla Vargas,PyME,Buenos Aires,AR,2020-07-29,Socio,36-45
+C01499,Ana Herrera,Consumidor,Quito,EC,2021-08-07,Medios Pagos,36-45
+C01500,Camila Morales,Consumidor,Santo Domingo,DO,2022-06-26,Medios Pagos,18-25
+C01501,Sebastián Vargas,Consumidor,Buenos Aires,AR,2021-11-17,Medios Pagos,46-60
+C01502,Diego Pérez,Consumidor,Monterrey,MX,2021-11-24,Orgánico,26-35
+C01503,Valentina Díaz,Consumidor,Buenos Aires,AR,2021-03-06,Medios Pagos,36-45
+C01504,Alejandro Ramírez,Consumidor,Quito,EC,2022-10-16,Medios Pagos,60+
+C01505,Carla Vargas,Consumidor,Bogotá,CO,2022-04-18,Socio,18-25
+C01506,Sebastián Díaz,Corporativo,Lima,PE,2022-07-18,Orgánico,46-60
+C01507,Alejandro Gómez,PyME,Bogotá,CO,2021-01-29,Socio,18-25
+C01508,Camila Romero,Consumidor,Santiago,CL,2021-06-23,Orgánico,18-25
+C01509,Diego Torres,PyME,Buenos Aires,AR,2021-03-13,Orgánico,26-35
+C01510,Ximena Castro,PyME,San José,CR,2021-06-18,Socio,36-45
+C01511,Camila Castro,PyME,Quito,EC,2021-11-14,Medios Pagos,18-25
+C01512,Camila Hernández,PyME,Monterrey,MX,2022-11-18,Medios Pagos,26-35
+C01513,Pablo Gómez,Consumidor,San José,CR,2021-07-28,Orgánico,60+
+C01514,Isabella Sánchez,Consumidor,Lima,PE,2022-08-04,Socio,36-45
+C01515,Pablo Rodríguez,Corporativo,Bogotá,CO,2020-08-28,Referido,18-25
+C01516,Ana Rodríguez,PyME,Bogotá,CO,2021-09-22,Orgánico,26-35
+C01517,Juan Romero,Corporativo,Guadalajara,MX,2021-05-18,Medios Pagos,36-45
+C01518,Mariana Sánchez,Consumidor,Santo Domingo,DO,2022-05-30,Orgánico,26-35
+C01519,Sebastián Romero,PyME,Bogotá,CO,2021-06-12,Referido,60+
+C01520,Mateo Pérez,Consumidor,Santo Domingo,DO,2022-06-15,Orgánico,26-35
+C01521,Camila Rodríguez,PyME,Santiago,CL,2020-07-22,Socio,60+
+C01522,Mariana Sánchez,Consumidor,Quito,EC,2022-02-02,Socio,46-60
+C01523,Carla Herrera,Consumidor,Buenos Aires,AR,2022-12-02,Medios Pagos,36-45
+C01524,Camila Morales,Consumidor,Quito,EC,2022-07-12,Medios Pagos,26-35
+C01525,Sofía Rivera,Consumidor,Quito,EC,2021-10-28,Orgánico,36-45
+C01526,Sofía Romero,Consumidor,Guadalajara,MX,2020-11-19,Orgánico,26-35
+C01527,Diego Sánchez,PyME,Ciudad de México,MX,2021-02-18,Orgánico,18-25
+C01528,Sebastián Flores,PyME,Guadalajara,MX,2021-05-27,Orgánico,36-45
+C01529,Isabella Jiménez,PyME,Ciudad de México,MX,2021-11-07,Referido,46-60
+C01530,Ximena Jiménez,Consumidor,Buenos Aires,AR,2022-04-16,Orgánico,60+
+C01531,Pablo Vargas,Corporativo,Santiago,CL,2020-07-15,Referido,18-25
+C01532,Ximena Martínez,PyME,Buenos Aires,AR,2021-02-15,Referido,36-45
+C01533,Pablo Torres,Corporativo,Guadalajara,MX,2020-12-02,Referido,26-35
+C01534,Sebastián Castro,Consumidor,Lima,PE,2021-05-07,Referido,60+
+C01535,Diego Castro,PyME,Ciudad de México,MX,2021-03-26,Medios Pagos,18-25
+C01536,Mariana Hernández,Consumidor,San José,CR,2021-09-27,Orgánico,46-60
+C01537,Mariana Vargas,PyME,Santo Domingo,DO,2022-10-25,Medios Pagos,18-25
+C01538,Ana Flores,Consumidor,Buenos Aires,AR,2021-10-06,Medios Pagos,36-45
+C01539,Isabella Flores,Consumidor,Bogotá,CO,2022-03-23,Medios Pagos,36-45
+C01540,Alejandro Martínez,Consumidor,Santiago,CL,2021-05-10,Medios Pagos,36-45
+C01541,Valentina Gómez,PyME,Lima,PE,2022-09-02,Referido,26-35
+C01542,Sebastián Morales,Consumidor,Quito,EC,2022-01-16,Referido,46-60
+C01543,Valentina Flores,Consumidor,Lima,PE,2021-12-08,Medios Pagos,26-35
+C01544,Alejandro López,Corporativo,Santo Domingo,DO,2020-12-15,Medios Pagos,60+
+C01545,Carla García,Consumidor,Guadalajara,MX,2022-05-13,Medios Pagos,46-60
+C01546,Diego López,PyME,Monterrey,MX,2021-11-03,Referido,18-25
+C01547,Alejandro Romero,Consumidor,Ciudad de México,MX,2022-03-26,Medios Pagos,36-45
+C01548,Gabriela Romero,Consumidor,Santiago,CL,2021-09-08,Orgánico,26-35
+C01549,Lucía Vargas,Corporativo,Lima,PE,2020-07-27,Referido,60+
+C01550,Isabella Gómez,Consumidor,San José,CR,2021-11-01,Medios Pagos,36-45
+C01551,Alejandro Gómez,Consumidor,Santiago,CL,2022-01-09,Orgánico,26-35
+C01552,Diego Sánchez,Consumidor,San José,CR,2022-07-24,Medios Pagos,60+
+C01553,Mateo Rodríguez,Consumidor,San José,CR,2022-04-13,Medios Pagos,26-35
+C01554,Andrés García,Consumidor,Lima,PE,2021-04-06,Socio,26-35
+C01555,Pablo Romero,Consumidor,Ciudad de México,MX,2021-12-12,Orgánico,36-45
+C01556,Sebastián Morales,Consumidor,Ciudad de México,MX,2020-12-02,Referido,26-35
+C01557,Alejandro López,Corporativo,Lima,PE,2022-01-19,Orgánico,60+
+C01558,Ana Ortiz,PyME,San José,CR,2022-01-14,Orgánico,36-45
+C01559,Carla Sánchez,Consumidor,Guadalajara,MX,2021-03-14,Referido,26-35
+C01560,Felipe Díaz,PyME,Monterrey,MX,2020-07-30,Referido,46-60
+C01561,Sofía Ramírez,PyME,Guadalajara,MX,2021-10-15,Medios Pagos,46-60
+C01562,Andrés Herrera,PyME,Bogotá,CO,2022-06-04,Referido,26-35
+C01563,Carla Martínez,Consumidor,Bogotá,CO,2021-02-08,Referido,18-25
+C01564,Mateo Jiménez,Consumidor,Ciudad de México,MX,2021-01-02,Orgánico,60+
+C01565,Sofía Castro,Consumidor,Buenos Aires,AR,2022-11-04,Referido,18-25
+C01566,Diego Romero,Corporativo,Santiago,CL,2021-12-14,Referido,60+
+C01567,Camila Flores,Consumidor,Monterrey,MX,2021-07-01,Orgánico,18-25
+C01568,Diego Gómez,Corporativo,Buenos Aires,AR,2022-02-07,Medios Pagos,60+
+C01569,Sebastián Romero,Consumidor,Lima,PE,2022-05-19,Socio,36-45
+C01570,Alejandro García,Corporativo,Lima,PE,2022-08-05,Orgánico,36-45
+C01571,Mariana Hernández,Consumidor,Lima,PE,2022-05-24,Referido,46-60
+C01572,Ximena García,PyME,Guadalajara,MX,2020-07-17,Medios Pagos,36-45
+C01573,Mariana Rodríguez,Corporativo,Santo Domingo,DO,2021-06-16,Referido,36-45
+C01574,Andrés Ramírez,Consumidor,Quito,EC,2021-10-15,Orgánico,18-25
+C01575,Mariana López,Consumidor,Lima,PE,2021-03-18,Referido,36-45
+C01576,Sofía Castro,PyME,Guadalajara,MX,2022-01-22,Referido,36-45
+C01577,Mariana Rivera,PyME,Ciudad de México,MX,2022-01-26,Referido,60+
+C01578,Felipe Sánchez,Consumidor,Santo Domingo,DO,2020-07-16,Referido,18-25
+C01579,Valentina García,Corporativo,Monterrey,MX,2022-04-20,Medios Pagos,46-60
+C01580,Diego López,Consumidor,Santiago,CL,2020-12-27,Orgánico,26-35
+C01581,Mariana Torres,PyME,Bogotá,CO,2022-06-04,Referido,46-60
+C01582,Sofía López,Consumidor,Quito,EC,2021-01-05,Orgánico,36-45
+C01583,Isabella Rivera,Consumidor,Quito,EC,2021-11-11,Medios Pagos,46-60
+C01584,Javier García,Consumidor,Lima,PE,2022-07-24,Referido,18-25
+C01585,Alejandro Martínez,Consumidor,Guadalajara,MX,2022-05-29,Orgánico,36-45
+C01586,Sofía Herrera,Corporativo,Buenos Aires,AR,2022-02-14,Orgánico,18-25
+C01587,Alejandro Morales,Consumidor,Santiago,CL,2022-09-05,Orgánico,60+
+C01588,Carla García,Corporativo,Quito,EC,2022-05-28,Orgánico,60+
+C01589,Santiago Sánchez,Consumidor,Lima,PE,2021-03-31,Medios Pagos,26-35
+C01590,Isabella Pérez,PyME,Monterrey,MX,2021-12-18,Referido,26-35
+C01591,Juan Sánchez,Corporativo,Quito,EC,2022-06-29,Orgánico,26-35
+C01592,Javier Ortiz,PyME,Lima,PE,2022-09-22,Referido,60+
+C01593,Diego García,Consumidor,Bogotá,CO,2022-10-05,Referido,60+
+C01594,Diego Torres,Consumidor,Ciudad de México,MX,2022-07-09,Orgánico,18-25
+C01595,Javier Hernández,Consumidor,San José,CR,2022-08-02,Referido,18-25
+C01596,Sebastián Ramírez,Consumidor,Quito,EC,2022-02-16,Referido,26-35
+C01597,Lucía Morales,PyME,Bogotá,CO,2021-02-19,Socio,26-35
+C01598,Isabella Pérez,Consumidor,Monterrey,MX,2021-10-31,Referido,18-25
+C01599,Andrés Rodríguez,Consumidor,Ciudad de México,MX,2021-08-19,Medios Pagos,46-60
+C01600,Lucía Flores,Consumidor,Quito,EC,2021-08-18,Socio,46-60
+C01601,Ximena Rivera,Consumidor,Quito,EC,2022-07-19,Orgánico,26-35
+C01602,Alejandro Vargas,Consumidor,Bogotá,CO,2021-08-15,Referido,36-45
+C01603,Lucía López,Consumidor,Guadalajara,MX,2021-05-26,Socio,60+
+C01604,Andrés Pérez,Consumidor,Quito,EC,2021-06-21,Socio,18-25
+C01605,Sofía Romero,PyME,Monterrey,MX,2022-02-26,Referido,60+
+C01606,Pablo Martínez,PyME,Monterrey,MX,2020-10-13,Referido,60+
+C01607,Diego García,Consumidor,Ciudad de México,MX,2021-01-09,Orgánico,18-25
+C01608,Camila Rivera,Corporativo,Bogotá,CO,2022-05-09,Orgánico,18-25
+C01609,Lucía Morales,Consumidor,San José,CR,2020-08-06,Orgánico,26-35
+C01610,Andrés Jiménez,Consumidor,Monterrey,MX,2022-06-18,Referido,60+
+C01611,Isabella Torres,Consumidor,Lima,PE,2020-12-16,Socio,26-35
+C01612,Pablo Pérez,Corporativo,Lima,PE,2021-11-09,Medios Pagos,60+
+C01613,Sofía Pérez,PyME,Lima,PE,2021-04-13,Referido,18-25
+C01614,Carla Pérez,Corporativo,Guadalajara,MX,2021-11-19,Orgánico,36-45
+C01615,Gabriela Martínez,PyME,Guadalajara,MX,2020-09-14,Orgánico,18-25
+C01616,Felipe Gómez,Consumidor,San José,CR,2021-10-01,Medios Pagos,26-35
+C01617,Valentina Pérez,Consumidor,Ciudad de México,MX,2021-07-19,Orgánico,26-35
+C01618,Lucía García,PyME,Buenos Aires,AR,2020-10-26,Orgánico,18-25
+C01619,Sofía Díaz,Consumidor,San José,CR,2022-11-22,Orgánico,26-35
+C01620,Mateo Sánchez,Corporativo,Quito,EC,2021-12-24,Medios Pagos,46-60
+C01621,Isabella Rodríguez,Consumidor,Bogotá,CO,2020-11-26,Orgánico,36-45
+C01622,Diego Díaz,Consumidor,Bogotá,CO,2021-06-29,Medios Pagos,18-25
+C01623,Sofía Torres,Consumidor,Guadalajara,MX,2022-06-28,Medios Pagos,18-25
+C01624,Camila Castro,Consumidor,San José,CR,2022-09-21,Referido,46-60
+C01625,Diego Hernández,PyME,Guadalajara,MX,2021-03-15,Medios Pagos,26-35
+C01626,Andrés Torres,Corporativo,Guadalajara,MX,2022-11-29,Orgánico,18-25
+C01627,Gabriela Morales,Consumidor,Santiago,CL,2021-08-02,Referido,26-35
+C01628,Ximena Díaz,Consumidor,Lima,PE,2022-05-27,Orgánico,26-35
+C01629,Diego García,Consumidor,San José,CR,2022-05-23,Orgánico,36-45
+C01630,Andrés Sánchez,PyME,Buenos Aires,AR,2021-03-27,Referido,26-35
+C01631,Ana Herrera,Consumidor,Santiago,CL,2021-06-07,Orgánico,26-35
+C01632,Andrés García,Consumidor,San José,CR,2020-10-20,Medios Pagos,46-60
+C01633,Sofía Gómez,Consumidor,Guadalajara,MX,2022-01-10,Medios Pagos,60+
+C01634,Pablo Gómez,PyME,Lima,PE,2021-12-01,Referido,46-60
+C01635,Sofía Pérez,Consumidor,Santiago,CL,2022-04-13,Orgánico,36-45
+C01636,Lucía Flores,Consumidor,Quito,EC,2021-08-15,Orgánico,46-60
+C01637,Valentina Ramírez,Consumidor,Monterrey,MX,2020-09-16,Socio,26-35
+C01638,Sofía Pérez,Consumidor,Monterrey,MX,2022-07-01,Orgánico,18-25
+C01639,Ana Morales,Consumidor,Bogotá,CO,2022-05-14,Referido,36-45
+C01640,Pablo Vargas,PyME,San José,CR,2020-11-21,Referido,26-35
+C01641,Carla Martínez,Consumidor,Bogotá,CO,2022-08-16,Medios Pagos,60+
+C01642,Ana López,Consumidor,Quito,EC,2021-07-18,Referido,36-45
+C01643,Diego Ortiz,PyME,Quito,EC,2021-03-16,Orgánico,36-45
+C01644,Carla Díaz,Consumidor,San José,CR,2021-08-05,Referido,46-60
+C01645,Pablo Herrera,Consumidor,Santiago,CL,2022-01-16,Referido,60+
+C01646,Sofía Ortiz,PyME,San José,CR,2022-04-12,Orgánico,26-35
+C01647,Ximena Jiménez,Consumidor,Ciudad de México,MX,2022-01-16,Referido,26-35
+C01648,Lucía Ramírez,PyME,Buenos Aires,AR,2022-09-25,Medios Pagos,36-45
+C01649,Javier Torres,PyME,Ciudad de México,MX,2021-08-04,Referido,36-45
+C01650,Valentina Ortiz,Consumidor,Bogotá,CO,2021-07-24,Medios Pagos,26-35
+C01651,Diego López,PyME,San José,CR,2021-03-23,Medios Pagos,26-35
+C01652,Isabella Rivera,Consumidor,Ciudad de México,MX,2022-01-31,Orgánico,18-25
+C01653,Mateo Flores,Consumidor,Quito,EC,2022-09-13,Medios Pagos,26-35
+C01654,Isabella Flores,Consumidor,Bogotá,CO,2022-08-14,Orgánico,60+
+C01655,Ana Jiménez,Consumidor,Monterrey,MX,2022-01-06,Orgánico,36-45
+C01656,Andrés Martínez,Consumidor,Santo Domingo,DO,2022-11-06,Referido,36-45
+C01657,Sofía Castro,PyME,Buenos Aires,AR,2022-01-05,Orgánico,60+
+C01658,Camila Jiménez,Consumidor,Guadalajara,MX,2022-07-12,Referido,26-35
+C01659,Carla Vargas,Consumidor,Bogotá,CO,2021-12-21,Orgánico,18-25
+C01660,Camila Rodríguez,Consumidor,Quito,EC,2020-12-21,Medios Pagos,26-35
+C01661,Javier Hernández,Consumidor,Buenos Aires,AR,2022-04-14,Referido,60+
+C01662,Javier Romero,Consumidor,Ciudad de México,MX,2022-04-22,Socio,26-35
+C01663,Ximena López,Consumidor,Quito,EC,2022-11-13,Referido,46-60
+C01664,Ana Gómez,Consumidor,San José,CR,2021-07-17,Medios Pagos,60+
+C01665,Gabriela Romero,PyME,Monterrey,MX,2021-10-22,Referido,60+
+C01666,Sebastián Herrera,Consumidor,Santiago,CL,2020-10-21,Orgánico,36-45
+C01667,Ana Flores,PyME,Buenos Aires,AR,2021-08-27,Referido,60+
+C01668,Gabriela Rivera,PyME,Guadalajara,MX,2020-11-02,Medios Pagos,36-45
+C01669,Juan Gómez,PyME,San José,CR,2020-08-17,Referido,26-35
+C01670,Gabriela Pérez,Consumidor,Buenos Aires,AR,2022-11-20,Medios Pagos,26-35
+C01671,Mariana Ortiz,Consumidor,Bogotá,CO,2021-08-21,Medios Pagos,46-60
+C01672,Sebastián Jiménez,Consumidor,Santiago,CL,2022-09-14,Medios Pagos,18-25
+C01673,Juan Flores,PyME,Buenos Aires,AR,2022-12-02,Referido,60+
+C01674,Mateo García,Corporativo,Quito,EC,2020-11-03,Orgánico,18-25
+C01675,Camila Herrera,Consumidor,Guadalajara,MX,2022-01-27,Referido,26-35
+C01676,Ana Jiménez,Consumidor,Lima,PE,2022-06-07,Orgánico,26-35
+C01677,Isabella Díaz,Consumidor,Santo Domingo,DO,2022-02-26,Medios Pagos,46-60
+C01678,Santiago Morales,Consumidor,Quito,EC,2022-11-02,Referido,46-60
+C01679,Carla Herrera,Consumidor,San José,CR,2022-10-18,Medios Pagos,46-60
+C01680,Lucía Díaz,Consumidor,Santiago,CL,2022-04-06,Socio,18-25
+C01681,Pablo Torres,PyME,Quito,EC,2021-05-09,Medios Pagos,18-25
+C01682,Mateo Gómez,Consumidor,Santo Domingo,DO,2022-06-18,Medios Pagos,60+
+C01683,Felipe Castro,Consumidor,Bogotá,CO,2021-10-12,Referido,46-60
+C01684,Alejandro Vargas,Corporativo,Lima,PE,2021-01-10,Referido,46-60
+C01685,Mateo Flores,Consumidor,Monterrey,MX,2021-12-27,Referido,60+
+C01686,Valentina Rodríguez,PyME,Monterrey,MX,2021-03-29,Referido,26-35
+C01687,Mariana García,PyME,Santiago,CL,2020-08-10,Medios Pagos,18-25
+C01688,Felipe Torres,Corporativo,Buenos Aires,AR,2021-05-18,Medios Pagos,36-45
+C01689,Mariana Sánchez,Consumidor,Bogotá,CO,2021-05-20,Medios Pagos,46-60
+C01690,Lucía Romero,Consumidor,Guadalajara,MX,2022-04-15,Medios Pagos,26-35
+C01691,Diego Morales,PyME,Santo Domingo,DO,2020-09-04,Orgánico,18-25
+C01692,Diego Rivera,PyME,Santiago,CL,2021-05-27,Orgánico,18-25
+C01693,Isabella Flores,Consumidor,Guadalajara,MX,2022-09-25,Socio,46-60
+C01694,Mateo Rivera,Corporativo,Bogotá,CO,2021-10-31,Orgánico,60+
+C01695,Santiago Morales,Consumidor,San José,CR,2021-04-04,Socio,46-60
+C01696,Alejandro Jiménez,Consumidor,Quito,EC,2020-10-23,Referido,60+
+C01697,Mariana Hernández,PyME,Lima,PE,2022-11-05,Socio,18-25
+C01698,Mariana Martínez,Consumidor,Guadalajara,MX,2021-08-24,Orgánico,46-60
+C01699,Sebastián Vargas,Consumidor,Lima,PE,2022-04-25,Orgánico,26-35
+C01700,Felipe Flores,Consumidor,Guadalajara,MX,2021-07-06,Orgánico,60+
+C01701,Sofía Jiménez,Consumidor,Ciudad de México,MX,2022-03-18,Medios Pagos,46-60
+C01702,Andrés Jiménez,Consumidor,San José,CR,2021-12-28,Medios Pagos,18-25
+C01703,Felipe Ramírez,Consumidor,Ciudad de México,MX,2021-11-01,Orgánico,26-35
+C01704,Diego Jiménez,Consumidor,Lima,PE,2020-08-27,Orgánico,26-35
+C01705,Lucía Morales,PyME,San José,CR,2022-11-08,Referido,46-60
+C01706,Pablo Hernández,Consumidor,Guadalajara,MX,2021-09-30,Orgánico,60+
+C01707,Mateo Morales,PyME,Guadalajara,MX,2022-03-08,Referido,26-35
+C01708,Gabriela Flores,Corporativo,San José,CR,2022-05-25,Medios Pagos,60+
+C01709,Felipe Castro,Consumidor,Guadalajara,MX,2020-09-15,Referido,60+
+C01710,Mateo Hernández,Consumidor,Quito,EC,2022-11-21,Referido,18-25
+C01711,Ana López,Consumidor,San José,CR,2021-06-07,Medios Pagos,26-35
+C01712,Pablo Rivera,Consumidor,Lima,PE,2021-07-31,Orgánico,46-60
+C01713,Camila Sánchez,Consumidor,Guadalajara,MX,2022-07-06,Orgánico,18-25
+C01714,Mateo Torres,Consumidor,Quito,EC,2020-07-26,Medios Pagos,46-60
+C01715,Mariana Díaz,Consumidor,Bogotá,CO,2020-09-24,Orgánico,36-45
+C01716,Sebastián Sánchez,Consumidor,Monterrey,MX,2021-07-30,Medios Pagos,26-35
+C01717,Carla Vargas,Consumidor,Lima,PE,2020-10-02,Referido,46-60
+C01718,Isabella Ramírez,Consumidor,Ciudad de México,MX,2021-11-19,Orgánico,36-45
+C01719,Pablo Sánchez,Consumidor,Bogotá,CO,2022-01-21,Referido,60+
+C01720,Pablo Martínez,PyME,San José,CR,2022-07-15,Orgánico,46-60
+C01721,Carla Herrera,Corporativo,San José,CR,2021-02-24,Referido,36-45
+C01722,Sofía Rivera,PyME,Bogotá,CO,2022-04-01,Orgánico,36-45
+C01723,Isabella Ortiz,Consumidor,Quito,EC,2022-02-20,Referido,26-35
+C01724,Mateo Rodríguez,PyME,Buenos Aires,AR,2022-05-22,Referido,26-35
+C01725,Juan Torres,PyME,Monterrey,MX,2022-08-04,Orgánico,36-45
+C01726,Isabella Castro,Consumidor,Lima,PE,2020-11-28,Referido,36-45
+C01727,Mariana Rodríguez,Consumidor,Buenos Aires,AR,2022-07-28,Socio,18-25
+C01728,Isabella Sánchez,Consumidor,Santo Domingo,DO,2021-04-14,Referido,26-35
+C01729,Diego Morales,Consumidor,Lima,PE,2021-04-02,Referido,36-45
+C01730,Carla Herrera,Consumidor,Ciudad de México,MX,2022-10-21,Orgánico,60+
+C01731,Santiago Castro,Consumidor,Quito,EC,2022-05-07,Orgánico,18-25
+C01732,Sebastián Ortiz,Consumidor,Santiago,CL,2022-04-21,Referido,36-45
+C01733,Ana Rodríguez,Corporativo,Santiago,CL,2022-06-30,Referido,26-35
+C01734,Carla Castro,Consumidor,Ciudad de México,MX,2022-06-21,Medios Pagos,36-45
+C01735,Andrés Torres,PyME,Santiago,CL,2020-07-20,Orgánico,60+
+C01736,Juan Vargas,Consumidor,Santiago,CL,2021-01-14,Referido,60+
+C01737,Carla Vargas,PyME,Santiago,CL,2022-08-22,Medios Pagos,46-60
+C01738,Isabella Rivera,Consumidor,Ciudad de México,MX,2021-05-27,Medios Pagos,46-60
+C01739,Ana Morales,Consumidor,Bogotá,CO,2022-01-07,Referido,46-60
+C01740,Mariana Pérez,PyME,San José,CR,2020-07-28,Medios Pagos,26-35
+C01741,Juan Torres,Consumidor,Buenos Aires,AR,2022-03-23,Referido,46-60
+C01742,Ana Ramírez,Corporativo,Guadalajara,MX,2021-08-26,Referido,36-45
+C01743,Carla Vargas,Consumidor,Lima,PE,2021-09-24,Orgánico,26-35
+C01744,Ximena Ortiz,Consumidor,Santiago,CL,2021-04-12,Referido,26-35
+C01745,Javier García,PyME,Bogotá,CO,2022-10-14,Medios Pagos,26-35
+C01746,Camila López,Consumidor,Buenos Aires,AR,2021-08-26,Orgánico,46-60
+C01747,Juan Pérez,Consumidor,Santiago,CL,2021-10-09,Referido,26-35
+C01748,Alejandro Morales,PyME,Monterrey,MX,2022-02-10,Socio,26-35
+C01749,Carla García,Consumidor,Santiago,CL,2021-03-25,Medios Pagos,36-45
+C01750,Felipe Romero,PyME,Bogotá,CO,2020-11-22,Referido,26-35
+C01751,Isabella Sánchez,Consumidor,Monterrey,MX,2020-10-09,Medios Pagos,60+
+C01752,Camila Torres,Consumidor,Monterrey,MX,2020-07-19,Medios Pagos,36-45
+C01753,Felipe Jiménez,Consumidor,Santiago,CL,2021-08-24,Medios Pagos,26-35
+C01754,Lucía Sánchez,PyME,Ciudad de México,MX,2022-02-11,Medios Pagos,46-60
+C01755,Ximena Gómez,Consumidor,Santo Domingo,DO,2021-08-12,Medios Pagos,60+
+C01756,Ximena Morales,PyME,Quito,EC,2022-06-15,Orgánico,18-25
+C01757,Juan Jiménez,Consumidor,Bogotá,CO,2020-07-23,Referido,46-60
+C01758,Andrés Romero,Consumidor,Ciudad de México,MX,2022-04-26,Referido,60+
+C01759,Javier Romero,PyME,Buenos Aires,AR,2021-10-23,Orgánico,26-35
+C01760,Lucía Romero,Corporativo,Bogotá,CO,2022-05-07,Referido,18-25
+C01761,Mateo Hernández,Consumidor,Guadalajara,MX,2022-02-03,Referido,46-60
+C01762,Pablo Hernández,PyME,Santo Domingo,DO,2021-05-17,Socio,46-60
+C01763,Felipe Díaz,Consumidor,Buenos Aires,AR,2021-07-02,Socio,26-35
+C01764,Ana Flores,PyME,Santo Domingo,DO,2021-11-17,Referido,60+
+C01765,Santiago Sánchez,Consumidor,Buenos Aires,AR,2021-11-21,Referido,46-60
+C01766,Sofía Sánchez,PyME,Santo Domingo,DO,2020-11-16,Orgánico,26-35
+C01767,Isabella Romero,Corporativo,Lima,PE,2020-11-13,Orgánico,26-35
+C01768,Camila Rivera,Consumidor,Buenos Aires,AR,2022-11-20,Referido,26-35
+C01769,Alejandro Castro,Consumidor,Monterrey,MX,2021-09-21,Orgánico,26-35
+C01770,Carla Torres,Consumidor,Lima,PE,2020-09-18,Referido,26-35
+C01771,Lucía Martínez,Corporativo,Guadalajara,MX,2021-01-16,Referido,36-45
+C01772,Valentina Sánchez,PyME,Bogotá,CO,2021-02-24,Orgánico,60+
+C01773,Javier Torres,Consumidor,San José,CR,2020-09-27,Medios Pagos,46-60
+C01774,Sofía López,Consumidor,Quito,EC,2022-10-11,Medios Pagos,36-45
+C01775,Javier Torres,Consumidor,Santiago,CL,2020-07-21,Referido,26-35
+C01776,Sofía Martínez,Corporativo,Quito,EC,2021-09-29,Orgánico,26-35
+C01777,Valentina Hernández,Consumidor,Guadalajara,MX,2020-09-30,Referido,46-60
+C01778,Javier Morales,Consumidor,Guadalajara,MX,2022-01-21,Medios Pagos,46-60
+C01779,Andrés Torres,Corporativo,Santiago,CL,2021-10-13,Orgánico,60+
+C01780,Carla García,PyME,Guadalajara,MX,2022-08-21,Medios Pagos,18-25
+C01781,Camila Hernández,Consumidor,Guadalajara,MX,2020-09-11,Orgánico,26-35
+C01782,Sofía García,Consumidor,Bogotá,CO,2021-01-19,Orgánico,36-45
+C01783,Santiago Ortiz,Consumidor,San José,CR,2022-09-09,Orgánico,26-35
+C01784,Juan Ortiz,PyME,Buenos Aires,AR,2021-04-04,Medios Pagos,18-25
+C01785,Sebastián Herrera,PyME,Guadalajara,MX,2021-08-16,Orgánico,60+
+C01786,Felipe Morales,Consumidor,Bogotá,CO,2021-01-21,Medios Pagos,36-45
+C01787,Javier López,Corporativo,Quito,EC,2021-09-30,Medios Pagos,26-35
+C01788,Camila Jiménez,Consumidor,San José,CR,2022-08-04,Socio,26-35
+C01789,Valentina Castro,Consumidor,Bogotá,CO,2020-12-28,Orgánico,46-60
+C01790,Sofía López,Consumidor,Santo Domingo,DO,2020-11-16,Socio,26-35
+C01791,Mariana Rivera,PyME,Bogotá,CO,2022-06-25,Orgánico,18-25
+C01792,Mariana Martínez,Consumidor,Lima,PE,2021-08-15,Referido,36-45
+C01793,Sofía Pérez,PyME,Bogotá,CO,2020-10-24,Orgánico,26-35
+C01794,Camila Torres,Corporativo,Monterrey,MX,2022-10-20,Referido,46-60
+C01795,Santiago Díaz,Corporativo,Monterrey,MX,2021-10-01,Referido,36-45
+C01796,Gabriela Romero,PyME,Santo Domingo,DO,2022-05-10,Orgánico,60+
+C01797,Sebastián Ortiz,Consumidor,Santo Domingo,DO,2021-04-07,Orgánico,18-25
+C01798,Juan Martínez,Consumidor,Lima,PE,2022-10-18,Orgánico,60+
+C01799,Andrés Flores,PyME,Lima,PE,2020-08-05,Socio,60+
+C01800,Santiago Torres,Consumidor,Buenos Aires,AR,2022-01-29,Medios Pagos,60+
+C01801,Santiago Torres,Consumidor,Santo Domingo,DO,2022-04-12,Socio,46-60
+C01802,Alejandro Vargas,Consumidor,Buenos Aires,AR,2021-06-02,Orgánico,36-45
+C01803,Gabriela Rodríguez,PyME,Lima,PE,2021-04-17,Medios Pagos,36-45
+C01804,Alejandro Rivera,PyME,Bogotá,CO,2022-06-04,Orgánico,46-60
+C01805,Diego Romero,Consumidor,Lima,PE,2022-11-11,Socio,36-45
+C01806,Felipe Gómez,Consumidor,Quito,EC,2022-05-08,Orgánico,36-45
+C01807,Carla García,Consumidor,Santo Domingo,DO,2021-02-16,Socio,18-25
+C01808,Diego Flores,PyME,Buenos Aires,AR,2022-06-02,Orgánico,60+
+C01809,Diego Morales,PyME,Lima,PE,2021-06-27,Medios Pagos,36-45
+C01810,Isabella Díaz,PyME,Santiago,CL,2021-05-23,Socio,60+
+C01811,Felipe Romero,PyME,Guadalajara,MX,2022-09-29,Orgánico,60+
+C01812,Valentina Ramírez,PyME,Bogotá,CO,2022-11-02,Medios Pagos,46-60
+C01813,Felipe Rivera,Consumidor,Quito,EC,2022-04-29,Referido,46-60
+C01814,Pablo Rodríguez,PyME,Santiago,CL,2020-07-31,Medios Pagos,46-60
+C01815,Lucía Rivera,Consumidor,Ciudad de México,MX,2022-10-26,Orgánico,36-45
+C01816,Lucía García,Consumidor,Ciudad de México,MX,2022-01-14,Orgánico,18-25
+C01817,Camila Morales,Consumidor,Guadalajara,MX,2021-04-04,Referido,60+
+C01818,Juan Rodríguez,PyME,Bogotá,CO,2022-03-26,Medios Pagos,36-45
+C01819,Camila Herrera,Consumidor,Buenos Aires,AR,2021-01-21,Medios Pagos,26-35
+C01820,Pablo López,Consumidor,Bogotá,CO,2022-09-17,Medios Pagos,46-60
+C01821,Carla Romero,Consumidor,Bogotá,CO,2022-05-27,Socio,60+
+C01822,Diego Pérez,Consumidor,Bogotá,CO,2022-01-11,Referido,60+
+C01823,Alejandro Rodríguez,PyME,Buenos Aires,AR,2022-01-18,Socio,18-25
+C01824,Juan Jiménez,PyME,Buenos Aires,AR,2021-05-16,Medios Pagos,18-25
+C01825,Valentina Herrera,Consumidor,Guadalajara,MX,2021-01-28,Medios Pagos,26-35
+C01826,Pablo Gómez,Consumidor,Lima,PE,2022-10-20,Referido,18-25
+C01827,Javier García,Consumidor,Santo Domingo,DO,2020-09-10,Orgánico,26-35
+C01828,Gabriela Romero,PyME,Ciudad de México,MX,2021-08-08,Orgánico,60+
+C01829,Sofía Rivera,Consumidor,Santo Domingo,DO,2022-02-26,Referido,26-35
+C01830,Mateo Romero,Consumidor,Santo Domingo,DO,2022-02-06,Referido,60+
+C01831,Sebastián Jiménez,Consumidor,Buenos Aires,AR,2022-03-22,Medios Pagos,36-45
+C01832,Isabella Romero,PyME,Santiago,CL,2020-10-29,Referido,60+
+C01833,Santiago Torres,Consumidor,Monterrey,MX,2020-12-04,Socio,18-25
+C01834,Ana Rivera,PyME,Guadalajara,MX,2021-04-23,Medios Pagos,18-25
+C01835,Camila Jiménez,Consumidor,Lima,PE,2022-07-08,Medios Pagos,36-45
+C01836,Camila Rivera,Corporativo,Santiago,CL,2021-02-20,Referido,26-35
+C01837,Pablo Herrera,PyME,Santiago,CL,2021-07-19,Referido,36-45
+C01838,Lucía Sánchez,Consumidor,Ciudad de México,MX,2020-10-27,Orgánico,46-60
+C01839,Felipe Vargas,Consumidor,Buenos Aires,AR,2022-02-19,Medios Pagos,46-60
+C01840,Gabriela Herrera,PyME,Santiago,CL,2021-08-29,Medios Pagos,46-60
+C01841,Ana Torres,Consumidor,Lima,PE,2022-07-19,Referido,46-60
+C01842,Mateo Sánchez,Consumidor,Guadalajara,MX,2022-03-03,Orgánico,18-25
+C01843,Mariana Díaz,Consumidor,Buenos Aires,AR,2020-10-29,Orgánico,18-25
+C01844,Sofía Sánchez,Consumidor,Santo Domingo,DO,2021-03-14,Socio,46-60
+C01845,Alejandro Vargas,Corporativo,Ciudad de México,MX,2022-01-01,Referido,18-25
+C01846,Isabella Castro,Consumidor,Quito,EC,2022-03-20,Orgánico,46-60
+C01847,Mateo Jiménez,PyME,San José,CR,2021-05-04,Referido,60+
+C01848,Javier Rodríguez,Consumidor,Lima,PE,2020-10-16,Orgánico,26-35
+C01849,Sofía Romero,Consumidor,Guadalajara,MX,2022-08-19,Orgánico,18-25
+C01850,Camila Torres,Consumidor,Santo Domingo,DO,2021-09-07,Medios Pagos,26-35
+C01851,Andrés Jiménez,Consumidor,Ciudad de México,MX,2021-04-10,Socio,60+
+C01852,Carla Herrera,PyME,San José,CR,2022-08-03,Medios Pagos,60+
+C01853,Pablo Herrera,PyME,Santiago,CL,2022-10-18,Referido,18-25
+C01854,Carla Sánchez,Corporativo,Bogotá,CO,2022-08-22,Referido,60+
+C01855,Lucía Rodríguez,Consumidor,Bogotá,CO,2021-12-02,Medios Pagos,18-25
+C01856,Felipe Torres,PyME,Santiago,CL,2022-06-09,Medios Pagos,26-35
+C01857,Lucía Hernández,Consumidor,Monterrey,MX,2022-02-03,Medios Pagos,26-35
+C01858,Juan Vargas,PyME,Bogotá,CO,2021-02-28,Orgánico,18-25
+C01859,Felipe Gómez,PyME,Quito,EC,2022-11-25,Orgánico,26-35
+C01860,Camila Vargas,PyME,Santiago,CL,2022-09-19,Orgánico,26-35
+C01861,Alejandro Sánchez,PyME,Santo Domingo,DO,2020-12-02,Socio,60+
+C01862,Sebastián Rodríguez,PyME,Monterrey,MX,2020-08-06,Medios Pagos,26-35
+C01863,Lucía Herrera,Corporativo,San José,CR,2020-07-29,Orgánico,60+
+C01864,Mariana Rodríguez,Consumidor,Quito,EC,2022-02-03,Referido,18-25
+C01865,Javier Rodríguez,PyME,Monterrey,MX,2022-10-08,Socio,18-25
+C01866,Ximena Pérez,Consumidor,Monterrey,MX,2022-10-09,Referido,26-35
+C01867,Sebastián Rodríguez,PyME,Ciudad de México,MX,2021-06-30,Medios Pagos,26-35
+C01868,Alejandro Romero,Consumidor,Buenos Aires,AR,2021-12-27,Medios Pagos,18-25
+C01869,Javier García,Consumidor,Santiago,CL,2022-07-12,Referido,60+
+C01870,Felipe Herrera,Consumidor,Bogotá,CO,2021-08-18,Socio,36-45
+C01871,Ana Díaz,Consumidor,Ciudad de México,MX,2020-09-30,Orgánico,26-35
+C01872,Diego Flores,PyME,Santiago,CL,2021-07-28,Medios Pagos,60+
+C01873,Camila Gómez,PyME,San José,CR,2022-11-06,Orgánico,18-25
+C01874,Alejandro Romero,PyME,Monterrey,MX,2022-09-06,Referido,60+
+C01875,Carla Romero,Consumidor,Santo Domingo,DO,2020-10-07,Orgánico,36-45
+C01876,Lucía Díaz,Consumidor,Santo Domingo,DO,2021-09-13,Orgánico,18-25
+C01877,Mateo Martínez,Consumidor,Santiago,CL,2021-11-11,Orgánico,60+
+C01878,Isabella Sánchez,Consumidor,Quito,EC,2022-07-03,Orgánico,36-45
+C01879,Felipe Castro,Consumidor,Buenos Aires,AR,2020-08-13,Referido,18-25
+C01880,Sebastián Ortiz,Consumidor,Santiago,CL,2021-10-08,Referido,60+
+C01881,Ximena Pérez,Consumidor,San José,CR,2020-09-26,Orgánico,18-25
+C01882,Alejandro Sánchez,Consumidor,Santo Domingo,DO,2022-07-28,Medios Pagos,36-45
+C01883,Pablo Morales,PyME,Monterrey,MX,2021-05-21,Medios Pagos,26-35
+C01884,Isabella Torres,Consumidor,Guadalajara,MX,2021-10-19,Orgánico,18-25
+C01885,Felipe Sánchez,Consumidor,Buenos Aires,AR,2020-11-19,Referido,36-45
+C01886,Ximena Vargas,Consumidor,Monterrey,MX,2021-11-20,Orgánico,36-45
+C01887,Mariana López,Corporativo,Lima,PE,2022-10-22,Socio,46-60
+C01888,Mariana Torres,Consumidor,Ciudad de México,MX,2022-05-25,Medios Pagos,36-45
+C01889,Ana García,Consumidor,Buenos Aires,AR,2022-05-20,Referido,36-45
+C01890,Ana Torres,Consumidor,Santo Domingo,DO,2021-07-03,Medios Pagos,36-45
+C01891,Isabella Martínez,Consumidor,Santo Domingo,DO,2022-06-03,Medios Pagos,26-35
+C01892,Santiago López,Consumidor,Ciudad de México,MX,2022-02-09,Orgánico,26-35
+C01893,Ximena Herrera,Consumidor,Bogotá,CO,2022-05-18,Referido,18-25
+C01894,Sebastián Flores,Consumidor,Guadalajara,MX,2020-12-04,Referido,18-25
+C01895,Sofía García,Consumidor,Santiago,CL,2022-03-31,Referido,26-35
+C01896,Santiago García,Consumidor,Ciudad de México,MX,2021-10-12,Socio,60+
+C01897,Diego Flores,PyME,Bogotá,CO,2021-10-30,Socio,46-60
+C01898,Ana Díaz,PyME,Monterrey,MX,2022-05-03,Referido,36-45
+C01899,Sebastián Sánchez,PyME,Monterrey,MX,2020-07-28,Socio,26-35
+C01900,Sebastián Jiménez,PyME,Buenos Aires,AR,2020-08-12,Socio,46-60
+C01901,Mateo Ortiz,Corporativo,Santiago,CL,2021-10-27,Medios Pagos,26-35
+C01902,Sofía López,PyME,Santo Domingo,DO,2021-02-16,Orgánico,36-45
+C01903,Ana Castro,Consumidor,Lima,PE,2021-12-16,Orgánico,46-60
+C01904,Camila García,Consumidor,San José,CR,2021-07-03,Orgánico,36-45
+C01905,Santiago López,Consumidor,Guadalajara,MX,2022-03-16,Orgánico,60+
+C01906,Pablo Ramírez,Consumidor,Bogotá,CO,2022-04-03,Referido,18-25
+C01907,Ana Hernández,Consumidor,Monterrey,MX,2021-09-22,Socio,18-25
+C01908,Ana Ramírez,Consumidor,Guadalajara,MX,2020-08-17,Orgánico,46-60
+C01909,Felipe Rivera,Consumidor,Santiago,CL,2022-08-22,Orgánico,36-45
+C01910,Pablo Morales,Consumidor,San José,CR,2022-08-13,Referido,60+
+C01911,Isabella López,PyME,Santiago,CL,2021-06-13,Medios Pagos,18-25
+C01912,Gabriela Martínez,Consumidor,Lima,PE,2020-09-25,Orgánico,46-60
+C01913,Andrés Hernández,PyME,Santo Domingo,DO,2022-07-16,Orgánico,36-45
+C01914,Santiago Sánchez,PyME,Ciudad de México,MX,2021-03-22,Referido,60+
+C01915,Sofía Pérez,Consumidor,Buenos Aires,AR,2022-02-13,Socio,46-60
+C01916,Andrés Ortiz,Corporativo,San José,CR,2021-03-04,Referido,46-60
+C01917,Sebastián Ortiz,PyME,Santo Domingo,DO,2021-02-13,Medios Pagos,46-60
+C01918,Sofía Torres,Consumidor,San José,CR,2021-11-04,Orgánico,60+
+C01919,Sofía Ortiz,Consumidor,Santo Domingo,DO,2022-01-19,Medios Pagos,26-35
+C01920,Camila Vargas,Corporativo,Santiago,CL,2022-02-04,Referido,60+
+C01921,Ana Rodríguez,Corporativo,San José,CR,2020-12-16,Referido,46-60
+C01922,Gabriela López,PyME,Lima,PE,2022-06-07,Referido,26-35
+C01923,Javier Sánchez,Consumidor,San José,CR,2021-11-27,Orgánico,60+
+C01924,Diego Romero,PyME,Bogotá,CO,2021-10-11,Socio,60+
+C01925,Camila Ramírez,PyME,Santo Domingo,DO,2020-08-31,Referido,36-45
+C01926,Sofía Ramírez,Consumidor,Santo Domingo,DO,2021-11-06,Orgánico,18-25
+C01927,Andrés Jiménez,Corporativo,Santo Domingo,DO,2021-07-27,Medios Pagos,26-35
+C01928,Gabriela Herrera,PyME,Guadalajara,MX,2022-03-20,Referido,26-35
+C01929,Ximena Herrera,Consumidor,Buenos Aires,AR,2020-07-15,Referido,18-25
+C01930,Ximena Vargas,PyME,Ciudad de México,MX,2022-11-26,Referido,46-60
+C01931,Gabriela García,Consumidor,Quito,EC,2021-07-05,Orgánico,26-35
+C01932,Mariana Sánchez,PyME,Ciudad de México,MX,2022-09-26,Orgánico,36-45
+C01933,Valentina Hernández,Consumidor,Guadalajara,MX,2020-11-07,Referido,26-35
+C01934,Camila Hernández,PyME,Quito,EC,2021-02-28,Medios Pagos,26-35
+C01935,Lucía Ortiz,PyME,Lima,PE,2021-09-07,Orgánico,26-35
+C01936,Camila Ortiz,Consumidor,Quito,EC,2021-01-14,Orgánico,18-25
+C01937,Pablo Ramírez,Consumidor,Lima,PE,2020-11-20,Socio,26-35
+C01938,Ximena Rodríguez,Consumidor,Ciudad de México,MX,2021-10-22,Orgánico,26-35
+C01939,Valentina Gómez,Consumidor,Guadalajara,MX,2022-07-20,Medios Pagos,26-35
+C01940,Ana Rivera,Consumidor,Guadalajara,MX,2021-08-14,Medios Pagos,26-35
+C01941,Mariana Jiménez,PyME,Monterrey,MX,2022-12-02,Orgánico,46-60
+C01942,Sofía Gómez,Consumidor,Lima,PE,2021-05-22,Referido,26-35
+C01943,Juan Herrera,Consumidor,Santo Domingo,DO,2022-02-02,Referido,26-35
+C01944,Diego Vargas,PyME,Santo Domingo,DO,2022-10-19,Orgánico,18-25
+C01945,Diego Ramírez,Consumidor,Buenos Aires,AR,2020-08-03,Referido,18-25
+C01946,Felipe García,Corporativo,Santo Domingo,DO,2022-06-11,Orgánico,26-35
+C01947,Felipe Jiménez,PyME,San José,CR,2021-06-01,Referido,36-45
+C01948,Sebastián Flores,Consumidor,Lima,PE,2020-09-20,Orgánico,46-60
+C01949,Diego Sánchez,PyME,Santo Domingo,DO,2022-03-29,Orgánico,36-45
+C01950,Sofía Rodríguez,Consumidor,Ciudad de México,MX,2021-07-16,Medios Pagos,46-60
+C01951,Pablo Hernández,Consumidor,Guadalajara,MX,2021-08-25,Referido,46-60
+C01952,Ana Ramírez,Consumidor,Ciudad de México,MX,2021-11-24,Referido,18-25
+C01953,Mateo Martínez,PyME,Santiago,CL,2021-02-26,Medios Pagos,18-25
+C01954,Lucía Jiménez,Corporativo,Bogotá,CO,2021-05-29,Medios Pagos,46-60
+C01955,Felipe García,Consumidor,Santo Domingo,DO,2021-02-04,Socio,26-35
+C01956,Sofía Rodríguez,Consumidor,Ciudad de México,MX,2021-05-11,Medios Pagos,36-45
+C01957,Alejandro Díaz,Consumidor,Santo Domingo,DO,2022-02-10,Socio,26-35
+C01958,Javier Rodríguez,PyME,San José,CR,2020-12-24,Referido,60+
+C01959,Camila López,PyME,Buenos Aires,AR,2021-02-07,Medios Pagos,36-45
+C01960,Mateo Flores,PyME,Guadalajara,MX,2022-02-15,Referido,60+
+C01961,Lucía García,Consumidor,Ciudad de México,MX,2020-12-21,Referido,26-35
+C01962,Felipe Díaz,Consumidor,Santo Domingo,DO,2020-10-06,Socio,46-60
+C01963,Lucía Morales,Consumidor,San José,CR,2022-09-28,Referido,46-60
+C01964,Camila Romero,Consumidor,Santo Domingo,DO,2021-07-11,Orgánico,60+
+C01965,Alejandro Martínez,Consumidor,Ciudad de México,MX,2020-09-14,Medios Pagos,18-25
+C01966,Isabella Díaz,Consumidor,Ciudad de México,MX,2020-12-20,Medios Pagos,36-45
+C01967,Lucía Castro,PyME,San José,CR,2021-12-28,Orgánico,18-25
+C01968,Isabella Pérez,Consumidor,Bogotá,CO,2022-03-03,Socio,46-60
+C01969,Sebastián López,Consumidor,Monterrey,MX,2021-12-06,Orgánico,26-35
+C01970,Mariana Torres,PyME,Buenos Aires,AR,2020-09-15,Medios Pagos,26-35
+C01971,Valentina Ramírez,Consumidor,San José,CR,2022-08-19,Orgánico,18-25
+C01972,Valentina Ramírez,PyME,Lima,PE,2022-06-03,Orgánico,60+
+C01973,Javier Martínez,Consumidor,Santiago,CL,2020-12-21,Referido,36-45
+C01974,Mateo Díaz,Consumidor,Quito,EC,2021-11-19,Socio,46-60
+C01975,Ana Ortiz,Consumidor,Santo Domingo,DO,2022-01-04,Orgánico,46-60
+C01976,Sebastián Jiménez,PyME,Buenos Aires,AR,2021-02-27,Medios Pagos,60+
+C01977,Sebastián Morales,PyME,Guadalajara,MX,2021-07-28,Orgánico,26-35
+C01978,Mateo Rivera,Consumidor,Ciudad de México,MX,2022-09-05,Referido,18-25
+C01979,Valentina Rivera,Consumidor,Bogotá,CO,2020-08-07,Orgánico,26-35
+C01980,Javier Vargas,Consumidor,Santo Domingo,DO,2022-08-25,Referido,36-45
+C01981,Camila Jiménez,Consumidor,Buenos Aires,AR,2020-07-19,Orgánico,18-25
+C01982,Sofía Sánchez,Consumidor,Guadalajara,MX,2020-12-20,Referido,18-25
+C01983,Isabella Gómez,PyME,Lima,PE,2022-11-26,Orgánico,60+
+C01984,Alejandro Vargas,Consumidor,Monterrey,MX,2021-12-29,Referido,36-45
+C01985,Lucía Rodríguez,PyME,Quito,EC,2020-09-12,Referido,36-45
+C01986,Valentina Castro,PyME,Buenos Aires,AR,2021-05-27,Referido,36-45
+C01987,Felipe Sánchez,PyME,San José,CR,2022-02-11,Orgánico,60+
+C01988,Camila Díaz,Corporativo,Bogotá,CO,2022-11-06,Medios Pagos,18-25
+C01989,Javier García,Consumidor,Santiago,CL,2021-04-11,Socio,26-35
+C01990,Carla Rivera,PyME,Bogotá,CO,2022-01-12,Orgánico,36-45
+C01991,Felipe Jiménez,Consumidor,Quito,EC,2021-05-13,Orgánico,36-45
+C01992,Pablo Torres,PyME,Lima,PE,2022-07-08,Referido,46-60
+C01993,Ana Romero,PyME,Quito,EC,2022-07-02,Referido,60+
+C01994,Gabriela Pérez,Corporativo,Guadalajara,MX,2021-06-12,Medios Pagos,18-25
+C01995,Gabriela Ortiz,PyME,Guadalajara,MX,2022-07-26,Orgánico,18-25
+C01996,Javier Vargas,PyME,Guadalajara,MX,2021-06-18,Orgánico,26-35
+C01997,Alejandro Pérez,Consumidor,Bogotá,CO,2022-11-08,Medios Pagos,46-60
+C01998,Lucía Martínez,Consumidor,Bogotá,CO,2021-07-29,Orgánico,36-45
+C01999,Camila Castro,Consumidor,Monterrey,MX,2021-11-09,Socio,36-45

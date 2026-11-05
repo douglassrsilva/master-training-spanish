@@ -1,0 +1,39 @@
+# Central de Retención — config del Databricks App (autenticación ON-BEHALF-OF del usuario).
+#
+# El App ejecuta FastAPI (uvicorn) en el puerto 8000, sirviendo API + build de React.
+#
+# AUTENTICACIÓN ON-BEHALF-OF (OBO): el app usa el token OAuth del usuario logueado
+# (encabezado X-Forwarded-Access-Token) para las llamadas de SQL y serving endpoints, de modo que
+# datos e IA se ejecutan con la identidad del USUARIO — el service principal del app NO necesita GRANT.
+#
+# Los scopes OBO (`sql` para el SQL Warehouse, `model-serving` para los serving endpoints y
+# `ai-gateway` para el model service del Unity Gateway) NO van aquí en el app.yaml (esta clave se
+# ignora y puede hacer fallar el build). Se configuran en el APP (campo user_api_scopes), lo que
+# hace el notebook de deploy (deploy_app.py) vía API.
+#
+# CR_GATEWAY_MODEL = model service del Unity Gateway (catalogo.schema.nombre). Con él definido, el
+# ✨ Explicar del Cockpit y el e-mail de la pestaña Retención pasan por el Gateway. Este archivo es
+# solo una referencia: deploy_app.py genera el app.yaml final con los valores del alumno.
+command:
+  - "uvicorn"
+  - "app:app"
+  - "--host"
+  - "0.0.0.0"
+  - "--port"
+  - "8000"
+
+env:
+  - name: CR_WAREHOUSE_ID
+    value: "d788121d0edfbb7a"
+  - name: CR_SUPERVISOR_ENDPOINT
+    value: "mas-3d713414-endpoint"
+  - name: CR_EXPLAIN_MODEL
+    value: "databricks-claude-sonnet-4-5"
+  - name: CR_GATEWAY_MODEL
+    value: "dbacademy.<tu_schema>.retencion-gateway"
+  - name: CR_CATALOG
+    value: "dbacademy"
+  - name: CR_SCHEMA_CHURN
+    value: "churn"
+  - name: CR_SCHEMA_PERSONAL
+    value: "tu_schema"
